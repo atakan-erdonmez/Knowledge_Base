@@ -1,16 +1,8 @@
-  
+#Networking #Linux
+
 #### Activate Network Interface
 
-![[ip degistir#^a20e12]]
-![[ifconfig#^c69818]]
-
-##### Assign IP
-![[ifconfig#^0dcec4]]
-
-##### Assign Netmask
-![[ifconfig#^09415b]]
-
-
+![[ifconfig]]
 
 # Tools (active and deprecated)
 ## 🟢 **Modern Tools (Actively Maintained)**
