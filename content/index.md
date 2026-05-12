@@ -6,7 +6,6 @@ Welcome to my knowledge base. This is where I keep my notes about various topics
 - **[[Databases]]**
 - **[[DevOps]]**
 - **[[Hardware & Infrastructure]]**
-- **[[KB_Images]]**
 - **[[Linux]]**
 - **[[Networking]]**
 - **[[Python]]**
