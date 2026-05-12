@@ -39,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.RecentNotes,
+    Component.RecentNotes(),
   ],
   right: [
     Component.Graph(),
