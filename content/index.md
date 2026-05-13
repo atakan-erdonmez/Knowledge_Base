@@ -1,4 +1,4 @@
-Welcome to my knowledge base. This is where I keep my notes about various topics.
+Welcome to my **Knowledge Base**. This is where I keep my notes about various topics.
 
 - **[[AI]]**
 - **[[AWS CSA]]**
