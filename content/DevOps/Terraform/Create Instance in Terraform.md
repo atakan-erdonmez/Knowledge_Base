@@ -5,7 +5,7 @@ resource "aws_instance" "example" {
   count = 3 # For specifying count
 
   tags = {
-    Name = "Atakan-Test-Instance"
+    Name = "Atakan-Test-Instance-${count.index}" # this will append count-number
   }
 }
 ```
