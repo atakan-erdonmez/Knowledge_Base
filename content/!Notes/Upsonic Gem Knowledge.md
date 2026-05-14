@@ -1,3 +1,8 @@
+---
+tags:
+  - ai
+---
+
 [[00_KnowledgeBase/AI/index|index]] 
 [[AI Tools]] 
 [[40_Inbox/AI Weekend/index]]

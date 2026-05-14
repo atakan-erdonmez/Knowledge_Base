@@ -1,3 +1,9 @@
+---
+tags:
+  - "#proxmox"
+  - vm
+---
+
 [[00_KnowledgeBase/Linux/Virtualization/Proxmox/index]], [[LVM]], [[00_KnowledgeBase/Linux/Virtualization/Proxmox/Disk|Proxmox_Disk]], [[VM Creation]
 
 ## Step 1: Increase Size in GUI
