@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 You have two options to use templates in proxmox: Cloud-image or manual
 
 It is a program used in deployment. It helps changing stuff that should be unique to the device, like ssh keys

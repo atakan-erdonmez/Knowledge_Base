@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 - cewl <URL> -e (mail) -w <path> : Website olasi sifreleri yakalama / wordlist olusturma kelimeleri ceker
 - iwconfig: Wireless ifconfig
 - airmon-ng start wlan0: Monitor moda alma

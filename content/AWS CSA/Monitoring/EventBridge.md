@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 It is a scheduling system. You can schedule events based on time, or an event pattern.
 
 It can run a cron job every hour, or it can react to an event (IAM Root user sign in for example), and trigger a function, like Lambda or SQS message

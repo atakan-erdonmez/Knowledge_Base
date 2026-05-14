@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-11T17:41
+---
 ## Explanation of PowerShell Output (Objects Explained)
 
 With PowerShell, not everything is generic text strings like in Bash or cmd. In PowerShell, everything is an `Object`. However, what is an object? Let us examine this concept further:

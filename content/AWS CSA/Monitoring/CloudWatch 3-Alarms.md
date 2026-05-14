@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Alarms are used to trigger notifications for any metric. Options like sampling, percentage, max, min...
 
 Alarm States: OK, INSUFFICIENT_DATA, ALARM

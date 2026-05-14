@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Deploy, scale, and manage a fleet of 3rd party network virtual appliances in AWS, like IDS/IPS, firewall, DPI etc
 
 - Operates at Layer 3 - IP Packets

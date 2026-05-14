@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 1. Boot from the CD via BIOS
 2. Select "Troubleshooting" and start in "[[Linux Starting Modes#Rescue Mode|Rescue Mode]]"
 3. Mount the system

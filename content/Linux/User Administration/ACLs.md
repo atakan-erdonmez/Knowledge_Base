@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 In order to define more complex permissions to files and directories, we should use ACLs (Access Control Lists). So we can define specific permission for users and group independently. It is shown with “+” sign at the end of the permission.
 
 - getfacl: Show file’s ACL

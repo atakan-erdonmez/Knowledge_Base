@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 # Scope
 
 - When you specify a variable inside a function, it is not accessible outside of a function

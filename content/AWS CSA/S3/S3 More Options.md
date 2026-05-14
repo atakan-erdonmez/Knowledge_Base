@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-17T17:21
+---
 # Lifecycle Management
 In S3, you can create lifecycle rules to move objects to different storage classes.
 You can move current versions, non-current versions, delete non-current versions, expire current versions etc.

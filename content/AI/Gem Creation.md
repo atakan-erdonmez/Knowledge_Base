@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-12T09:14
+---
 [[AI Weekend]]
 To build a truly effective Gem for homelab management, you need to move beyond simple "help me with Linux" prompts. You want a persona that acts as a **Lead Systems Architect**—someone who understands the delicate balance between "it works" and "it’s maintainable."
 

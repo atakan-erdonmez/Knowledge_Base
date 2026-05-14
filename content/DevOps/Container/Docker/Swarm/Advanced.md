@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-07T13:56
+---
 # Global Services
 
 When you create a service with replicas, the Swarm creates that many instances.

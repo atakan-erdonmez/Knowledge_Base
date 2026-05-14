@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Normally, in direct integration, a service sends one message to many receivers.
 In pub/sub system (publish/subscribe), a service publishes into SNS topic, which has multiple subscribers
 ![[SNS1.png]]

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 - Backup is in a completely different storage then the VM. It is a full clone of the disk
 
 - Snapshot is a part of the VM. You can't move it elsewhere, and it is inside the VM disk

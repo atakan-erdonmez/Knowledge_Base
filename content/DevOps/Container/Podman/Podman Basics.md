@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Podman is a daemonless container engine that is a drop-in replacement for Docker. It is developed by Red Hat and is the default container tool on Fedora. For creating isolated lab environments, it's often lighter and simpler than a full VM.
 
 # Install

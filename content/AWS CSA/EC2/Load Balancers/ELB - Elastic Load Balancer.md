@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-11T15:26
+---
 It is a managed load balancer
 - AWS guarantees that it will be working
 - AWS take care of upgrades, maintenance, high availability. Only a few config knobs

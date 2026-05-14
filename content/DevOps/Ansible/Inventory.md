@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-03T09:36
+---
 A list of instances to manage. You can use IP or hostname. You can group them as well
 
 ```yaml

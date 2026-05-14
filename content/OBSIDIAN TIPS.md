@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-05T10:27
+---
 # Callout Blocks
 - ```
     > [!NOTE] Hardware Configuration

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-13T17:11
+---
 ![[AWS storage types.png]]
 
 It is a bridge between on-premises data and cloud data

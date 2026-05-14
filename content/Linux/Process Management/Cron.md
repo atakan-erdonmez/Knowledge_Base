@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Note: The actual files that hold these lists are in `/var/spool/cron` but we don’t manually edit them.
 
 [https://crontab.guru/](https://crontab.guru/)

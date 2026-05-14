@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-06T13:18
+---
 # Direct Connect (DX)
 
 Dedicated connection from a remote network to your VPC. Requires [[VPN Gateway, Customer Gateway, S2S-VPN#^df075d|Virtual Private Gateway]]. Can access public and private resources

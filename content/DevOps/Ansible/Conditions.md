@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-03T09:45
+---
 Conditions are used in playbooks. There are modules that will help you. You can use most logic operators
 ## when
 ```

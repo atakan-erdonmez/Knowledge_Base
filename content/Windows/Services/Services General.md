@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-30T17:30
+---
 Windows services are managed via the Service Control Manager (SCM) system, accessible via the `services.msc` MMC add-in.
 
 

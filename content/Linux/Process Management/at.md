@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 The `at` command is designed for one-off tasks. Unlike `cron` or `systemd timers`, which are for recurring tasks, `at` queues a job to be executed exactly once at a specified time.
 
 ```

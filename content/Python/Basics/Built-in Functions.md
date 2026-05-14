@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-14T17:11
+---
 # Generic & Data Types
 ## str()
 Turns a data type into a string

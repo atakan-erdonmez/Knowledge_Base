@@ -1,3 +1,7 @@
+---
+created: 2026-04-06T09:24
+updated: 2026-05-06T16:27
+---
 - **vars_files variable**: Although not necessarily required (Ansible automatically uses the files under `group_vars/all/` in every playbook), still included for readability. It uses the passwords inside the file for Ansible vault. It uses the password inside to encrypt Restic backups
 
 ##### Why group_vars is the best practice

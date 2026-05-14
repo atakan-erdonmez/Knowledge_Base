@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-12T11:17
+---
 
 
 | ![[LVM Hierarchy.png]] | - Extent: A 4 mb chunk of a volume group<br>- PE: Partition extent<br>- LE: Logical extent |

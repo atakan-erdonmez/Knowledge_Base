@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-17T17:31
+---
 - S3 Standard - General Purpose
 - S3 Standard - Infrequent Access (IA)
 - S3 One Zone - Infrequent Access

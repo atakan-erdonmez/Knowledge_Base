@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 sc -> service controller
 	sc query type=service
 	sc query windefend

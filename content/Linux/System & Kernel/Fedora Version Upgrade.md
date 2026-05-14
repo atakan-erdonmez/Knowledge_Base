@@ -1,3 +1,7 @@
+---
+created: 2026-05-11T15:26
+updated: 2026-05-11T15:26
+---
 To upgrade a major version (43 to 44 in this example) you can use these commands.
 ```
 sudo dnf upgrade --refresh

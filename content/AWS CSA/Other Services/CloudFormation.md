@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-06T13:29
+---
 It is a declarative way of outlining your AWS infrastructure for all resources.
 
 For example, you can:

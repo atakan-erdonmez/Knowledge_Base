@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Serverless query service to analyze data stored in Amazon S3. Uses standard SQL.
 - Supports CSV, JSON, ORC, Avro, and Parquet
 - $5 per TB of data scanned

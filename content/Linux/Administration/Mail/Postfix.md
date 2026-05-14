@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 For more details, check [[Mail Server - Gemini.pdf]]
 # Config
 ## `/etc/postfix/main.cf` -> main config

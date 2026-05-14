@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 
 When you are passing a function as a parameter, you don't put paranthesis. Paranthesys mean 'execute the function right now'
 

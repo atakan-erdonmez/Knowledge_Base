@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Managed extract, transform, and load (ETL) service
 - Useful to prepare and transform data for analytics
 - Fully serverless service

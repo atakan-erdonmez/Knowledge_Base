@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-03T09:45
+---
 Priority of config files:
 1. Specified file on ENV ($ANSIBLE_CONFIG=/opt/ansible-web.cfg)
 2. Config file in the same directory with playbook

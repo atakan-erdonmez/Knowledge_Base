@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-13T09:46
+---
 It is a program used for managing hard disk parameters, like spinning it down
 https://wiki.archlinux.org/title/hdparm
 

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 `ollama serve` -> start ollama
 `ollama pull mistral` -> pull msitral
 `ollama run mistral` -> start

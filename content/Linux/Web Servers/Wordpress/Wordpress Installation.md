@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 https://docs.fedoraproject.org/en-US/fedora-server/tutorials/wordpress-installation/
 
 _For the sake of completeness_: Even though Wordpress is widely used, you should carefully consider whether you really need a dynamic CMS that generates every page with every request anew.

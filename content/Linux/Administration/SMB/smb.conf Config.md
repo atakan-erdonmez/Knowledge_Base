@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 # Global
 
 - Workgroup should be set to the same as Windows computers.

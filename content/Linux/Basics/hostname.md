@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 
 When you change hostname with 
 `hostnamectl set-hostname new_name`, you need to edit /etc/hosts file accordingly.

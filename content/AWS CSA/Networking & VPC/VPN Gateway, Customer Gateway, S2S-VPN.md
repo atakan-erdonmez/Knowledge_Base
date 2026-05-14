@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-06T13:29
+---
 To connect Site-to-Site VPN, you need:
 1. Virtual Private Gateway (VGW) ^df075d
 	- VPN concentrator on the AWS side

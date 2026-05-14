@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Serverless machine learning-powered BI service to create dashboards
 
 Fast, auto scalable, embeddable, with per-session pricing

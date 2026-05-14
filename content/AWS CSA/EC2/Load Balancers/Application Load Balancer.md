@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 It is layer 7. Load balancing to multiple HTTP applications across machines (target group).
 - It can load balance to multiple apps on same machine (containers)
 - Supports HTTP/2 and WebSocket and support redirects

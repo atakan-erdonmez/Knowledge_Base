@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ### What Is a Multi-Stage Build?
 
 A multi-stage build uses multiple `FROM` statements in a single `Dockerfile`. Each `FROM` command starts a new build stage. You can then selectively copy artifacts—like compiled binaries or installed dependencies—from one stage to the next, leaving all the temporary files and build tools behind.

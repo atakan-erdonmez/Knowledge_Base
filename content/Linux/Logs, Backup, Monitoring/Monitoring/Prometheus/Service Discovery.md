@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Yep — you can mix **static targets** with **service discovery (SD)** so you don’t have to hand-edit IPs every time. Here are the 2 SD methods that work great in a Proxmox homelab, plus how to combine them.
 
 # TL;DR

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ### Category 1: 2.5" SATA Enterprise SSDs (The Workhorses)
 
 These are the most common, compatible, and often the best value. They are more than fast enough for a boot and OS drive. Look for these series:

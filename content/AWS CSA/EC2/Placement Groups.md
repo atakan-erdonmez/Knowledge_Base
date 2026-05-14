@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Sometimes you want control over the EC2 Instance placement strategy
 That strategy can be defined using placement groups
 

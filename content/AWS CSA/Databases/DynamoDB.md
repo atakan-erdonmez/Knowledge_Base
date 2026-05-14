@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 It is a fully managed, highly available NoSQL database. Distributed, scales to massive workloads, replication with multiple AZ.
 
 - Fast and consistent performance (single digit ms)

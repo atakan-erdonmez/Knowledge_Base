@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 htb-student@nixfund:~$ systemctl cat syslog
  /lib/systemd/system/rsyslog.service
 

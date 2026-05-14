@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-12T10:44
+---
 ##### Activate Network Interface
 
 `sudo ifconfig eth0 up` ^c69818

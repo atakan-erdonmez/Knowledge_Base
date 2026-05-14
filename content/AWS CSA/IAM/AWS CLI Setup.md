@@ -1,3 +1,7 @@
+---
+created: 2026-05-11T15:26
+updated: 2026-05-14T11:14
+---
 # Option 1
 You can use `aws login` for temporary, secure access. It directs you to the web browser, authenticating with SSO.
 
