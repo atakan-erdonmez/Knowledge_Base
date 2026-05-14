@@ -3,7 +3,7 @@
 Turns a data type into a string
 ## int()
 Turns a data into a integer
-**NOTE**: If converted from float, it will get rid of float completely, instead of rounding it. To do that, use *[[Built-in Functions#round()|round()]]*
+**NOTE**: If converted from float, it will get rid of float completely, instead of rounding it. To do that, use *[[#round()]]*
 ## float()
 Turns to float
 ## bool()
@@ -112,7 +112,7 @@ x = points.count(3)
 ## index()
 Give the position of an item in a list
 
-![[Built-in Functions#max()]]
+![[#max()]]
 
 # Dictionary Manipulation
 
