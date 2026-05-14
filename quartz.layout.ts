@@ -39,7 +39,13 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.DesktopOnly(Component.RecentNotes()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 5,
+        filter: (f) => f.slug !== "index",
+      }),
+    ),
   ],
   right: [
     Component.Graph(),
