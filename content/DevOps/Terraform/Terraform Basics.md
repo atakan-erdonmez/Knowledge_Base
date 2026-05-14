@@ -23,3 +23,6 @@ Providers translates the HCL to specific API calls for systems to understand. As
 > Note: Using specific versions in your configs is best. Providers get regular updates, and an old config might not work with the latest release. If version is not specified, latest version is used.
 
 More on [[Terraform Providers]]
+
+
+> Terraform can read your env for various keys and passwords
