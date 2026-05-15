@@ -1,6 +1,8 @@
 ---
 tags:
   - "#terraform"
+created: 2026-05-14T10:58
+updated: 2026-05-14T11:24
 ---
 
 ## Ubuntu/Debian

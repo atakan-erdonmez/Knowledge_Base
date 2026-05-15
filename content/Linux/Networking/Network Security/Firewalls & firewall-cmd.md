@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 - netfilter is a part of Linux kernel. It is the main firewall. It reads the input-output packets and allow/deny them.
 - **netfilter** used iptables, ip6tables, arptables etc. But now, these are all deprecated. Instead, nftables is used.
 - nftables has couple of advantages over iptables, including speed, better packet processing.

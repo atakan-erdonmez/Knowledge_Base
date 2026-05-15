@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-17T17:21
+---
 4 methods to encrypt objects
 
 ## Server-Side Encryption (SSE)

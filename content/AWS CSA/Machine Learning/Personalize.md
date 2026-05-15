@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Fully managed ML-service to build apps with real-time personalized recommendations
 
 Example: personalized product recommendations/re-ranking, customized direct marketing

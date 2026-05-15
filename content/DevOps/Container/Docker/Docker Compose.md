@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Compose is an easy way to run Docker containers. Instead of running each container with their arguments, it is easier to prepare a compose file.
 
 

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/
 
 

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 There are 2 versions of logs:
 1-binary logs
 2-text logs

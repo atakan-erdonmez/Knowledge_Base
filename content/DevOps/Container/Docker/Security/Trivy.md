@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 wget -O trivy.tar.gz "https://get.trivy.dev/trivy?type=tar.gz&version=0.66.0&os=linux&arch=amd64"
 
 

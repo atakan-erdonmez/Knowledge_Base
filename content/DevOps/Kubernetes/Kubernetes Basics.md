@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-06T16:29
+---
 It needs one master node, and each worker node will have a "kubelet" process, which makes it possible for clusters to talk with each other and execute tasks. Kube-proxy is for maintaining network rules in each node
 
 ## Control Plane

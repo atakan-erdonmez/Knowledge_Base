@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ## 🧱 Core Concepts First
 
 ### 📄 **Logs**: Messages your system/services write (e.g., login, ssh attempt, sudo usage, nginx error).

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 A highly available, scalable, fully managed and *Authoritative* DNS
 	Authoritative: The customer (you) can update the DNS records
 

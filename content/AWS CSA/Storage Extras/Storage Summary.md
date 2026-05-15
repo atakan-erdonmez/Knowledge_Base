@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 - S3: Object Storage
 - S3 Glacier: Object Archival
 - EBS volumes: Network storage for one EC2 instance at a time

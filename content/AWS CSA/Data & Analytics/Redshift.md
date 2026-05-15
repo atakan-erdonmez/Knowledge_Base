@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Based on PostgreSQL, but not for OLTP (online transaction processing)
 
 It's OLAP - online analytical processing (analytics and data warehousing). 10x better performance, scales to PBs of data

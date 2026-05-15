@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 [[Services General]]
 
 get-service | Select-Object -Property DisplayName,Name,Status | Sort-Object DisplayName | fl  -> show services in a clear way

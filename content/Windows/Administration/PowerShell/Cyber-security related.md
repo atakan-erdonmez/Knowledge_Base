@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Get-Service | where DisplayName -like '\*Defender\*'   -> find defender in services
 Get-Service | where DisplayName -like '*Defender*' | Select-Object -Property \*  -> show properties
 

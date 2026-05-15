@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Net user: allows us to display a list of all users on a host, information about a specific user, and to create or delete users.
 
 #### Net Group / Localgroup

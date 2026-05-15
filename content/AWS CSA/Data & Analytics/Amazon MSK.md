@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-06T17:15
+---
 Managed Streaming for Apache Kafka
 
 It is an alternative to Amazon Kinesis, fully managed Kafka on AWS

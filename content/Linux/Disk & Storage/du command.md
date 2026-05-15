@@ -2,6 +2,8 @@
 tags:
   - linux
   - disk
+created: 2026-05-12T11:15
+updated: 2026-05-12T11:17
 ---
 
 Show disk use

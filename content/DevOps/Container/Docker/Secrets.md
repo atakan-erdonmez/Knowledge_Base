@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 It is a way to manage sensitive data. You don't put sensitive info to compose file. Instead, you create a separate file that includes the data.
 
 ```

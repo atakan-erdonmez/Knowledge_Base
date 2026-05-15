@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 This enables putting a password for accessing GRUB
 ### 1. Generate a GRUB Password Hash
 

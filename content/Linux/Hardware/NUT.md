@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-13T09:46
+---
 It is a driver to manage UPS and other power equipment. Since distros might not have the latest drivers, it is best to compile from the source 
 [[Tuncmatik UPS Installation]]
 

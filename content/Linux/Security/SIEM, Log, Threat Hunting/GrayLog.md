@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-16T15:41
+---
 
 All-in-one centralized log manager with UI, alerts, parsing, etc.
 

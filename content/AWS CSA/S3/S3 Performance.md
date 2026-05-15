@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-17T17:21
+---
 S3 scales to high request rates with latency 100-200ms
 - Applications can achieve at least 3,500 PUT/COPY/POST/DELETE or 5500 GET/HEAD requests per second per prefix in a bucket.
 - There are no limits to the number of prefixes in a bucket.

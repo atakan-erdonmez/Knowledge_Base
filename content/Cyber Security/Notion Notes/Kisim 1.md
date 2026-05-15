@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ## Bolum 2
 
 - Torghost -s (start) -x (stop): 10 dakikada bir IP degistir

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ### **Crucial Checklist Before You Buy Second-Hand**
 
 This is the most important part. When buying a used enterprise drive, **you must verify its health**. Do not buy from a seller who will not provide this information.

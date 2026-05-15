@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 The tools are located in the folder `C:\Windows\System32\` or its subfolders.
 
 These tools were included in previous versions of Windows. The associated documentation for each tool can help you use them. The following list provides links to documentation for each tool.

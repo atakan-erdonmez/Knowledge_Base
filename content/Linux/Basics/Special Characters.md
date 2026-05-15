@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 | Character | Name(s)                | Uses                                                      |
 | --------- | ---------------------- | --------------------------------------------------------- |
 | `*`       | star, asterisk         | Regular expression, glob character                        |

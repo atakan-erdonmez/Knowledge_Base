@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-30T17:30
+---
 **USB Security**
 
 For a much more granular and powerful approach, especially on a server or a security research machine like your ProLiant, **USBGuard** is the professional tool. It allows you to create policies to authorize (whitelist) specific devices while blocking all others by default. You can create rules based on device type, vendor ID, product ID, and even serial number.

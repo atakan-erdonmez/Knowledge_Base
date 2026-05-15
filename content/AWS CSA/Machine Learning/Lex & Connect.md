@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ### Amazon Lex
 Same technology that powers Alexa
 - **Automatic Speech Recognition (ASR)** to convert speech to text

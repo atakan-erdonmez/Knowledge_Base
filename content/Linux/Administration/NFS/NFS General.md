@@ -1,6 +1,8 @@
 ---
 tags:
   - NFS
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
 ---
 
 Network file system is used in linux/unix systems to share a file, directory, or disk with multiple clients. You export the local directory and clients mount them. Then, they can use the directory as their local directory.[[Samba]] is used to share with windows

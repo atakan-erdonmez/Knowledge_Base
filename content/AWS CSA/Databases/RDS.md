@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-13T17:15
+---
 - Stands for Relational Database Service
 - A managed DB service, use SQL
 - It allow to create db that are managed by AWS

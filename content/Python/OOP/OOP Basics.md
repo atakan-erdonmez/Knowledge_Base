@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 **Procedural Programming:** Regular programming with functions and stuff
 
 - Methods: Something an object *does*

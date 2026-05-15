@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Find objects, people, text, scenes in images and videos using ML.
 - Facial analysis and facial search to do user verification, people counting
 - Create a database of “familiar faces” or compare against celebrities

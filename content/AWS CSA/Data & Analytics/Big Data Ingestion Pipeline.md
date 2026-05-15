@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 - We want the ingestion pipeline to be fully serverless
 - We want to collect data in real time
 - We want to transform the data

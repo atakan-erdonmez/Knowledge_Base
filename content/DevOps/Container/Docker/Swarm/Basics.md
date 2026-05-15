@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-07T13:56
+---
 Docker Swarm is a container orchestration tool that has 1 manager and multiple worker nodes.
 ## Create & Add Workers
 `docker swarm init --advertise-addr IP` -> Create a swarm with that machine being manager

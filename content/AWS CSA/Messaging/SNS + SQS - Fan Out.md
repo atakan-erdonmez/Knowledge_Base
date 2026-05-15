@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ![[sns+sqs.png]]
 
 When you want a message to be sent to multiple SQS queues. So you push once to SNS topic, and subscribe SQS queues.

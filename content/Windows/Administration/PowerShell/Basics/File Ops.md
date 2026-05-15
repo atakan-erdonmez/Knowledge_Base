@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 |**Command**|**Alias**|**Description**|
 |---|---|---|
 |`Get-Item`|gi|Retrieve an object (could be a file, folder, registry object, etc.)|

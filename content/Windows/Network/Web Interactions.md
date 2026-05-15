@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 **Invoke-Webrequest** -> The cmdlet used for many web-related things including GET/POST, download files, access HTML files etc.
 
 Example:

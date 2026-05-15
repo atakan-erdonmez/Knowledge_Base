@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 It is a blueprint of deploying an application. It is great for developers.
 - It uses all components like EC2, ASG, ELB, RDS to configure an environment
 - It is a managed service, automatically handles provisioning, load balancing, scaling, health monitoring...

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-12T11:17
+---
 sudo sgdisk --zap-all /dev/sdb
 sudo sgdisk --backup=/tmp/sda.gpt /dev/sda
 ```

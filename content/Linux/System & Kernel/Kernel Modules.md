@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 lsmod: View loaded kernel modules
 
 You can see the loaded modules in `/sys/module`. After you load modules, you can see them here. You can check the parameters folder in any module, too

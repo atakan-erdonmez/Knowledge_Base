@@ -1,3 +1,7 @@
+---
+created: 2026-05-14T11:29
+updated: 2026-05-14T11:29
+---
 |**Syntax**|**Meaning**|**Why use it?**|
 |---|---|---|
 |`version = "6.45.0"`|**Exact.** Only use this version.|Best for production stability.|

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Stands for "Elastic MapReduce"
 
 EMR helps creating Hadoop clusters (big data) to analyze and process vast amount of data

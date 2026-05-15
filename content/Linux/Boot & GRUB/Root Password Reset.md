@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 1. Go to edit mode in boot. [[Linux Starting Modes]]
 2. In "linux" line, change `ro` with `rw rd.break`
 3. In `switch_root` prompt, enter `mount` and check the rhel-root mount point (which should be /sysroot)

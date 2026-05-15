@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ## Dovecot: Mail Delivery Agent (MDA) & IMAP/POP3 Server
 
 **What it is:** Dovecot is a free and open-source **MDA (Mail Delivery Agent)** and a highly popular **IMAP/POP3 server**. Its primary role is to allow users to **access and manage their email mailboxes** which have been delivered by an MTA like Postfix. It integrates seamlessly with Postfix.

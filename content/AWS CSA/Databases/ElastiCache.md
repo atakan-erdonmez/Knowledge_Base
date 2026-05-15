@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 It is a managed Redis or Memcached
 - Reduces load off of a DB for read intensive workload
 - AWS takes care of it, OS maintenance, patching, optimization etc

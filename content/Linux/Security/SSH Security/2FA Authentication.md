@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ##### Google Authenticator
 ```shell-session
 [cry0l1t3@VPS ~]$ sudo apt install libpam-google-authenticator -y

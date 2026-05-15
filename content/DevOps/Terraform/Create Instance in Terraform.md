@@ -1,6 +1,8 @@
 ---
 tags:
   - terraform
+created: 2026-05-14T11:27
+updated: 2026-05-14T17:19
 ---
 ```
 resource "aws_instance" "example" {

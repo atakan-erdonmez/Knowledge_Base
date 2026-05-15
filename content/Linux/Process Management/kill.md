@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-05-15T11:00
+---
 | Signal    | Number | Meaning                           | Common Usage                     |
 | --------- | ------ | --------------------------------- | -------------------------------- |
 | `SIGTERM` | 15     | Graceful termination              | `kill PID` (default)             |

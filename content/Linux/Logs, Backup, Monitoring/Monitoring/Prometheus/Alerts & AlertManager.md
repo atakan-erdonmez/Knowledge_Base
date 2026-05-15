@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 There are 2 parts to the alerts:
 1- The actual alerts that you define by creating rules
 2- AlertManager that takes these alerts and doing actions with them like sending notifications and silencing.

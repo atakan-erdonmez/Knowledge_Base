@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 In order to changes to the cluster, you have to talk with *API server*. To do that, you can use UI, API or CLI, which is kubectl. 
 - It can be used for any cluster like cloud, minikube etc.
 

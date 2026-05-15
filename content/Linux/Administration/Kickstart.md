@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Kickstart is a automation tool for system installation. It can use FTP, HTTP or NFS.
 
 ## 🔧 1. Prerequisites

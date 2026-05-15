@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Fully managed document search service powered by Machine Learning
 - Extract answers from within a document (text, pdf, HTML, PowerPoint, MS Word, FAQs…)
 - Natural language search capabilities

@@ -1,6 +1,8 @@
 ---
 tags:
   - "#terraform"
+created: 2026-05-11T15:26
+updated: 2026-05-14T12:45
 ---
 
 

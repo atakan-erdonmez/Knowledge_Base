@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 For DNS over TLS, you need to create a config file in /etc/systemd/resolved.conf.d/ like this:
 
 ```

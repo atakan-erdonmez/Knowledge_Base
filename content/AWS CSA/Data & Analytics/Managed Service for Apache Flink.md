@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 Flink (Java, Scala, SQL): A framework for processing data streams
 
 Run any Apache Flink application on a managed cluster on AWS

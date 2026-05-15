@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ## Event Log Categories and Types
 
 The main four log categories include application, security, setup, and system. Another type of category also exists called `forwarded events`.

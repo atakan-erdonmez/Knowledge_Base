@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ## String Operators
 
 If we compare strings, then we know what we would like to have in the corresponding value.

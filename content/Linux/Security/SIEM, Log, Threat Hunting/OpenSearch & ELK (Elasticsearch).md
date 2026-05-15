@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ## 📦 1. What is **Elasticsearch**?
 
 - A **search engine** designed for **log and text data**.

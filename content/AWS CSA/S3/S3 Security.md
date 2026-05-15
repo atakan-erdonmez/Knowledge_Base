@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-17T17:21
+---
 # MFA Delete
 It is additional security when you want to do destructive actions, like permanently delete an object version, or SuspendVersioning on the bucket.
 - Only the root account can enable/disable MFA delete

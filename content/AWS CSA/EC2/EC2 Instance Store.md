@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-17T16:23
+---
 High-performance hardware disk
 
 - Better I/O performance

@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-04-17T16:23
+---
 Elastic Block Store is a network drive that you attach. It persists.
 They are bound to specific AZ
 Low cost, low performance

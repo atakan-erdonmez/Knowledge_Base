@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 **Kvantum** is a **theme engine** for Qt-based applications (used by KDE, LXQt, etc.). It enables highly customizable and modern-looking themes, particularly **matching GTK apps and KDE apps together**.
 
 It **does not theme your whole desktop**, but rather **Qt applications' appearance**—buttons, menus, scrollbars, etc.

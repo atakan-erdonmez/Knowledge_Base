@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 In Linux, managing when and how users must change their passwords is a core security function. This process is primarily controlled by settings stored for each user in the `/etc/shadow` file. You interact with these settings using the `chage` (change age) command.
 
 ## 1. The Data Source: `/etc/shadow` File Fields

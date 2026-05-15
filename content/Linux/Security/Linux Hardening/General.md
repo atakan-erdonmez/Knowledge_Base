@@ -1,3 +1,7 @@
+---
+created: 2026-03-30T09:43
+updated: 2026-03-30T09:43
+---
 ### Disable and remove non-secure programs
 
 Like ftp, telnet, rlogin, rsh services

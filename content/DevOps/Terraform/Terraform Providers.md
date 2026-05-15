@@ -1,6 +1,8 @@
 ---
 tags:
   - "#terraform"
+created: 2026-05-14T11:00
+updated: 2026-05-14T11:43
 ---
 [[Terraform Basics#Providers]]
 
