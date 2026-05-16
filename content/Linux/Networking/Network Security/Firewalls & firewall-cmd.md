@@ -1,6 +1,10 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-05-16T17:25
+tags:
+  - firewall
+  - security
+  - ai
 ---
 - netfilter is a part of Linux kernel. It is the main firewall. It reads the input-output packets and allow/deny them.
 - **netfilter** used iptables, ip6tables, arptables etc. But now, these are all deprecated. Instead, nftables is used.
@@ -29,6 +33,7 @@ An important note is, after each modification, you need to reload firewalld so t
 | `firewall-cmd --zone=public --add-forward-port=port=80:proto=tcp:toport=12345` | Port forward 80 → 12345                |
 | `firewall-cmd --zone=public --add-masquerade`                                  | Enable masquerading                    |
 | `--add-forward-port=port=80:proto=tcp:toport=12345:toaddr=<IP>`                | Port forward with IP                   |
+| `sudo systemctl stop firewalld`                                                | Stop the firewall                      |
 
 
 
