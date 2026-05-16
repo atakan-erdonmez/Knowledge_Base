@@ -1,6 +1,9 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-05-16T15:48
+tags:
+  - apache
+  - web-servers
 ---
 # 🟢 1. Installation
 
