@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-04-03T12:21
+updated: 2026-05-17T17:58
 ---
 https://wiki.debian.org/fstab
 
@@ -46,15 +46,15 @@ nofail: Continue boot if drive fails
 
 #### Meaning:
 
-|Option|Meaning|
-|---|---|
-|`rw`|Read/write|
-|`suid`|Allow set-user-identifier bits|
-|`dev`|Interpret character/block devices|
-|`exec`|Allow execution of binaries|
-|`auto`|Mount automatically at boot|
-|`nouser`|Only root can mount|
-|`async`|Async I/O|
+| Option   | Meaning                           |
+| -------- | --------------------------------- |
+| `rw`     | Read/write                        |
+| `suid`   | Allow set-user-identifier bits    |
+| `dev`    | Interpret character/block devices |
+| `exec`   | Allow execution of binaries       |
+| `auto`   | Mount automatically at boot       |
+| `nouser` | Only root can mount               |
+| `async`  | Async I/O                         |
 
 
 `x-systemd.automount` is a **systemd-specific mount option** used in `/etc/fstab` to enable **on-demand mounting**.
