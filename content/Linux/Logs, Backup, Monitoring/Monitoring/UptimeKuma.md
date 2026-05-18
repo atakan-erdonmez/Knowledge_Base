@@ -11,4 +11,4 @@ The system operates via active polling, executing continuous health checks over 
 
 Uptime Kuma is optimized for system administrators, homelab operators, and small teams requiring an independent monitoring appliance. It serves as an accessible solution for environments where visual trend analysis, rapid manual provisioning, and public status pages take priority over programmatic infrastructure deployment.
 
-Alternative: [[Gatus]]
+Alternative: [[00_KnowledgeBase/Linux/Logs, Backup, Monitoring/Monitoring/Gatus]]
