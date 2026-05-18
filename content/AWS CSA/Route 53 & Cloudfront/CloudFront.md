@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-05-18T17:32
 ---
 It is the CDN. Improves read performance by caching the content at the edge.
 

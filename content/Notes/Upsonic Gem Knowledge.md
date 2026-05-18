@@ -2,12 +2,12 @@
 tags:
   - ai
 created: 2026-05-11T15:26
-updated: 2026-05-14T14:10
+updated: 2026-05-18T17:34
 ---
 
-[[00_KnowledgeBase/AI/index|index]] 
+[[00_KnowledgeBase/AI/AI|AI]] 
 [[AI Tools]] 
-[[40_Inbox/AI Weekend/index]]
+[[AI Weekend]]
 
 # Upsonic Framework — API Reference for Code Generation
 # Version: 0.74+ (March 2026)

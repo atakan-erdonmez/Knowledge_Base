@@ -1,6 +1,11 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-05-18T17:29
+tags:
+  - aws
+  - route53
+  - dns
+  - Networking
 ---
 A highly available, scalable, fully managed and *Authoritative* DNS
 	Authoritative: The customer (you) can update the DNS records
@@ -35,3 +40,8 @@ A container for records that define how to route traffic to a domain and its sub
 Route 53 Resolver is the main component that you create while using Route 53.
 
 When you want to connect your on-premise DNS server to Route 53, you need a *Resolver Inbound Endpoint*. This resolver endpoint will talk to main resolver.
+
+# Traffic Flow
+It is a console-based graphical interface that allows to visualize complex combinations of routing policies as you build them.
+
+It can make creating a sophisticated routing infrastructure easy. It also offers geoproximity routing, which is at a far finer level.
