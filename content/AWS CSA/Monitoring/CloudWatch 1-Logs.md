@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-05-18T09:43
+updated: 2026-05-18T10:59
 ---
 It is a place to store your application logs. You must first create **log groups**, and inside, multiple **log streams**. You can define log expiration. You can also send logs to:
 - S3 (export)
