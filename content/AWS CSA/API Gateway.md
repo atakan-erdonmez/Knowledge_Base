@@ -1,14 +1,15 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-06-04T11:40
 ---
-fIt is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources.
+It is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources.
 
 Lambda + API Gateway: No infrastructure
 - Support for the WebSocket protocol
 - Handle different environments, API versions, and security
 - Transform and validate requests and responses
 
+> Can implement caching for quick & easy performance increase
 ## Integration
 #### Lambda Function
 - Invoke functions

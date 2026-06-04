@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-04-13T17:15
+updated: 2026-06-04T11:14
 ---
 - Stands for Relational Database Service
 - A managed DB service, use SQL
@@ -45,7 +45,7 @@ On top of an ongoing production database, if you want to run a reporting applica
 Note: Read replicas are only used for SELECT statements
 
 ### Network Cost
-For RDS read replicas within the same region, you don't pay cross AZ or cross-region fee
+<mark style="background: #FFF3A3A6;">For RDS read replicas within the same region, you don't pay cross AZ or cross-region fee</mark>
 
 # Multi AZ (Disaster Recovery)
 It uses SYNC replication

@@ -1,10 +1,10 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-06-04T11:24
 ---
 Based on PostgreSQL, but not for OLTP (online transaction processing)
 
-It's OLAP - online analytical processing (analytics and data warehousing). 10x better performance, scales to PBs of data
+It's [[OLTP vs OLAP|OLAP]] - online analytical processing (analytics and data warehousing). 10x better performance, scales to PBs of data
 
 - Columnar storage (instead of row-based) & parallel query engine
 - Two modes: provisioned cluster and serverless cluster 
@@ -16,7 +16,7 @@ Has multi-AZ mode for some clusters
 - Automated (every 8 hours, every 5GB, or on a schedule) or manual retainment
 
 ## Redshift Spectrum
-Query data that is already in S3 without loading it. The query is then submitted to thousands of Redshift Spectrum notes
+Query data that is already in [[S3]] without loading it. The query is then submitted to thousands of Redshift Spectrum notes
 
 ## Enhanced VPC Routing
 research

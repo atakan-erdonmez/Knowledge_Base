@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-05-01T12:18
+updated: 2026-06-04T11:47
 ---
 5 VPC in a region (soft limit)
 Min size is /28, max /16
@@ -39,6 +39,7 @@ Fully managed, high availability, higher bandwidth NAT solution. Pay per hour an
 - 5 Gbps of bandwidth, auto scale up to 100 Gbps
 - No security groups required
 
+> In order to connect an instance in a private subnet, the NAT Gateway should be in the same AZ with the private subnet.
 #### High Availability
 It is resilient in a single AZ, but must create multiple gateways in multi AZ for fault-tolerance
 

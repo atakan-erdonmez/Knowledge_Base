@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-06-04T11:11
 ---
 When you have an app with multiple edge locations, you can use Global Accelerator. It works by giving 2 anycast IP addresses to all edge locations.
 
@@ -18,7 +18,7 @@ When you have an app with multiple edge locations, you can use Global Accelerato
 
 
 # Global Accelerator vs CloudFront
-CloudFront is a CDN. It caches and distributes from edge location.
+[[CloudFront]] is a CDN. It caches and distributes from edge location.
 Global Accelerator is just redirects packages inside the AWS network. So instead of using the Internet for the whole path, you incorporate AWS internal network for speed and latency.
 
 
