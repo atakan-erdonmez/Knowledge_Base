@@ -3,7 +3,7 @@ tags:
   - "#web-design"
   - "#css"
 created: 2026-05-13T17:19
-updated: 2026-06-03T21:12
+updated: 2026-06-04T10:34
 ---
  Concept: Instead of styling for desktop and stripping away features for mobile, you style for the smallest screen first, then use media queries to "add"  complexity as the screen size increases.
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-03T21:12
+updated: 2026-06-04T10:34
 ---
 Volumes are for persistent data. You create them your host, and virtually mount to the container.
 The volumes are in `/var/lib/docker/volumes`
