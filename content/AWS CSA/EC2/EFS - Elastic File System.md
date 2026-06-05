@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-06-05T09:46
 ---
 Managed NFS that can be mounted on many EC2. It supports multi-AZ. **IT IS VPC-bound**
 - Highly available, scalable, expensive (3x gp2), pay per use
@@ -15,8 +15,8 @@ Managed NFS that can be mounted on many EC2. It supports multi-AZ. **IT IS VPC-b
 - Grow to Petabyte-scale, automatically
 
 #### Throughput Mode
-- **Bursting** - 1 TB = 50MiB/s + burst of up to 1000MiB/s
-- **Provisioned** - set your throughput regardless of storage size
+- **Bursting** - 1 TB = 50MiB/s + burst of up to 1000MiB/s (throughput relies on the amount of data stored)
+- **Provisioned** - set your throughput regardless of storage size (gives consistent throughput regardless of the amount of data stored)
 - **Elastic** - automatically scales throughput up or down based on your downloads
 
 #### Performance Mode Setting

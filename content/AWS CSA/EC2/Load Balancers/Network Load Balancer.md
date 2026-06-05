@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-06-05T09:58
 ---
 It is Layer 4 LB
 - Forward TCP & UDP traffic

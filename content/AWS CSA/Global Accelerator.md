@@ -1,8 +1,10 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-04T11:11
+updated: 2026-06-05T09:47
 ---
 When you have an app with multiple edge locations, you can use Global Accelerator. It works by giving 2 anycast IP addresses to all edge locations.
+
+> It is great when using blue-green deployment scenario
 
 - So when you put the same IP, you will be directed to the closest edge location
 - 2 IP is given for high availability
