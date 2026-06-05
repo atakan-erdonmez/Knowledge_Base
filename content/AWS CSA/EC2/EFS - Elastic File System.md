@@ -1,14 +1,16 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-05T09:46
+updated: 2026-06-05T10:14
 ---
-Managed NFS that can be mounted on many EC2. It supports multi-AZ. **IT IS VPC-bound**
+Managed NFS that can be mounted on many EC2. It supports multi-AZ. **IT IS VPC-bound, regional!**
 - Highly available, scalable, expensive (3x gp2), pay per use
 - Use cases: content management, web serving, data sharing
 - Users NFSv4.1 protocol
 - Uses security group to control access to EFS
 - Compatible with Linux based AMI
 - Scales automatically, pay-per-use, no capacity planning
+
+> For exam: EFS is POSIX-compliant.
 ## Performance & Storage Classes
 #### EFS Scale
 - 1000s of concurrent NFS clients, 10 GB+ /s throughput
