@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-05T19:02
+updated: 2026-06-06T12:05
 ---
 5 VPC in a region (soft limit)
 Min size is /28, max /16
@@ -17,7 +17,19 @@ Allows resource in a VPC to connect to the internet. Scales horizontally and hig
 - IGW don't allow internet access on their own. You should edit route tables as well
 
 ## Route Table 
-Route tables should be created for IGW to work properly as well as connect to internet with resources
+Route tables should be created for IGW to work properly as well as connect to internet with resources.
+
+- Route tables are VPC-bound, but explicitly assigned to subnets.
+- All subnets implicitly get assigned to main route table.
+
+>[!WARNING]
+> Leave main route table AS IS! Do not change it. It should only route internally inside the VPC.
+
+
+
+> A **subnet** can only be associated with **one route table at a time**. However, a **route table** can be associated with multiple subnets.
+
+
 
 ### Bastion Host
 When you have a resource in a private IP that has to be access from public, you can use *bastion host*.
