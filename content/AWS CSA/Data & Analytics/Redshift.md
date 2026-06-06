@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-04T11:24
+updated: 2026-06-05T19:02
 ---
 Based on PostgreSQL, but not for OLTP (online transaction processing)
 

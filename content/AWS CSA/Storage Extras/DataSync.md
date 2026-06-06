@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-04T11:45
+updated: 2026-06-05T19:02
 ---
 Move large amount of data to and from. 
 - On-premises / other cloud to AWS (NFS, SMB, HDFS, S3 API...) - needs agent

@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-04T11:39
+updated: 2026-06-05T19:02
 ---
 It is like a search engine to query logs. Uses SQL-like language. 
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-17T18:06
-updated: 2026-06-04T10:34
+updated: 2026-06-05T19:02
 tags:
   - ssh
 ---
