@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-06T12:05
+updated: 2026-06-08T12:42
 ---
 5 VPC in a region (soft limit)
 Min size is /28, max /16

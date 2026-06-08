@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-05T19:02
+updated: 2026-06-08T12:42
 ---
 It is layer 7. Load balancing to multiple HTTP applications across machines (target group).
 - It can load balance to multiple apps on same machine (containers)

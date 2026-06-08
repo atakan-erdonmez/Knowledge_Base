@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-05T19:02
+updated: 2026-06-08T12:42
 ---
 It is a service to understand, analyze and optimize storage across whole AWS organization. It is a reporting program basically
 - Discover anomalies, identify cost efficiencies, apply data protection best practices

@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-05T19:02
+updated: 2026-06-08T12:42
 ---
 It is a fully managed, highly available NoSQL database. Distributed, scales to massive workloads, replication with multiple AZ.
 

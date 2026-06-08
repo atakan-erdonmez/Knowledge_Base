@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-05T19:02
+updated: 2026-06-08T12:42
 ---
 Easy way to set up and govern a secure and compliant multi-account AWS environment 
 It uses [[AWS Organizations]] to create accounts
