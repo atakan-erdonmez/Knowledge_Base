@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-08T12:42
+updated: 2026-06-09T17:38
 ---
 Launch 3rd party high-performance file systems on AWS. Fully managed service
 - FSx for Lustre
@@ -14,6 +14,7 @@ Fully managed Windows file system shared drive.
 - Active Directory integration, ACLs, user quotas
 - **Can be mounted on Linux EC2 instances**
 - You can use Microsoft Distributed File System (DFS) Namespaces to group multiple file systems together, like connecting on-premise and cloud
+- Supports DFS
 
 ## FSx for Lustre
 Lustre is a type of parallel distributed file system, for large-scale computing. The name is derived from "Linux" and "cluster".
