@@ -1,15 +1,16 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-05-11T17:41
+updated: 2026-06-09T17:34
 ---
 ## EC2 Launch Type
 Launch ECS Tasks on ECS Clusters
 
 In this launch type, you must provision and maintain the infra. Your ECS/ECS Cluster will have special EC2 instances that each has ECS agent.
-
+- Priced on EC2 instances and EBS volumes used
 
 ## Fargate Launch Type
 Fargate is serverless container solution. In this type, you don't provision the infrastructure, it is serverless. You just create tasks definitions, AWS runs ECS tasks based on resources
+Priced on vCPU and memory
 
 ## ECS Integrations
 #### EC2 Instance Profile 
