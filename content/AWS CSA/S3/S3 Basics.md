@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-04-17T17:21
+updated: 2026-06-09T17:13
 ---
 It is an object storage.
 - They should have globally unique name
@@ -39,9 +39,12 @@ The Object URL will be inaccessible by public by default. But when you click 'op
 ### Bucket Policies
 They are JSON based. It has Sid, effect, principal (user or account), action, and resource.
 
+> You can explicitly or through a bucket setting assign a 'Retain Until Date' for the object version, putting a retention period. You can assign different retention periods to different versions of the same object.
 ## Versioning
 It is in bucket level, same key overwrite will change the version.
 When you delete a file, it will create a delete marker. To completely remove that file, you should remove it again. You can restore it by deleting the 'delete marker'.
+
+
 
 # Replication (CRR & SRR)
 **CRR**: Cross-Region Replication - compliance, lower latency, replication across accounts

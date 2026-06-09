@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-08T12:42
+updated: 2026-06-09T17:14
 ---
 - Aurora is a proprietary technology from AWS (not open sourced)
 - Postgres and MySQL are both supported as Aurora DB (that means your drivers will work as if Aurora was a Postgres or MySQL database)
@@ -76,3 +76,7 @@ It is used to create a new cluster that initially shares the same data, but a se
 
 - Create a new Aurora DB cluster from an existing one
 - Faster than snapshot & restore, because it uses copy-on-write protocol where only writes happen when there are changes
+
+## Additional Stuff
+### Babelfish
+Babelfish allows Aurora PostgreSQL to understand T-SQL (Microsoft SQL Server's query language) and SQL Server wire protocol, enabling applications to communicate with Aurora using SQL Server-style queries with minimal code changes. This is ideal for minimizing application code refactoring.

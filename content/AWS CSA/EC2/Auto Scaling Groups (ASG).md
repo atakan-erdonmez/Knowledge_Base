@@ -1,6 +1,6 @@
 ---
 created: 2026-05-11T15:26
-updated: 2026-06-08T12:42
+updated: 2026-06-09T17:19
 ---
 In real-life, the load on your websites and application can change
 In the cloud, you can create and get rid of servers very quickly
@@ -53,3 +53,8 @@ The goal of an Auto Scaling Group (ASG) is to:
 - RequestCountPerTarget
 - Average Network In / Out
 - Any custom metric (that you push using CloudWatch)
+
+### Sequence of Events
+If there is a rebalancing of AZs, ASG first launches new instances, then terminates old ones.
+
+If there is an unhealthy instance that will be replaced, the problematic instance will be removed first, then a new instance will be launched.
