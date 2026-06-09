@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-05-11T15:26
+updated: 2026-06-08T12:42
 ---
 It is a managed load balancer
 - AWS guarantees that it will be working

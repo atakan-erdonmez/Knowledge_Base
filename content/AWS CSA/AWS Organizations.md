@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-06-08T12:42
 ---
 It is a global service to manage multiple AWS accounts. There is the main management account and multiple member accounts. A member account can only be a part of one organization. It can cause some discounts and saving plans. 
 

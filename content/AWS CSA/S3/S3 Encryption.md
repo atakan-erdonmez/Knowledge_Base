@@ -1,10 +1,10 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-04-17T17:21
+updated: 2026-06-08T12:42
 ---
 4 methods to encrypt objects
 
-## Server-Side Encryption (SSE)
+# Server-Side Encryption (SSE)
 #### SSE with Amazon S3-Managed Keys (SSE-S3)
 - Enabled by default, encrypt with keys handled, managed and owned by AWS
 #### SSE with KMS Key Stored in AWS KWS (SSE-KMS)
@@ -12,29 +12,33 @@ updated: 2026-04-17T17:21
 #### SSE with Customer-Provided Keys (SSE-C)
 - Manage your own keys
 
-## Client-Side Encryption
-
-
-# SSE-S3
+### SSE-S3
 - Keys are managed by AWS. Encryption type is AES-256. 
 - Header: "x-amz-server-side-encryption":"AES256"
 - Enabled by default for new buckets & objects
 
-# SSE-KMS
+### SSE-KMS
 - Manager your own keys using AWS KMS (Key Management System)
 -  KMS advantages: user control + audit key usage using CloudTrail
 - Header: "x-amz-server-side-encryption":"aws:kms"
 - You have a default key already
-## Limitations
+
+>[!INFO]
+>Normally, when you encrypt files using KMS, it calls the API every single time, increasing cost.
+>Instead, you can use **S3 Bucket Keys** to have a bucket-level encryption, decreasing cost.
+
+
+
+#### Limitations
 - If you use KMS, you may be impacted by KMS limits
 - When you upload, it calls the **GenerateDataKey** KMS API, when you download, it calls the **Decrypt** KMS API. This counts towards the KMS quote per second
 - You can increase quota using Service Quotas Console
 
-# SSE-C
+### SSE-C
 - AWS does **not** store the encryption key you provide. It is fully managed by customer
 - HTTPS must be used, and keys should be provided in HTTP headers in every request
 
-# Client-Side Encryption
+## Client-Side Encryption
 - Uses client libraries such as Amazon S3 Client-Side Encryption Library
 - Client must encrypt and decrypt data before sending and retrieving to Amazon S3
 

@@ -1,13 +1,13 @@
 ---
 created: 2026-05-11T15:26
-updated: 2026-05-11T15:26
+updated: 2026-06-08T12:42
 ---
 In real-life, the load on your websites and application can change
 In the cloud, you can create and get rid of servers very quickly
 
 The goal of an Auto Scaling Group (ASG) is to: 
 - Scale out (add EC2 instances) to match an increased load
-- Scale in (remove EC2 instances) to match a decreased load
+- Scale in (remove EC2 instances) to match a decreased load (removes oldest instances first)
 - Ensure we have a minimum and a maximum number of EC2 instances running
 - Automatically register new instances to a load balancer
 - Re-create an EC2 instance in case a previous one is terminated (ex: if unhealthy)

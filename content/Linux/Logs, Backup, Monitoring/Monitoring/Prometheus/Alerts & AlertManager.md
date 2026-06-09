@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
+updated: 2026-06-08T15:12
 ---
 There are 2 parts to the alerts:
 1- The actual alerts that you define by creating rules
