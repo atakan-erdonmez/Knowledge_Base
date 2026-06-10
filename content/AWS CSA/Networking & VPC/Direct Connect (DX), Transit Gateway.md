@@ -1,6 +1,9 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-05-06T13:18
+updated: 2026-06-10T09:48
+tags:
+  - network
+  - VPN
 ---
 # Direct Connect (DX)
 
@@ -13,6 +16,7 @@ Use cases:
 
 You need a physical location of AWS. Then, you rent a customer or partner router as well as Direct Connect Endpoint, tunneling to your VPC.
 
+> It is not encrypted, you need to use **VPN** for encrypted comunication.
 
 ## Direct Connect Gateway
 After establishing a DX, you can use a DX Gateway to access more VPC on different regions

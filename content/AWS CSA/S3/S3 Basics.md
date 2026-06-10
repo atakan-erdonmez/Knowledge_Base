@@ -1,10 +1,12 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-09T17:13
+updated: 2026-06-10T09:49
 ---
 It is an object storage.
 - They should have globally unique name
 - They are defined in region level
+It is free to upload from the internet. It is paid when used [[S3 Performance#S3 Transfer Acceleration|Transfer Acceleration]]
+
 
 
 # Generic
