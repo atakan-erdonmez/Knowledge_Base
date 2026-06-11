@@ -1,8 +1,11 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-10T10:28
+updated: 2026-06-11T10:14
+tags:
+  - aws
+  - network
 ---
-When you have an app with multiple edge locations, you can use Global Accelerator. It works by giving 2 anycast IP addresses to all edge locations.
+When you have an app with multiple edge locations, you can use Global Accelerator. It works by giving 2 anycast IP addresses to all edge locations. Supports TCP & UDP
 
 > It is great when using blue-green deployment scenario
 
