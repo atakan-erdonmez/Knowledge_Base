@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-04-17T17:31
+updated: 2026-06-11T09:59
 ---
 - S3 Standard - General Purpose
 - S3 Standard - Infrequent Access (IA)
@@ -68,3 +68,6 @@ An unconventional storage class.
  - Handle 100,000s requests per second with *single-digit* millisecond latency
  - Up to 10x better performance than S3 standard (50% lower cost)
  - Use case: latency-sensitive apps, AI&ML training, financial modeling...
+
+# Lifecycle Transition
+![[s3 lifecycle transition.png]]
