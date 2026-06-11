@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-08T12:42
+updated: 2026-06-11T11:06
 ---
 Producer sends messages to SQS, consumers poll the messages from SQS
 ![[SQS.png]]
