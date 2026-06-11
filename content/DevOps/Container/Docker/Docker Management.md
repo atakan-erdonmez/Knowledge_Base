@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-04-07T14:01
+updated: 2026-06-11T09:29
 ---
 - docker images: It will show every downloaded docker images that exist in local
 - docker search \<name>: Search for a docker container in the Docker repo
@@ -9,6 +9,7 @@ updated: 2026-04-07T14:01
 - docker stop \<image>: Stop the container
 > Note: When you run a docker container and they don't have anything to do, they exit automatically.
 
+> Remove dangling/unusued objects: `docker image prune`
 - docker ps: List all running containers
 - docker ps -a: List all containers, both running and exited
 
