@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-09T17:02
+updated: 2026-06-12T17:41
 ---
 **RPO (Recovery Point Objective)**: The last backup before the disaster. Tells how much time in data is lost
 **RTO (Recovery Time Objective)**: The time where systems are active again. It shows the downtime

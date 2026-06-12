@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-09T17:38
+updated: 2026-06-12T17:41
 ---
 It is a managed Redis or Memcached
 - Reduces load off of a DB for read intensive workload

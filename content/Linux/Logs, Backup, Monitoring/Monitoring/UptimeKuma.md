@@ -2,7 +2,7 @@
 tags:
   - monitoring
 created: 2026-05-15T10:57
-updated: 2026-06-08T12:42
+updated: 2026-06-12T17:41
 ---
 
 **Uptime Kuma** is an open-source, self-hosted service availability monitoring platform characterized by its **UI-first architecture**. It features a centralized web dashboard that allows users to provision, manage, and visualize the status of network infrastructure and endpoints without requiring text-based configuration.

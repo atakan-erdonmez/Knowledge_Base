@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-10T10:30
+updated: 2026-06-12T17:41
 ---
 It is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources.
 

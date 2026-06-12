@@ -2,7 +2,7 @@
 tags:
   - ai
 created: 2026-05-11T15:26
-updated: 2026-06-08T12:42
+updated: 2026-06-12T17:41
 ---
 
 [[00_KnowledgeBase/AI/AI|AI]] 

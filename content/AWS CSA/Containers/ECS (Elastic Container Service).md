@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-09T17:34
+updated: 2026-06-12T17:41
 ---
 ## EC2 Launch Type
 Launch ECS Tasks on ECS Clusters

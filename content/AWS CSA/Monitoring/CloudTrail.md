@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-10T10:09
+updated: 2026-06-12T17:41
 ---
 
 Provides governance, compliance and audit for your AWS Account, enabled by default.

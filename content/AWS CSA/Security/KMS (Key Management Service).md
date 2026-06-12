@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-11T09:51
+updated: 2026-06-12T17:41
 ---
 AWS handles encryption keys. It is the most common encryption in AWS. Integrated with IAM.
 

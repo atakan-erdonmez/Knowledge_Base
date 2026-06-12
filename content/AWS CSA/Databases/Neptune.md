@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-10T10:31
+updated: 2026-06-12T17:41
 ---
 Fully managed **graph** database
 

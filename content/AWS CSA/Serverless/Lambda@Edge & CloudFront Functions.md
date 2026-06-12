@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-09T17:29
+updated: 2026-06-12T17:41
 ---
 Edge Function: A code that runs close to users to minimize latency. You run it on CloudFront. You have these 2 options 
 #### CloudFront Functions

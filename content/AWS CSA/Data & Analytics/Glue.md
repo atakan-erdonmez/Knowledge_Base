@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-09T17:08
+updated: 2026-06-12T17:41
 ---
 Managed extract, transform, and load (ETL) service
 - Useful to prepare and transform data for analytics
