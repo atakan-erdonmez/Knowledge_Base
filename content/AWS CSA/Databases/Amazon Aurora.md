@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-14T13:55
+updated: 2026-06-14T16:11
 ---
 - Aurora is a proprietary technology from AWS (not open sourced)
 - Postgres and MySQL are both supported as Aurora DB (that means your drivers will work as if Aurora was a Postgres or MySQL database)
@@ -57,6 +57,7 @@ You create a custom endpoint to cover some replicas. Like if you have 2 stronger
 Automated database instantiation. Good for infrequent, intermittent or unpredictable workload
 - No capacity planning needed
 - Pay per second, can be more cost-effective
+> One ACU (Aurora Capacity Point) is 2 GiB of memory.
 ## Global Aurora
 **Aurora Cross Region Read Replicas:**
 - Useful for disaster recovery
