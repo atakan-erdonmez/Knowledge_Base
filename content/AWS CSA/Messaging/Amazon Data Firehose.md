@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-05-06T16:29
+updated: 2026-06-14T14:48
 ---
 ![[data firehose.png]]
 
@@ -8,7 +8,7 @@ updated: 2026-05-06T16:29
 > Used to be called "Kinesis Data Firehose"
 
 A fully managed service
-- Amazon Redshift / Amazon S3 / Amazon OpenSearch
+- Amazon [[Redshift]] / Amazon [[S3]] / Amazon [[OpenSearch]]
 - 3rd party: Splunk / MongoDB / Datadog / NewRelic
 - Custom HTTP endpoint
 

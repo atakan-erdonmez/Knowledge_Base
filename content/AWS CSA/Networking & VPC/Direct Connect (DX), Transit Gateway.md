@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T14:56
 tags:
   - network
   - VPN
@@ -8,6 +8,8 @@ tags:
 # Direct Connect (DX)
 
 Dedicated connection from a remote network to your VPC. Requires [[VPN Gateway, Customer Gateway, S2S-VPN#^df075d|Virtual Private Gateway]]. Can access public and private resources
+
+It establishes a dedicated, physical network connection from your on-premises data center or co-location facility directly to AWS, bypassing the public internet entirely to provide consistent bandwidth and low latency. Takes **weeks to months** to install.
 
 Use cases:
 - Increase bandwidth throughput - working w/ large datasets, lower costs

@@ -1,13 +1,13 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T14:52
 ---
 It is an object storage.
 - They should have globally unique name
 - They are defined in region level
 It is free to upload from the internet. It is paid when used [[S3 Performance#S3 Transfer Acceleration|Transfer Acceleration]]
 
-
+> By default, an Amazon S3 object is owned by the AWS account that uploaded it. This is true even when the bucket is owned by another account.
 
 # Generic
 Objects (files) have a Key
