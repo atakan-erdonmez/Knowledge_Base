@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T14:19
 ---
 - S3 Standard - General Purpose
 - S3 Standard - Infrequent Access (IA)
@@ -36,6 +36,9 @@ Use cases: Storing secondary backup copies of on-premise data, or creatable
 ## S3 Glacier Storage Classes
 - Low-cost object storage meant for archiving / backup
 - Price for storage + object retrieval cost
+
+> [!warning]
+> You cannot directly put objects into Glacier class. They should exist on the standard, then transferred to Glacier
 
 #### Instant Retrieval
 - Milliseconds retrieval, great for data accessed once a quarter
