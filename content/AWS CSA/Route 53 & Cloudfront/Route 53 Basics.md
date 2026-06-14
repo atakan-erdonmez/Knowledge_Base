@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T13:21
 tags:
   - aws
   - route53
@@ -48,3 +48,4 @@ Route 53 Resolver is the main component that you create while using Route 53.
 It is a console-based graphical interface that allows to visualize complex combinations of routing policies as you build them.
 
 It can make creating a sophisticated routing infrastructure easy. It also offers geoproximity routing, which is at a far finer level.
+

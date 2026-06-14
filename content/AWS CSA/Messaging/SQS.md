@@ -1,7 +1,9 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T12:58
 ---
+Simple Queueing Service
+
 Producer sends messages to SQS, consumers poll the messages from SQS
 ![[SQS.png]]
 It is a fully managed service, used to **decouple applications.**

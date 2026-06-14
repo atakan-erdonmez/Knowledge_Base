@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-05-06T17:15
+updated: 2026-06-14T12:39
 ---
 Managed Streaming for Apache Kafka
 
@@ -18,18 +18,18 @@ Run Kafka on MSK without managing the capacity. Automatically provision resource
 
 ## Kinesis Data Streams vs Amazon MSK
 
-| Kinesis Data Streams      | Amazon MSK                            |
-| ------------------------- | ------------------------------------- |
-| 1 MB message size limit   | 1MB default, configure for higher     |
-| Data streams with shards  | Kafka Topics with Partitions          |
-| Shard Splitting & Merging | Can only add partitions to a topic    |
-| TLS in-flight encryption  | PLAINTEXT or TLS in-flight encryption |
-| KMS at-rest enc           | KMS at-rest enc                       |
+| Kinesis Data Streams                              | Amazon MSK                                        |
+| ------------------------------------------------- | ------------------------------------------------- |
+| 1 MB message size limit                           | 1MB default, configure for higher                 |
+| Data streams with shards                          | Kafka Topics with Partitions                      |
+| Shard Splitting & Merging                         | Can only add partitions to a topic                |
+| TLS in-flight encryption                          | PLAINTEXT or TLS in-flight encryption             |
+| [[KMS (Key Management Service)\|KMS]] at-rest enc | [[KMS (Key Management Service)\|KMS]] at-rest enc |
 [[Kinesis Data Stream]]
 
 
 ### Consumers Example
-- Lambda
+- [[Lambda]]
 - Kinesis Data Analytics for Apache Flink
 - AWS Glue Streaming ETL Jobs, powered by Apache Spark Streaming
 - Applications running on EC2, ECS, EKS

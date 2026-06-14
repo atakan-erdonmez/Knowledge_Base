@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T12:44
 ---
 - Stands for Relational Database Service
 - A managed DB service, use SQL
@@ -39,6 +39,9 @@ It is the replication for reading purpose.
 - Within AZ, cross AZ, cross region
 - Replication is ASYNC, reads are consistent
 - These replicas can be promoted to their own DB
+
+>[!note]
+> In order to encrypt an existing database, you should take a snapshot of the database, copy it as an encrypted snapshot, and then restore a database from the encrypted snapshot.
 ### Use Cases
 On top of an ongoing production database, if you want to run a reporting application to run analytics, it will overrun the database and slow down. Thus, creating a read replica fixes this problem
 

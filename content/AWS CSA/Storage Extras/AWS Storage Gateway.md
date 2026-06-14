@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-04-13T17:11
+updated: 2026-06-14T13:25
 ---
 ![[AWS storage types.png]]
 
@@ -13,7 +13,7 @@ It is a bridge between on-premises data and cloud data
 - on-premises cache & low-latency files access
 
 **Types of Storage Gateway:**
-- S3 File Gateway
+- [[S3]] File Gateway
 - Volume Gateway
 - Tape Gateway
 

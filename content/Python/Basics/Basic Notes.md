@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T13:24
 ---
 - You can use backslash (\\) to escape that character and input as text
 - If you have a print() that has a very long line, you can simply close and reopen the strings in the new line:
@@ -14,7 +14,8 @@ Documentation for functions
 def my_function(input1):
 	"""
 	Documentation
-	More info"""
+	More info
+	"""
 ```
 
 
