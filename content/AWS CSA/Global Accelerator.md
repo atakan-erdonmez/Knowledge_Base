@@ -1,19 +1,19 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-14T14:01
 tags:
   - aws
   - network
 ---
 When you have an app with multiple edge locations, you can use Global Accelerator. It works by giving 2 anycast IP addresses to all edge locations. Supports TCP & UDP
-
+ 
 > It is great when using blue-green deployment scenario
 
 - So when you put the same IP, you will be directed to the closest edge location
 - 2 IP is given for high availability
 
 
-- It works with Elastic IP, EC2, ALB, NLB, public or private
+- It works with [[Elastic IP]], [[EC2]], [[Application Load Balancer]], [[Network Load Balancer]], public or private
 - Consistent performance
 	- Intelligent routing to lowest latency and fat regional failover
 	- No issue with client cache (because IP doesn't change)

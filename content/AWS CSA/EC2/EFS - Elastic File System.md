@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-14T13:32
+updated: 2026-06-14T13:54
 ---
 Managed NFS that can be mounted on many EC2. It supports multi-AZ. **IT IS VPC-bound, regional!**
 - Highly available, scalable, expensive (3x gp2), pay per use
@@ -33,3 +33,6 @@ sudo yum -y install amazon-efs-utils
 
 ## Resource Policies
 It allows cross-account access to the file system.
+
+## IA Storage Class
+The Amazon EFS Standard–IA storage class reduces storage costs for files that are not accessed every day. It does this without sacrificing the high availability, high durability, elasticity, and POSIX file system access that Amazon EFS provides. AWS recommends Standard-IA storage if you need your full dataset to be readily accessible and want to automatically save on storage costs for files that are less frequently accessed.

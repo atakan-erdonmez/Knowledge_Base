@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-14T12:44
+updated: 2026-06-14T13:56
 ---
 - Stands for Relational Database Service
 - A managed DB service, use SQL
@@ -85,3 +85,7 @@ Fully managed db proxy for RDS.
 - Allows apps to pool and share DB connections to increase efficiency. Reduced RDS & Aurora failover time by up to 66%
 - Serverless, autoscaling, highly-available (multi-AZ). Supports RDS and Aurora
 - Can do IAM enforcement, requires no code change (mostly), and is never publicly accessible (must be accessed from VPC) [[Lambda]]
+
+# Other
+## Database Upgrade
+Upgrades to the database engine level require downtime. Even if your Amazon RDS DB instance uses a Multi-AZ deployment, both the primary and standby DB instances are upgraded at the same time. This causes downtime until the upgrade is complete, and the duration of the downtime varies based on the size of your database instance.
