@@ -14,6 +14,11 @@ Fully managed Windows file system shared drive.
 - You can use Microsoft Distributed File System (DFS) Namespaces to group multiple file systems together, like connecting on-premise and cloud
 - Supports DFS
 
+Amazon FSx works with Microsoft Active Directory to integrate with your existing Microsoft Windows environments. You have two options to provide user authentication and access control for your file system: AWS Managed Microsoft Active Directory and Self-managed Microsoft Active Directory.
+
+Take note that after you create an Active Directory configuration for a file system, you can’t change that configuration. However, you can create a new file system from a backup and change the Active Directory integration configuration for that file system. These configurations allow the users in your domain to use their existing identity to access the Amazon FSx file system and to control access to individual files and folders.
+
+
 ## FSx for Lustre
 Lustre is a type of parallel distributed file system, for large-scale computing. The name is derived from "Linux" and "cluster".
 

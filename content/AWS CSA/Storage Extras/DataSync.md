@@ -16,3 +16,8 @@ Can synchronize to:
 >[!INFO]
 > If you don't have enough bandwidth, you can use [[Snow Family|AWS Snowcone]], DataSync agent is preinstalled
 
+
+
+
+> [!question] About the usage
+> As far as I understand, it is best for continuous backups and sync process. [[S3]] Transfer Acceleration & Multi-part Upload is faster, so that should be preferred for one-time uploads.

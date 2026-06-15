@@ -5,3 +5,6 @@ Fully managed document search service powered by Machine Learning
 - Natural language search capabilities
 - Learn from user interactions/feedback to promote preferred results (Incremental Learning)
 - Ability to manually fine-tune search results (importance of data, freshness, custom, …)
+
+
+Amazon Kendra is just an enterprise search service that allows developers to add search capabilities to their applications. This enables their end users to discover information stored within the vast amount of content spread across their company
