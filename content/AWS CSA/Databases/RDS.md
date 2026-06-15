@@ -72,12 +72,6 @@ Managed Oracle and Microsoft SQL Server Database with OS and database customizat
 	- RDS: entire database and the OS to be managed by AWS
 	- RDS Custom: full admin access to the underlying OS and the database
 
-
-
-
-
-
-
 # RDS Proxy
 Fully managed db proxy for RDS.
 - Allows apps to pool and share DB connections to increase efficiency. Reduced RDS & Aurora failover time by up to 66%
@@ -87,3 +81,8 @@ Fully managed db proxy for RDS.
 # Other
 ## Database Upgrade
 Upgrades to the database engine level require downtime. Even if your Amazon RDS DB instance uses a Multi-AZ deployment, both the primary and standby DB instances are upgraded at the same time. This causes downtime until the upgrade is complete, and the duration of the downtime varies based on the size of your database instance.
+
+## RDS Event Subscription
+It is a service that monitors management database events, such as failovers, backups, restarts etc. It doesn't capture database modifications like 'INSERT, DELETE' etc.
+
+You can integrate [[SNS]] for notifications or [[Lambda]] for various functions.

@@ -5,6 +5,10 @@ It is a way for clients to talk to AWS resources. They access the REST API, whic
 > Amazon API Gateway supports stateless RESTful APIs as well as stateful WebSocket APIs.
 
 
+>[!Note]
+>API Gateway supports throttling (rate limiting) and caching for increased performance.
+
+
 [[Lambda]] + API Gateway: No infrastructure
 - Support for the WebSocket protocol
 - Handle different environments, API versions, and security

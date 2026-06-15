@@ -33,9 +33,6 @@ Exist both in standard and detailed monitoring:
 
 Exists only in detailed monitoring:
 - **Memory (RAM):** `mem_used_percent`, `mem_available`, etc.
-    
 - **Disk Utilization:** `disk_used_percent` (how full your actual drive/partition is).
-    
 - **Swap Usage:** `swap_used`.
-    
 - **Process Count:** Number of active threads/tasks.
