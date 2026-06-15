@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 aux/scanner/ssh/ssh_login (bf) aux/scanner/telnet/telnet_login
 

@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-06-15T09:25
 ---
 - S3 Standard - General Purpose
 - S3 Standard - Infrequent Access (IA)

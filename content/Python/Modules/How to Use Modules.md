@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 
 In order to use modules, you should import them at the start.

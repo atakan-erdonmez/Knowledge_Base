@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-06-14T13:07
 ---
 # Flow Logs
 Capture info about IP traffic: VPC, subnet, ENI.

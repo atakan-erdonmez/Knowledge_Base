@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-05-06T13:18
 ---
 NACLs (Network ACLs) sit before the subnet. They check the connection to the EC2 instance even before security group, before it hits the subnet. If it allows, then it goes to the security group.
 

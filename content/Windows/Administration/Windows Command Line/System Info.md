@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 systeminfo: Give info about hotfixes, network adapters, host name etc.
 hostname,ver(version),ipconfig, arp /a

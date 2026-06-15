@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 # Systemd-resolved
 ✅ `systemd-resolved` is a **built-in DNS resolver/manager daemon in systemd-based distros.**

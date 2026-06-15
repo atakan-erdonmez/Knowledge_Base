@@ -1,6 +1,4 @@
 ---
-created: 2026-06-08T15:27
-updated: 2026-06-08T15:29
 ---
 In order to achieve a Telegram-triggered workflow, you need to use **Webhooks**. 
 

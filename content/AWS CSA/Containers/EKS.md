@@ -1,6 +1,4 @@
 ---
-created: 2026-06-11T10:12
-updated: 2026-06-11T10:13
 tags:
   - aws
   - kubernetes

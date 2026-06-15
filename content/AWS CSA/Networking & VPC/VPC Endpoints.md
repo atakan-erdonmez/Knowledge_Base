@@ -1,6 +1,4 @@
 ---
-created: 2026-06-14T13:06
-updated: 2026-06-14T13:06
 ---
 Every AWS service is publicly exposed. VPC Endpoints allows you to connect to AWS services using a private network, without using internet. 
 

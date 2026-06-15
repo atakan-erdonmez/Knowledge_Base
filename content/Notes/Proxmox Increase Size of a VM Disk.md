@@ -2,8 +2,6 @@
 tags:
   - "#proxmox"
   - vm
-created: 2026-05-11T15:26
-updated: 2026-06-15T09:25
 ---
 
 [[Proxmox]], [[LVM]], [[00_KnowledgeBase/Linux/Virtualization/Proxmox/Disk|Proxmox_Disk]], [VM Creation]

@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 It is an object type that you put pieces of data like configuration files and environment variables.
 

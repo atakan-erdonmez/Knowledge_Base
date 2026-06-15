@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Works on **SMB** (Server Message Block), **CIFS** (Common Internet File System), and **NMB** (NetBIOS Message Block).
 

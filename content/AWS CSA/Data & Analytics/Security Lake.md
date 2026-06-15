@@ -1,6 +1,4 @@
 ---
-created: 2026-06-14T13:05
-updated: 2026-06-14T13:08
 ---
 Amazon Security Lake is a fully managed, purpose-built service designed to automatically collect, normalize, and centralize security-related data from various AWS accounts, Regions, services, and even third-party sources.
 

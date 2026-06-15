@@ -1,6 +1,4 @@
 ---
-created: 2026-06-10T09:57
-updated: 2026-06-10T09:57
 ---
 You can use Kinesis Data Analytics to transform and analyze streaming data in real-time with Apache Flink. 
 

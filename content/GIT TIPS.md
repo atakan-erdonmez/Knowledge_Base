@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-05-12T10:06
 ---
 Format: `<type>(scope): <description>`.
 

@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-04-03T09:37
 ---
 Stores information that varies with each host
 

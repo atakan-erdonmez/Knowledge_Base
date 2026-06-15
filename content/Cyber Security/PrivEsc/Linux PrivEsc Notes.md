@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Unless a single vulnerability leads to a root shell, the privilege escalation process will rely on misconfigurations and lax permissions.
 

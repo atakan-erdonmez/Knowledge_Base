@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Of course. For a server build, choosing the right hard disk drive (HDD) is crucial as different models are engineered for very specific tasks. The various colors and series names from brands like Western Digital, Seagate, and Toshiba aren't just for marketing; they signify important differences in firmware, hardware, and reliability designed for specific workloads.
 

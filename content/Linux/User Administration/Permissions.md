@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 - In permissions, there is two type: Absolute (777) and Symbolic (rwxrwxrwx)
 - SUID: Execute program with it’s owners permissions (u+s) (4)

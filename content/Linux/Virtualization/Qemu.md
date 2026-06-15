@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Install (might be old, qemu-kvm package splitted): 
 `sudo yum install qemu-kvm qemu-img virt-manager libvirt libvirt-python \libvirt-client virt-install virt-viewer bridge-utils`

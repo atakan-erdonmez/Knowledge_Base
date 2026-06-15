@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 [How it works?](https://tailscale.com/blog/how-tailscale-works#mesh-networks)
 

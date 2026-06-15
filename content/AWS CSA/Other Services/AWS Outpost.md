@@ -1,6 +1,4 @@
 ---
-created: 2026-06-04T11:26
-updated: 2026-06-04T11:29
 ---
 It is a solution that brings AWS resources to your on-prem infra.
 

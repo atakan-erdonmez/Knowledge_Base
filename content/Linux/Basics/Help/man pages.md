@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 To search for a manual page by keyword, use the -k option:
 `man -k keyword`

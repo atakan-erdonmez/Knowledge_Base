@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-05-12T16:53
 ---
 Playbook: A single YAML file
 Play: defines a set of activities (tasks) to be run on hosts

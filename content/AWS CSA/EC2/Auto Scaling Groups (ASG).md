@@ -1,6 +1,4 @@
 ---
-created: 2026-05-11T15:26
-updated: 2026-06-15T09:25
 ---
 In real-life, the load on your websites and application can change
 In the cloud, you can create and get rid of servers very quickly

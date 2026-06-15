@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Dockerfile is a text-file that is used to create Docker images. Its advantages can be seen [[Docker Management#^134809|here]].
 

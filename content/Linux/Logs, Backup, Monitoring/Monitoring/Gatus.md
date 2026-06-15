@@ -1,8 +1,6 @@
 ---
 tags:
   - "#monitoring"
-created: 2026-05-15T10:56
-updated: 2026-05-15T11:00
 ---
 **Gatus** is an open-source, developer-focused uptime monitoring tool and health dashboard built on a **Configuration-as-Code** philosophy. Instead of using a graphical interface, it relies entirely on a single YAML file to define, scale, and manage monitoring endpoints.
 

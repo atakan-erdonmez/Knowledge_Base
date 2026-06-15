@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 - git commit \<name> -> creates a commit, which is a save of like
 - git branch \<name> -> creates a branch, which is like a different version

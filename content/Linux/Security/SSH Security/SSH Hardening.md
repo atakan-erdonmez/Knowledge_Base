@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-05-05T14:12
 ---
 [SSH Hardening Best Practices](https://linuxize.com/post/ssh-hardening-best-practices/)
 

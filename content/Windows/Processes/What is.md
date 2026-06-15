@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Processes run in the background on Windows systems. They either run automatically as part of the Windows operating system or are started by other installed applications.
 

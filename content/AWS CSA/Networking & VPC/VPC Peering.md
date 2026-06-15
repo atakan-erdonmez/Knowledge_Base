@@ -1,6 +1,4 @@
 ---
-created: 2026-06-14T13:06
-updated: 2026-06-14T13:06
 ---
 Connect two VPC, make them behave like they are in same network.
 > Must not have overlapping IP ranges

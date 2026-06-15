@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Get-Help \<command\> \<-online\>
 Update-Help -> update help files

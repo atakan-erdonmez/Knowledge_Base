@@ -1,6 +1,4 @@
 ---
-created: 2026-05-14T11:29
-updated: 2026-05-14T11:29
 ---
 |**Syntax**|**Meaning**|**Why use it?**|
 |---|---|---|

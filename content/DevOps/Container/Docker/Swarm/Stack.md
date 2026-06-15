@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Stack is a bunch of services running in multiple devices. Basically running a compose file in a Swarm.
 

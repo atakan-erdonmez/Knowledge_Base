@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 It is a physical device that Amazon sends for edge computing. There is storage and compute optimized variations.
 - It is used for offline data transfer, instead of using internet

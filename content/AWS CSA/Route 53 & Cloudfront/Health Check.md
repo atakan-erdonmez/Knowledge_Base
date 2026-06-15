@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 HTTP Health Checks are only for public resources. It is used for **Automated DNS Failover**.
 

@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-06-15T09:25
 ---
 - docker images: It will show every downloaded docker images that exist in local
 - docker search \<name>: Search for a docker container in the Docker repo

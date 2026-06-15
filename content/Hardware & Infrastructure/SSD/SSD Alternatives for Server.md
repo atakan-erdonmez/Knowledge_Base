@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 ### Category 1: 2.5" SATA Enterprise SSDs (The Workhorses)
 

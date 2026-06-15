@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 ## Dovecot: Mail Delivery Agent (MDA) & IMAP/POP3 Server
 

@@ -1,6 +1,4 @@
 ---
-created: 2026-06-14T13:17
-updated: 2026-06-14T13:18
 ---
 AWS Resource Access Manager (RAM) is a service that enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization. 
 

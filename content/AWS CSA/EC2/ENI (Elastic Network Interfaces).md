@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 Logical component in a VPC that represents a virtual network card
 Can have the following attributes:

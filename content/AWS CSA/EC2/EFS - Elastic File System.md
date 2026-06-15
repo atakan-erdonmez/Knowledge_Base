@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-06-15T09:25
 ---
 Managed NFS that can be mounted on many EC2. It supports multi-AZ. **IT IS VPC-bound, regional!**
 - Highly available, scalable, expensive (3x gp2), pay per use

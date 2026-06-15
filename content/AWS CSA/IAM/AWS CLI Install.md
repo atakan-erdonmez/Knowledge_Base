@@ -1,8 +1,6 @@
 ---
 tags:
   - "#aws"
-created: 2026-05-14T10:42
-updated: 2026-05-14T10:45
 ---
 [Source](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 [[AWS CLI Setup]],

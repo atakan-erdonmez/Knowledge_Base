@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-03-30T09:43
 ---
 It is a scheduling system. You can schedule events based on time, or an event pattern.
 

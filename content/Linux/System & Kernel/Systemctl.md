@@ -1,6 +1,4 @@
 ---
-created: 2026-03-30T09:43
-updated: 2026-05-16T17:41
 ---
 - systemctl get-default : show the target (state)
 - systemctl isolate “multi-user.target” : switch to that specific target

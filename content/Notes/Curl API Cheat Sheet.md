@@ -1,6 +1,4 @@
 ---
-created: 2026-06-12T17:48
-updated: 2026-06-12T17:48
 ---
 ## Common Curl Flags
 
