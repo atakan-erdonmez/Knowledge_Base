@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-14T13:24
+updated: 2026-06-15T09:25
 ---
 - You can use backslash (\\) to escape that character and input as text
 - If you have a print() that has a very long line, you can simply close and reopen the strings in the new line:

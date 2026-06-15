@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-15T09:25
 ---
 Helps with auditing and recording compliance of your AWS resource. It is a fully  managed service that acts as a **resource inventory**, **configuration history**, and **compliance engine** for your AWS environment.
 

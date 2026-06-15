@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-14T14:52
+updated: 2026-06-15T09:25
 ---
 It is an object storage.
 - They should have globally unique name

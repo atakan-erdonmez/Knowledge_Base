@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T09:43
-updated: 2026-06-12T17:41
+updated: 2026-06-15T09:25
 ---
 It provides metrics for every service in AWS. Metric is a variable to monitor like CPU utilization, NetworkIN etc.
 
