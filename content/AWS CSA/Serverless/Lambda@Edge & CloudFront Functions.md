@@ -1,13 +1,13 @@
 ---
 ---
-Edge Function: A code that runs close to users to minimize latency. You run it on CloudFront. You have these 2 options 
+Edge Function: A code that runs close to users to minimize latency. You run it on [[CloudFront]]. You have these 2 options 
 #### CloudFront Functions
 - Lightweight functions written in JavaScript
 - For high-scale, latency-sensitive CDN customizations
 - Sub-ms startup times, millions of request/second
 - Used to change Viewer requests and responses in CDN
 #### Lambda@Edge
-- Lambda functions written in NodeJS or Python
+- [[Lambda]] functions written in NodeJS or Python
 - Scales to 1000s of request/second
 - Can change both viewer and origin requests and responses in CDN
 

@@ -42,7 +42,7 @@ Allows resource in private subnets to connect to internet. It should be launched
 It basically acts like a proxy in your own network. You connect to the NAT instance from private network, and server only sees your NAT instances' IP
 
 ## NAT Gateway
-Fully managed, high availability, higher bandwidth NAT solution. Pay per hour and bandwidth.
+Fully managed, high availability, higher bandwidth NAT solution, for your resources in a private subnet to access the Internet. Pay per hour and bandwidth.
 
 - NATGW is created in AZ, uses Elastic IP. Can't be used by EC2 instance in same subnet
 - Requires IGW (Private subnet => NATGW => IGW)
@@ -60,7 +60,7 @@ It is resilient in a single AZ, but must create multiple gateways in multi AZ fo
 ## Egress-only Internet Gateway
 *Used for IPv6 only*
 
-Similar to NAT Gateway but for IPv6. It allows your IPv6 instances connect to internet, but blocks access *from* the internet.
+Similar to [[#NAT Gateway]] but for IPv6. It allows your IPv6 instances connect to internet, but blocks access *from* the internet.
 - You must update Route Tables
 
 Normally, an instance in a private subnet needs to connect to NAT gateway > Internet GW. If it uses IPv6, it connects to Egress-only IGW without the NATGW

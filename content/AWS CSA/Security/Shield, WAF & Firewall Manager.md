@@ -17,11 +17,11 @@ Optional DDoS mitigation service ($3000 per month per organization)
 Layer 7 protection against common web vulnerabilities
 
 Deploy on:
-- Application Load Balancer
-- API Gateway
-- CloudFront
+- [[Application Load Balancer]]
+- [[API Gateway]]
+- [[CloudFront]]
 - AppSync GraphQL API
-- Cognito User Pool
+- [[Cognito]] User Pool
 
 You can define Web ACL Rules:
 - IP Set: up to 10k IP 
@@ -30,8 +30,8 @@ You can define Web ACL Rules:
 - Rate-based rules - DDoS protection
 
 # Firewall Manager
-Manage rules in all accounts of an AWS Organization. Create common set of security rules:
-- WAF rules, shield advanced, security groups, Network Firewall, Route 53 firewall etc
+Manage rules in all accounts of an [[AWS Organizations]]. Create common set of security rules:
+- WAF rules, shield advanced, security groups, [[Network Firewall]], [[Route 53]] firewall etc
 
 
 # Network Firewall

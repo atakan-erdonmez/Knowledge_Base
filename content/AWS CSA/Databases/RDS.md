@@ -57,6 +57,9 @@ It uses SYNC replication
 > - The Read Replicas can be setup as Multi AZ for Disaster Recovery (DR)
 > - To transfer an RDS from Single-AZ to Multi-AZ, you have to click "modify" and chose multi-AZ option. It is a zero downtime operation.
 
+
+![[multi-az vs read replicas RDS.png]]
+
 # RDS Custom
 
 Managed Oracle and Microsoft SQL Server Database with OS and database customization
@@ -86,3 +89,8 @@ Upgrades to the database engine level require downtime. Even if your Amazon RDS 
 It is a service that monitors management database events, such as failovers, backups, restarts etc. It doesn't capture database modifications like 'INSERT, DELETE' etc.
 
 You can integrate [[SNS]] for notifications or [[Lambda]] for various functions.
+
+## Enhanced Monitoring
+Amazon RDS offers a powerful feature known as **Enhanced Monitoring**, which provides detailed metrics in real-time about the operating system (OS) underlying your database instances. This feature allows users to monitor performance at a granular level through the AWS Management Console or by accessing the Enhanced Monitoring JSON output via CloudWatch Logs. 
+
+By default, these metrics are retained in CloudWatch Logs for 30 days, but this retention period can be adjusted by modifying the retention settings for the `RDSOSMetrics` log group in CloudWatch.

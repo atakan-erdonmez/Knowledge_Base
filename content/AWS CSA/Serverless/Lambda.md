@@ -47,3 +47,9 @@ When you publish a new version, it gets inited and snapshoted for low latency ac
 By default, Lambda functions are out of your VPC (Amazon managed VPC), so it can't access your resources. If you want it in your VPC, you need to define VPC ID, the Subnets and Security Groups.
 
 One of the most common use cases is with [[RDS#RDS Proxy|RDS Proxy]]
+
+## Others
+### ENV Encryption
+When you create or update Lambda functions that use environment variables, AWS Lambda encrypts them using the AWS Key Management Service. When your Lambda function is invoked, those values are decrypted and made available to the Lambda code.
+
+The first time you create or update Lambda functions that use environment variables in a region, a default service key is created for you automatically within AWS KMS. This key is used to encrypt environment variables. However, if you wish to use encryption helpers and use KMS to encrypt environment variables after your Lambda function is created, you must create your own AWS KMS key and choose it instead of the default key. The default key will give errors when chosen. Creating your own key gives you more flexibility, including the ability to create, rotate, disable, and define access controls, and to audit the encryption keys used to protect your data.
