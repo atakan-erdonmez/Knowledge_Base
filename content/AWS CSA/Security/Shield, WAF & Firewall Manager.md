@@ -29,6 +29,8 @@ You can define Web ACL Rules:
 - Size constraints, geo-match
 - Rate-based rules - DDoS protection
 
+Can be used to prevent DDoS attacks 
+
 # Firewall Manager
 Manage rules in all accounts of an [[AWS Organizations]]. Create common set of security rules:
 - WAF rules, shield advanced, security groups, [[Network Firewall]], [[Route 53]] firewall etc

@@ -1,5 +1,7 @@
 ---
 ---
+> For further reading about keys: [[DynamoDB Partition & Sort Key]]
+
 It is a fully managed, highly available NoSQL database. Distributed, scales to massive workloads, replication with multiple AZ.
 
 - Fast and consistent performance (single digit ms)
@@ -31,7 +33,9 @@ Use cases:
 - Real-time usage analytics
 - Insert into derivative tables
 - Implement cross-region replication
-- Invoke AWS Lambda on changes to you DynamoDB
+- Invoke AWS [[Lambda]] on changes to you DynamoDB
+
+
 
 ### Global Tables
 It means that tables that are global will have two-way replication. This makes DynamoDB table accessible with low latency in multiple regions. 

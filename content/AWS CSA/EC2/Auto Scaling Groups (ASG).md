@@ -37,7 +37,7 @@ The goal of an Auto Scaling Group (ASG) is to:
 - Example: I want the average ASG CPU to stay around at 40%
 ##### - Simple / Step Scaling
 - When a CloudWatch alarm is triggered (example CPU > 70%), then add 2 units
-- When a CloudWatch alarm is triggered (example CPU < 30%), then remove 1
+- When a CloudWatch alarm is triggered (example CPU < 30%), then remove 1 unit
 
 ### Scheduled Scaling
 - Anticipate a scaling based on known usage patterns
@@ -56,3 +56,10 @@ The goal of an Auto Scaling Group (ASG) is to:
 If there is a rebalancing of AZs, ASG first launches new instances, then terminates old ones.
 
 If there is an unhealthy instance that will be replaced, the problematic instance will be removed first, then a new instance will be launched.
+
+#### Scale in - Order
+1. AZ with most instances
+2. Instances with oldest launch configurations if any
+3. Instances with oldest launch templates
+4. Instances closest to their next billing hour
+5. Random if there are multiple instances that fits above criteria

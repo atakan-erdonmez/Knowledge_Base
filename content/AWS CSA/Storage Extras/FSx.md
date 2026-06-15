@@ -26,10 +26,12 @@ Lustre is a type of parallel distributed file system, for large-scale computing.
 ## FSx for NetApp ONTAP
 Managed NetApp ONTAP on AWS. (ONTAP is a proprietary OS from NetApp for network systems)
 - File system compatible with NFS, SMB, iSCSI
-- Move workloads running on ONTAP or NAS, works with linux, windows, macos, vmware cloud...
+- Move workloads running on ONTAP or NAS, works with Linux, Windows, macos, vmware cloud...
 - Storage shrinks and grows automatically
 - Snapshots, replication, lost-cost, compression and data de-duplication
 - Point-in-time instantaneous cloning (helpful for testing new workloads)
+
+The Amazon FSx for NetApp ONTAP features Multi-AZ file systems designed to ensure continuous availability across AWS Availability Zones, providing high availability for your Windows Server workloads. It offers consistent sub-millisecond file operation latencies with SSD storage, essential for block storage workloads in Windows environments. FSx for NetApp ONTAP fully supports block storage protocols like iSCSI, commonly used in Windows Server settings, and it works seamlessly with the SMB protocol, ensuring compatibility with Windows Server and related applications.
 
 ## Amazon FSx for OpenZFS
 - File system compatible with NFS (v3, v4, v4.1, v4.2)

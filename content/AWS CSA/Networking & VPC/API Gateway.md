@@ -5,7 +5,7 @@ It is a way for clients to talk to AWS resources. They access the REST API, whic
 > Amazon API Gateway supports stateless RESTful APIs as well as stateful WebSocket APIs.
 
 
->[!Note]
+>[!TIP]
 >API Gateway supports throttling (rate limiting) and caching for increased performance.
 
 

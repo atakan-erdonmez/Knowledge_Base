@@ -34,3 +34,4 @@ Block storage using iSCSI backed by S3.
 # Tape Gateway
 Used for physical tape backup. Same process, but in cloud
 - Virtual Tape Library (VTL) backed to S3 and Glacier, back up using existing tape-based process and iSCSI interface
+- It takes time to upload

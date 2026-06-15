@@ -22,3 +22,13 @@ Collet and store streaming data in **real-time**.
 - Default capacity provisioned (4 MB/s in or 4000 records/s)
 - Scales automatically based on observed throughput in last 30 days
 - Pay per stream hour & data in/our per GB
+
+# Kinesis Data Stream vs [[Amazon Data Firehose]]
+
+|**Feature**|**Kinesis Data Streams (KDS)**|**Kinesis Data Firehose (KDF)**|
+|---|---|---|
+|**Primary Purpose**|**Ingest and process** streaming data in real-time with custom logic.|**Load/Deliver** streaming data directly into storage, data lakes, or analytics tools.|
+|**Latency**|**Real-time** (~200 milliseconds).|**Near-real-time** (minimum 60-second buffer delay).|
+|**Management**|**Provisioned/On-Demand.** You manage scaling via "Shards" (or use auto-scaling modes).|**Serverless.** Fully managed, scales automatically up and down with zero administration.|
+|**Data Retention**|Stores data for 24 hours by default (up to 365 days). Allows multiple apps to replay data.|**No data retention.** It is a pass-through service. Once delivered, the data is gone from the stream.|
+|**Destinations**|Custom consumers (EC2 apps, AWS Lambda, Kinesis Data Analytics).|Specific managed destinations (S3, Redshift, OpenSearch, Splunk, HTTP endpoints).|

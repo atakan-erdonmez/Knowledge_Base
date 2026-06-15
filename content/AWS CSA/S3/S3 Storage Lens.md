@@ -4,7 +4,7 @@ It is a service to understand, analyze and optimize storage across whole AWS org
 - Discover anomalies, identify cost efficiencies, apply data protection best practices
 - Aggregate data for Organization, specific accounts, regions, buckets, or prefixes
 - Default dashboard or custom dashboard
-- Can be configured to export metrics daily to an S3 bucket (CSV, Parquet)
+- Can be configured to export metrics daily to an [[S3]] bucket (CSV, Parquet)
 
 # Metrics
 

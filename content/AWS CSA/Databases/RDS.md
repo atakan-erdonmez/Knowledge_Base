@@ -36,7 +36,7 @@ It is the replication for reading purpose.
 - up to 15 read replicas
 - Within AZ, cross AZ, cross region
 - Replication is ASYNC, reads are consistent
-- These replicas can be promoted to their own DB
+- These replicas can be promoted to their own DB, but requires manual intervention
 
 >[!note]
 > In order to encrypt an existing database, you should take a snapshot of the database, copy it as an encrypted snapshot, and then restore a database from the encrypted snapshot.
