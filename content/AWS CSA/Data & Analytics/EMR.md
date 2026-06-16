@@ -10,7 +10,7 @@ EMR helps creating Hadoop clusters (big data) to analyze and process vast amount
 
 Use cases: data processing, machine learning, web indexing, big data...
 
-
+It generally uses [[Redshift]]
 ### Node Types & Purchasing
 - Master node: Manage the cluster, coordinate, manage health - long running
 - Core node: Run tasks, and store data - long running

@@ -11,3 +11,8 @@ It is layer 7. Load balancing to multiple HTTP applications across machines (tar
 - IP Addresses - must be private IPs
 
 > It has advanced routing policies, it can be based on content
+
+
+>[!Warning]
+>You cannot assign a [[Elastic IP]] to the ALB. It can only be assigned to [[Network Load Balancer]].
+

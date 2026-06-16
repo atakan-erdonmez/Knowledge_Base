@@ -33,3 +33,6 @@ In SNS:
 - HTTPS
 - Platform application endpoint
 - SMS
+
+# Message Filtering
+ By default, an Amazon SNS topic subscriber receives every message published to the topic. You can use Amazon SNS message filtering to assign a filter policy to the topic subscription, and the subscriber will only receive a message that they are interested in.

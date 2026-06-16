@@ -48,3 +48,6 @@ Retention period to recover accidental deletion
 - Setup rules to retention (1 day to 1 year)
 #### Fast Snapshot Restore (FSR)
 - It is a fast snapshot that takes no latency on initialization, expensive
+
+### Data Lifecycle Manager (DLM)
+**Amazon Data Lifecycle Manager (DLM)** automates the creation, retention, and deletion of Amazon Elastic Block Store (EBS) snapshots. It simplifies EBS volume management by allowing you to define policies that govern the lifecycle of these snapshots, ensuring regular backups are created and obsolete snapshots are automatically removed.
