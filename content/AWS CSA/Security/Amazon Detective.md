@@ -1,0 +1,1 @@
+Detective is commonly used to analyze, investigate, and quickly identify the root cause of potential security issues in your AWS workloads, as well as for detecting suspicious activities.

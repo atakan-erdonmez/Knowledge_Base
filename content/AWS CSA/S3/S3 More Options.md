@@ -37,3 +37,9 @@ A job consists of a list of objects, the action to perform, and optional paramet
 > S3 batch operations manages retries, tracks progress, sends completion notifications, generate reports etc
 
 - You can use S3 Inventory to get object list and use Athena to query and filter your objects
+
+# Route 53 Integration
+When integration [[Route 53]] to S3 for static website hosting, the **S3 bucket name must match the domain name exactly**. 
+
+
+> **Why?** When a user types your domain into a browser, Route 53 uses an **Alias record** to point to the S3 website endpoint. When S3 receives the HTTP request, it reads the Host header sent by the browser (e.g., `Host: www.example.com`) and looks for a bucket with that exact name to serve the content. If the names do not match, S3 will return a `404 Not Found` or `Access Denied` error.

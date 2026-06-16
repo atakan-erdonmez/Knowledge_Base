@@ -1,6 +1,6 @@
 ---
 ---
-It is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources.
+It is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources. You pay for what you use.
 
 > Amazon API Gateway supports stateless RESTful APIs as well as stateful WebSocket APIs.
 

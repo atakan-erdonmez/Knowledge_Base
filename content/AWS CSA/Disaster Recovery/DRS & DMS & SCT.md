@@ -15,6 +15,8 @@ Sources can be:
 Targets can be:
 - On premises, RDS, Redshift, S3, Kafka...
 
+>[!note]
+>You can migrate data to Amazon S3 using AWS DMS from any of the supported database sources. When using Amazon S3 as a target in an AWS DMS task, both full load and change data capture (CDC) data is written to comma-separated value (.csv) format by default.
 
 # Schema Conversion Tool (SCT)
 Convert your database's schema from one engine to another
