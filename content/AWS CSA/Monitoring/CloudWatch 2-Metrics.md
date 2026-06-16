@@ -31,7 +31,7 @@ Exist both in standard and detailed monitoring:
 |                           | `StatusCheckFailed_Instance` | Failure due to your OS/Configuration.         |
 |                           | `StatusCheckFailed_System`   | Failure due to AWS hardware/power issues.     |
 
-Exists only in detailed monitoring:
+When a CloudWatch agent is installed, you can also see OS level metrics like:
 - **Memory (RAM):** `mem_used_percent`, `mem_available`, etc.
 - **Disk Utilization:** `disk_used_percent` (how full your actual drive/partition is).
 - **Swap Usage:** `swap_used`.
