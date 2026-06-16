@@ -32,3 +32,7 @@ Prices differ between edge locations and total used data.
 In order to change cached content, it should invalidate. You can wait for TTL or force an entire or partial cache refresh by *CloudFront Invalidation*.
 - You can invalidate all files or special paths/prefixes
 
+
+# Others
+## Response Headers
+CloudFront response headers policies simply tell which HTTP headers should be included or excluded in the responses sent by CloudFront.

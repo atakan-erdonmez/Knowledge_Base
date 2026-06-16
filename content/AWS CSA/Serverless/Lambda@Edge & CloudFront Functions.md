@@ -11,6 +11,7 @@ Edge Function: A code that runs close to users to minimize latency. You run it o
 - Scales to 1000s of request/second
 - Can change both viewer and origin requests and responses in CDN
 
+**Lambda@Edge** allows you to run Lambda functions at the edge locations of the CloudFront CDN. With this, you can perform various tasks, such as modifying HTTP headers, generating dynamic responses, implementing security measures, and customizing content based on user preferences, device type, location, or other criteria.
 
 ## Comparison
 
