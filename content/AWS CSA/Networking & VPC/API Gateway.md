@@ -14,7 +14,7 @@ It is a way for clients to talk to AWS resources. They access the REST API, whic
 - Handle different environments, API versions, and security
 - Transform and validate requests and responses
 
-> Can implement caching for quick & easy performance increase
+> Can implement **caching** for quick & easy performance increase
 ## Integration
 #### Lambda Function
 - Invoke functions

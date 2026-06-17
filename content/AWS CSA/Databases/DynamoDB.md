@@ -68,3 +68,6 @@ Automatically delete items after an expiry timestamp
 - Import CSV, DynamoDB JSON or ION format
 - No affect on write capacity
 - Creates a new table
+
+### AppSync Integration
+You can also use AppSync with DynamoDB to make it easy for you to build collaborative apps that keep shared data updated in real-time. You just specify the data for your app with simple code statements, and AWS AppSync manages everything needed to keep the app data updated in real-time. This will allow your app to access data in Amazon DynamoDB, trigger AWS Lambda functions, or run Amazon OpenSearch Service queries and combine data from these services to provide the exact data you need for your app.
