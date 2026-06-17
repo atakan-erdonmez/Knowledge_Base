@@ -1,6 +1,6 @@
 ---
 ---
-Elastic Block Store is a network drive that you attach. It persists.
+Elastic Block Store is a network drive that you attach to [[EC2]]. It persists.
 They are bound to specific AZ
 Low cost, low performance
 Good for long-term storage
@@ -37,7 +37,7 @@ To encrypt an EBS volume, you need to create a snapshot, copy it and encrypt it,
 
 Or you can take an unencrypted snapshot, create volume from it and while doing that, enable encryption
 ### Snapshots
-Backup of EBS
+Backup of EBS, stored in [[S3]] but not directly accessible through S3.
 Not necessary to detach the volume, but *recommended*
 - You can copy snapshots across AZ or region
 #### Snapshot Features
