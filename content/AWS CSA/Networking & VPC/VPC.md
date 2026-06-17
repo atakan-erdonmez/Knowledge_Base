@@ -8,6 +8,7 @@ Only private IPv4 ranges are allowed
 5 IP addresses are reserved in subnets
 They are bound to AZ
 
+- A subnet can only be associated with one route table at a time
 ## Internet Gateway
 Allows resource in a VPC to connect to the internet. Scales horizontally and highly available
 

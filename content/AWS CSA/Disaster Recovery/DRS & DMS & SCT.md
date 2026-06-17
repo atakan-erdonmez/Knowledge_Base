@@ -7,7 +7,7 @@ It is a continuous block-level replication for your servers. Copy your data into
 
 
 # Database Migration Services (DMS)
-Quickly and securely migrate to AWS, resilient, self-healing. The source database remains available
+Quickly and securely migrate to AWS, resilient, self-healing. The source database remains available. No downtime.
 
 Sources can be:
 - Oracle, MSSQL, MySQL, Postgresq, MongoDB, Azure, RDS, S3...
