@@ -12,7 +12,7 @@ A **VPC endpoint** allows you to privately connect your VPC to supported AWS a
 
 
 #### Interface Endpoint
-It is essentially a virtual network card with a private IP address from your subnet's IP range. It acts as an entry point for traffic destined for a specific service.
+It is essentially a virtual network card with a private IP address from your subnet's IP range. It acts as an entry point for traffic destined for a specific service. It is more expensive than Gateway Endpoint.
 
 #### Gateway Endpoint (preferred)
 It is a target in your VPC Route Table used to reach specific AWS services. It does not use an IP address or a network interface.
