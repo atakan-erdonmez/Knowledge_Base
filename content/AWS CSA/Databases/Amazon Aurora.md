@@ -27,7 +27,7 @@ tags:
 ## Endpoints
 There are writer and reader endpoint.
 
-**Writer endpoint:**
+**Writer endpoint (cluster endpoint):**
 - It will point to the master, which is the only DB that can write to storage
 - Even when master fails over, client will connect to writer endpoint and will be redirected to the new master, providing failover 
 
@@ -82,3 +82,7 @@ It is used to create a new cluster that initially shares the same data, but a se
 ## Additional
 ### Babelfish
 Babelfish allows Aurora PostgreSQL to understand T-SQL (Microsoft SQL Server's query language) and SQL Server wire protocol, enabling applications to communicate with Aurora using SQL Server-style queries with minimal code changes. This is ideal for minimizing application code refactoring.
+
+
+### Parallel Query
+Research

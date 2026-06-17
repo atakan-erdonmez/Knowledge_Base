@@ -15,6 +15,8 @@ Good for long-term storage
 - Amazon EBS encryption uses 256-bit Advanced Encryption Standard algorithms (AES-256)
 
 - EBS Volumes offer 99.999% SLA.
+
+>Maximum backup retention period for automated backup is only 35 days. For longer, you can use [[AWS Backup]]
 ## Volume Types
 There are 6 types of volumes
 1. **gp2/gp3 (SSD):** General purpose SSD, price-performance 
