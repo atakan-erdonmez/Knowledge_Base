@@ -36,3 +36,6 @@ In order to change cached content, it should invalidate. You can wait for TTL or
 # Others
 ## Response Headers
 CloudFront response headers policies simply tell which HTTP headers should be included or excluded in the responses sent by CloudFront.
+
+### Origin Access Control (OAC)
+**Origin Access Control (OAC)** is an AWS CloudFront security feature that locks down backend origins, most commonly S3 buckets or Lambda Function URLs, so they can only be accessed through your CDN, preventing users from bypassing CloudFront to reach your data directly. It secures this pipeline by automatically signing requests using AWS Signature Version 4 (SigV4), which allows the origin to verify CloudFront's identity via a bucket policy and reject all other traffic. As the modern successor to Origin Access Identity (OAI), OAC introduces critical enterprise upgrades, including full support for SSE-KMS encrypted buckets, newer AWS regions, and dynamic HTTP methods like `PUT` and `DELETE`.
