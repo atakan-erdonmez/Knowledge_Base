@@ -1,0 +1,3 @@
+**AWS License Manager** is a service that makes it easier for you to **manage your software licenses** from software vendors (for example, Microsoft, SAP, Oracle, and IBM) centrally across AWS and your on-premises environments. This provides control and visibility into the usage of your licenses, enabling you to limit licensing overages and reduce the risk of non-compliance and misreporting.
+
+As you build out your cloud infrastructure on AWS, you can save costs by using Bring Your Own License model (BYOL) opportunities. That is, you can re-purpose your existing license inventory for use with your cloud resources.

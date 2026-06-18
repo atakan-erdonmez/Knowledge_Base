@@ -10,8 +10,8 @@
 - Enabled by default for new buckets & objects
 #### SSE with KMS Key Stored in AWS KWS (SSE-KMS)
 - Leverage AWS Key Management Service to manage encryption keys
-- Manager your own keys using AWS KMS (Key Management System)
--  KMS advantages: user control + **audit key usage using CloudTrail**
+- Manager your own keys using AWS [[KMS (Key Management Service)]]
+-  KMS advantages: user control + **audit key usage using [[CloudTrail]]**
 - Header: "x-amz-server-side-encryption":"aws:kms"
 - You have a default key already
 - Automatically **rotates keys**.
