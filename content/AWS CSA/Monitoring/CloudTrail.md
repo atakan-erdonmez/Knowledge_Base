@@ -15,7 +15,7 @@ Provides governance, compliance and audit for your AWS Account, enabled by defau
 #### Management Events
 Operations that are performed on resources in your AWS account. Examples:
 	- Configuring security ([[IAM]] AttachRolePolicy)
-	- Configuring rules for routing data (Amazon [[EC2]] CreateSubnet)
+	- Configuring rules for routing data (Amazon [[00_KnowledgeBase/AWS CSA/EC2/EC2]] CreateSubnet)
 	- Setting up logging (AWS [[CloudTrail]] CreateTrail)
 
 - By Default, trails are configured to log management events.
