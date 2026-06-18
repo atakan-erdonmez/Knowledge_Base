@@ -1,5 +1,8 @@
 ---
+tags:
+  - database
 ---
+
 # OLTP (Online Transaction Processing)
 They are relational databases for frequent read and writes. They are optimized for fast queries, which are regular and predictable. They require memory for keeping frequently access data.
 
