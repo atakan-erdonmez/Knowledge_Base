@@ -1,7 +1,9 @@
 ---
 ---
-Easy way to set up and govern a secure and compliant multi-account AWS environment 
-It uses [[AWS Organizations]] to create accounts
+Offers a straightforward way to set up and govern an AWS multi-account environment, following prescriptive best practices. AWS Control Tower orchestrates the capabilities of several other AWS services, including [[AWS Organizations]], AWS Service Catalog, and AWS [[IAM]] Identity Center, to build a landing zone in less than an hour
+
+It offers a **dashboard** to see provisioned accounts across your enterprise, guardrails enabled for policy enforcement, guardrails enabled for continuous detection of policy non-conformance, and non-compliant resources organized by accounts and OUs.
+
 
 - Integrated security and compliance features like Service Control Policies (SCPs) and [[AWS Config]] rules. 
 - By setting up a centralized VPC in a shared networking account, you can manage and distribute network resources across accounts using AWS Resource Access Manager (AWS RAM). 
@@ -15,6 +17,7 @@ Benefits:
 - Monitor compliance through an interactive dashboard
 
 ### Guardrails
-Provides ongoing governance for you ControlTower environment
+A guardrail is a high-level rule that provides ongoing governance for your overall AWS environment. It’s expressed in plain language. Through guardrails, AWS Control Tower implements _preventive_ or *detective* controls that help you govern your resources and monitor compliance across groups of AWS accounts.
+
 - Preventative Guardrail: Using SCPs (restrict region across all your accounts)
 - Detective Guardrail: using [[AWS Config]] (identify untagged resources)
