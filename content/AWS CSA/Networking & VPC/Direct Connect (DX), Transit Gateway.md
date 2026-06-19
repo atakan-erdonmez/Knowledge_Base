@@ -2,6 +2,8 @@
 tags:
   - network
   - VPN
+  - aws
+  - vpc
 ---
 # Direct Connect (DX)
 
@@ -23,7 +25,13 @@ After establishing a DX, you can use a DX Gateway to access more VPC on differen
 
 
 # Transit Gateway
-It is for peering for thousands of VPC and on-premises connections. You connect network resources like VPCs, VPN Connections, Direct Connect etc and everything will be able to access everything, no manual peering required.
+It is for peering for thousands of [[VPC]] and **on-premises** connections. You connect network resources like:
+- VPCs
+- VPN Connections
+- [[Direct Connect (DX), Transit Gateway|Direct Connect]]
+- Transit Gateway peering connections
+and everything will be able to access everything, no manual peering required.
+
 
 - Supports cross account and cross region
 - Supports IP Multicast (not supported by any other AWS service)

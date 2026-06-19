@@ -1,6 +1,6 @@
 ---
 ---
-Offers a straightforward way to set up and govern an AWS multi-account environment, following prescriptive best practices. AWS Control Tower orchestrates the capabilities of several other AWS services, including [[AWS Organizations]], AWS Service Catalog, and AWS [[IAM]] Identity Center, to build a landing zone in less than an hour
+Offers a straightforward way to set up and govern an AWS multi-account environment, following prescriptive best practices. AWS Control Tower orchestrates the capabilities of several other AWS services, including [[AWS Organizations]], AWS Service Catalog, and AWS [[IAM Identity Center]], to build a landing zone in less than an hour
 
 It offers a **dashboard** to see provisioned accounts across your enterprise, guardrails enabled for policy enforcement, guardrails enabled for continuous detection of policy non-conformance, and non-compliant resources organized by accounts and OUs.
 
