@@ -35,9 +35,13 @@ The goal of an Auto Scaling Group (ASG) is to:
 ##### - Target Tracking Scaling
 - Simple to set up
 - Example: I want the average ASG CPU to stay around at 40%
-##### - Simple / Step Scaling
-- When a CloudWatch alarm is triggered (example CPU > 70%), then add 2 units
-- When a CloudWatch alarm is triggered (example CPU < 30%), then remove 1 unit
+##### - Step Scaling
+- Use multiple steps
+- If CPU utilization is between 50-70, launch 2 instances, if 70+ launch 4 instances
+
+##### - Simple Scaling
+- Not used much, mostly replaced with Step Scaling
+- Can only specify one metric step (if CPU > 70%, add 2 instances)
 
 ### Scheduled Scaling
 - Anticipate a scaling based on known usage patterns

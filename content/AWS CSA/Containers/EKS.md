@@ -4,6 +4,15 @@ tags:
   - kubernetes
   - container
 ---
+# Auto Scaling
+Amazon EKS supports two autoscaling products:
+
+- Karpenter
+- Cluster Autoscaler
+
+The Kubernetes Cluster Autoscaler automatically adjusts the number of nodes in your cluster when pods fail or are rescheduled onto other nodes. The Cluster Autoscaler uses Auto Scaling groups.
+
+Karpenter is a flexible, high-performance Kubernetes cluster autoscaler that launches appropriately sized compute resources, like Amazon EC2 instances, in response to changing application load. It integrates with AWS to provision compute resources that precisely match workload requirements.
 
 # EKS Anywhere
 EKS Anywhere is a deployment option for Amazon Elastic Kubernetes Service (EKS) that allows you to create and manage Kubernetes clusters on your own infrastructure — such as on-premises servers or edge locations, outside of AWS. 

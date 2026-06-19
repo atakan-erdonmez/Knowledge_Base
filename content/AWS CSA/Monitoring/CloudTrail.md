@@ -8,7 +8,8 @@ Provides governance, compliance and audit for your AWS Account, enabled by defau
 	- SDK
 	- CLI
 	- AWS Services 
-- You can put logs from CloudTrail into [[CloudWatch 1-Logs|CloudWatch Logs]] or [[S3]]
+- You can put logs from CloudTrail into [[CloudWatch 1-Logs|CloudWatch Logs]] or [[S3]], which are **encrypted by default**
+
 
 ## Event Types
 

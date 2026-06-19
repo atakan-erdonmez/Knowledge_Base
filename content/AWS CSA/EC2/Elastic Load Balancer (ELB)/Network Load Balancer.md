@@ -11,3 +11,5 @@ It is Layer 4 LB
 - IP addresses - must be private IPs
 - Application Load Balancer
 - Health Checks support the *TCP, HTTP, and HTTPS protocol*
+
+> NLB doesn't have weighted target groups

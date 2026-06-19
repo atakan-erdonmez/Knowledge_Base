@@ -39,6 +39,8 @@ When a consumer requests a message and queue is empty, it can wait for messages,
 
 It decreases API calls to increase efficiency and reduce latency. 1-20 sec
 
+The 'ReceiveMessageWaitTimeSeconds' is the queue attribute that determines whether you are using Short or Long polling. By default, its value is zero which means it is using Short polling. If it is set to a value greater than zero, then it is Long polling.
+
 
 # FIFO Queues
 FIFO = First In First Out (ordering of messages)
