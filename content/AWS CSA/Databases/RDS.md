@@ -94,3 +94,8 @@ You can integrate [[SNS]] for notifications or [[Lambda]] for various functions.
 Amazon RDS offers a powerful feature known as **Enhanced Monitoring**, which provides detailed metrics in real-time about the operating system (OS) underlying your database instances. This feature allows users to monitor performance at a granular level through the AWS Management Console or by accessing the Enhanced Monitoring JSON output via CloudWatch Logs. 
 
 By default, these metrics are retained in CloudWatch Logs for 30 days, but this retention period can be adjusted by modifying the retention settings for the `RDSOSMetrics` log group in CloudWatch.
+
+It shows these and more:
+- OS processes
+- RDS processes
+- RDS child processes

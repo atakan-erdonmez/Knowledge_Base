@@ -10,6 +10,9 @@ Collet and store streaming data in **real-time**.
 - Kinesis Producer Library (KPL) to write an optimized producer app
 - Kinesis Client Library (KCL) to write an optimized consumer application
 
+
+> A Kinesis data stream is composed of shards, where each shard stores a sequence of ordered data records. Each record written to the stream is assigned a **unique sequence number**, which allows consumers to process records in the **exact order in which they were received** within a shard. In addition, records are durably stored and replicated across multiple Availability Zones within the same AWS Region, helping ensure that data is not lost even if failures occur.
+
 ## Capacity Modes
 #### Provisioned mode
 - Choose number of **shards** (how much throughput)

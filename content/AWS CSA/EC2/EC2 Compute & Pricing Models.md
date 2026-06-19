@@ -5,7 +5,7 @@ On-Demand is the default, most flexible, and highest-cost pricing model for EC2.
 ### Reserved Instances (RIs)
 
 Reserved Instances are a discount mechanism where you commit to a specific instance configuration (family, size, region, OS, tenancy) for a **1-year or 3-year term** in exchange for savings up to 72% over On-Demand rates. Standard RIs are rigid but offer the deepest discounts, while Convertible RIs allow you to change instance attributes during the term if the new configuration is of equal or greater value. Zonal RIs offer a physical capacity reservation in a specific Availability Zone, whereas Regional RIs offer broader billing optimization across an entire region without capacity guarantees.
-
+Tou
 ### Savings Plans
 
 Savings Plans are a modern, highly flexible commitment model that reduces your AWS bill when you pledge to spend a consistent **monetary amount per hour** (e.g., $10/hour) for a 1-year or 3-year term. Unlike RIs, which tie you to specific infrastructure attributes, Savings Plans automatically apply discounts across changing instance families, sizes, operating systems, regions, and even shift seamlessly between EC2, AWS Fargate, and AWS Lambda when utilizing a _Compute Savings Plan_. They offer up to 72% savings, matching the financial benefits of RIs but vastly simplifying ongoing management across elastic or evolving modern architectures.

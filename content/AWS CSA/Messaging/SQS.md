@@ -48,3 +48,6 @@ Producer will send messages in order, consumer will poll them in order.
 - Limited throughput: 300msg/s w/o batching, 3000msg/s w/ batching
 - Exactly-once send capability (removes duplicates)
 
+# Dead Letter Queue (DLQ)
+
+It is a specific queue for failed messages. When a worker fails to process a message a specified number of times (defined by the **maxReceiveCount** in the redrive policy), SQS automatically moves that message out of the main queue and into the DLQ. This prevents broken or malformed messages from perpetually blocking your system ("poison pill" scenarios) and allows developers to inspect, debug, and reprocess the failures later without losing data.

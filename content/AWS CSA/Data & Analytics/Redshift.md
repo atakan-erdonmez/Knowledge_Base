@@ -18,6 +18,9 @@ Has multi-AZ mode for some clusters
 - You can restore a snapshot into a new cluster
 - Automated (every 8 hours, every 5GB, or on a schedule) or manual retainment
 
+#### Cross-Region Snapshots
+You can enable this feature to automatically copy snapshots to another region. You need to enable this feature in each cluster and configure where to copy the snapshots and for how long.
+
 ## Redshift Spectrum
 Query data that is already in [[S3]] without loading it. The query is then submitted to thousands of Redshift Spectrum notes
 
