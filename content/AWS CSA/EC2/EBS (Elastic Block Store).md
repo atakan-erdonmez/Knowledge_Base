@@ -34,10 +34,17 @@ There are 6 types of volumes
 ### EBS Encryption
 - Has minimal impact on latency
 - Leverages keys from KMS (AES-256)
-
-To encrypt an EBS volume, you need to create a snapshot, copy it and encrypt it, then create a volume from it
-
+##### How to Encrypt
+To encrypt an EBS volume, you need to create a snapshot, copy it and encrypt it, then create a volume from it. 
 Or you can take an unencrypted snapshot, create volume from it and while doing that, enable encryption
+
+
+##### Encryption Coverage
+When you create an encrypted EBS volume and attach it to a supported instance type, the following types of data are encrypted:
+- Data at rest inside the volume
+- All data moving between the volume and the instance
+- All snapshots created from the volume
+- All volumes created from those snapshots
 ### Snapshots
 Backup of EBS, stored in [[S3]] but not directly accessible through S3.
 Not necessary to detach the volume, but *recommended*
@@ -45,6 +52,7 @@ Not necessary to detach the volume, but *recommended*
 #### Snapshot Features
 - EBS Snapshot Archive: Move snapshot to "archive" tier which is %75 cheaper
 - Takes within 24-72 hours for restoring the archive
+- You can use the EBS volume while taking the snapshot
 #### Recycle Bin for EBS Snapshots
 Retention period to recover accidental deletion
 - Setup rules to retention (1 day to 1 year)

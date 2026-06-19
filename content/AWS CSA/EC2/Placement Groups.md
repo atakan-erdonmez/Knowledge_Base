@@ -1,4 +1,7 @@
 ---
+tags:
+  - aws
+  - ec2
 ---
 Sometimes you want control over the EC2 Instance placement strategy
 That strategy can be defined using placement groups

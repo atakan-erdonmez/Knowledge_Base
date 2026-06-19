@@ -1,4 +1,8 @@
 ---
+tags:
+  - aws
+  - s3
+  - storage
 ---
 # MFA Delete
 It is additional security when you want to do destructive actions, like permanently delete an object version, or SuspendVersioning on the bucket.
@@ -26,7 +30,7 @@ It locks your Glacier vault, so you or anyone can **never** delete an object. Va
 - Adopts WORM model (Write Once Read Many)
 - Helpful for compliance and data
 
-## S3 Object Lock
+# S3 Object Lock
 > Versioning must be enabled
 
 It blocks an object version deletion for a specified amount of time. There are 2 modes:

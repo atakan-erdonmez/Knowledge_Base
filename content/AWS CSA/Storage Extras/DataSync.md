@@ -24,5 +24,4 @@ DataSync can transfer hundreds of terabytes and millions of files at speeds up t
 
 
 
-> [!question] About the usage
-> As far as I understand, it is best for continuous backups and sync process. [[S3]] Transfer Acceleration & Multi-part Upload is faster, so that should be preferred for one-time uploads.
+

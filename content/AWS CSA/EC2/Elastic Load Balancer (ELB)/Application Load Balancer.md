@@ -16,3 +16,11 @@ It is layer 7. Load balancing to multiple HTTP applications across machines (tar
 >[!Warning]
 >You cannot assign a [[Elastic IP]] to the ALB. It can only be assigned to [[Network Load Balancer]].
 
+### Conditions to Filter
+ALB can filter based on:
+- Host Header
+- Path Pattern
+- Source IP
+- HTTP Header
+- HTTP Request Method
+- Query String
