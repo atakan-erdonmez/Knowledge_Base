@@ -16,6 +16,7 @@
 - You have a default key already
 - Automatically **rotates keys**.
 - Only encrypts objects, not metadata
+- You can have Single-Region keys and Multi-Region keys. They cannot be converted to each other, you would need to create a new bucket for that.
 
 
 >[!INFO]
