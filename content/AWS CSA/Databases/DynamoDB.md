@@ -4,6 +4,8 @@
 
 It is a fully managed, highly available NoSQL database. Distributed, scales to massive workloads, replication with multiple AZ.
 
+Provides single-digit millisecond latency for reads and writes at any scale
+
 - Fast and consistent performance (single digit ms)
 - Low cost and auto scaling
 - No maintenance or patching, always available

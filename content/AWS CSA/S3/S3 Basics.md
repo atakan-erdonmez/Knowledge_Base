@@ -54,4 +54,11 @@ When you delete a file, it will create a delete marker. To completely remove tha
 - Copying is ASYNC 
 > After you enable Replication, only new objects are replicated. To replicate existing, use *S3 Batch Replication*.
 
+
+To enable the cross-region replication feature in S3, the following items should be met:
+
+1. The source and destination buckets must have versioning enabled.
+2. The source and destination buckets must be in different AWS Regions.
+3. Amazon S3 must have permission to replicate objects from that source bucket to the destination bucket on your behalf.
+
 - Only delete markers are replicated, not actual 'deletes'

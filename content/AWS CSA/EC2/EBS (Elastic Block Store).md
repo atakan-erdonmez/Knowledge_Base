@@ -45,6 +45,15 @@ When you create an encrypted EBS volume and attach it to a supported instance ty
 - All data moving between the volume and the instance
 - All snapshots created from the volume
 - All volumes created from those snapshots
+
+##### Encryption by Default
+You can configure your AWS account to enforce the encryption of the new EBS volumes and snapshot copies that you create. For example, Amazon EBS encrypts the EBS volumes created when you launch an instance and the snapshots that you copy from an unencrypted snapshot.
+
+Encryption by default has no effect on existing EBS volumes or snapshots. The following are important considerations in EBS encryption:
+
+- Encryption by default is a Region-specific setting. If you enable it for a Region, you cannot disable it for individual volumes or snapshots in that Region.
+- When you enable encryption by default, you can launch an instance only if the instance type supports EBS encryption.
+- Amazon EBS does not support asymmetric KMS keys.
 ### Snapshots
 Backup of EBS, stored in [[S3]] but not directly accessible through S3.
 Not necessary to detach the volume, but *recommended*

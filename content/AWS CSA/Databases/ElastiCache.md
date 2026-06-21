@@ -10,6 +10,8 @@ It is a managed Redis or Memcached
 
 It can be used for session data, in user -> multiple sessions and apps
 
+
+> Memcached supports Auto Discovery & multithreading
 ## Patterns
 - **Lazy Loading**: all the read data is cached, data can become stale in cache
 - **Write Through:** Adds or update data in the cache when written to a DB (no stale data)

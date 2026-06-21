@@ -8,6 +8,7 @@ For example, you can:
 - Create S3 Buckets
 and so on.
 
+> Only the "Resources" section is mandatory.
 
 **Benefits**: 
 - IaC

@@ -25,11 +25,12 @@ Use cases: Big data analytics, mobile & gaming applications, content distributio
 - For less frequently accessed data, but requires rapid access when needed
 - Lower cost than S3 standard
 Use cases: Disaster recovery, backups
-
+> Min storage duration: 30 days
 ### S3 One Zone - Infrequent Access
 - High durability in a single AZ, data lost when AZ is destroyed
 - 99.5% availability
 Use cases: Storing secondary backup copies of on-premise data, or creatable  
+> Min storage duration: 30 days
 
 ## S3 Glacier Storage Classes
 - Low-cost object storage meant for archiving / backup
