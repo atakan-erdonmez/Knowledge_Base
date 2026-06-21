@@ -37,10 +37,13 @@ A container for records that define how to route traffic to a domain and its sub
 
 Route 53 Resolver is the main component that you create while using Route 53.
 
-<mark style="background: #FFF3A3A6;">When you want to connect your on-premise DNS server to Route 53, you need a *Resolver Inbound Endpoint*. This resolver endpoint will talk to main resolver.</mark>
+### Resolver Inbound Endpoint
+- **The Direction:** Traffic flows **into** AWS.  
+- **The Purpose:** Allows your **on-premises servers** to resolve private AWS resources (like EC2 instances, RDS databases, or Route 53 Private Hosted Zones).
 
-
-<mark style="background: #FFF3A3A6;">When you have an internal on-prem application and you need to resolve DNS queries from AWS to your on-prem, you set a Route 53 Resolver outbound endpoint.</mark>
+### Resolver Outbound Endpoint
+- **The Direction:** Traffic flows **out** of AWS.
+- **The Purpose:** Allows **AWS resources** (like EC2 instances) to resolve private domains hosted on your on-premises network (e.g., `server.company.local`). AWS can access your on-prem app
 
 # Traffic Flow
 It is a console-based graphical interface that allows to visualize complex combinations of routing policies as you build them.

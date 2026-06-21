@@ -20,6 +20,8 @@ S3 is quite durable, and all storage classes have same durability
 
 Use cases: Big data analytics, mobile & gaming applications, content distribution...
 
+> Min storage duration (to other S3 tiers): 30 days
+> Min storage duration (to Glacier): 0 days
 ### S3 Standard - Infrequent Access
 - 99.9% availability
 - For less frequently accessed data, but requires rapid access when needed
