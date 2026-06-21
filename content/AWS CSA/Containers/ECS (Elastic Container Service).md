@@ -30,3 +30,21 @@ Priced on vCPU and memory
 You can mount EFS onto ECS tasks. Works with EC2 and Fargate
 - Use cases: Persistent multi-az shared storage
 - S3 cannot be mounted as filesystem
+
+## Monitoring
+**The following metrics are available for instances:**
+- CPU Utilization
+- Disk Reads
+- Disk Read Operations
+- Disk Writes
+- Disk Write Operations
+- Network In
+- Network Out
+- Status Check Failed (Any)
+- Status Check Failed (Instance)
+- Status Check Failed (System)
+- 
+**The following metrics are available for ECS Service:**
+- **ECSServiceAverageCPUUtilization**—Average CPU utilization of the service.
+- **ECSServiceAverageMemoryUtilization**—Average memory utilization of the service.
+- **ALBRequestCountPerTarget**—Number of requests completed per target in an Application Load Balancer target group.
