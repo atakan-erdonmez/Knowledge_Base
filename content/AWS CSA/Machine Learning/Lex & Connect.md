@@ -1,7 +1,7 @@
 ---
 ---
 ### Amazon Lex
-Same technology that powers Alexa
+Same technology that powers Alexa. It is used to create chatbots easily.
 - **Automatic Speech Recognition (ASR)** to convert speech to text
 - Natural Language Understanding to recognize the intent of text, callers
 - Build conversational bots - chatbots

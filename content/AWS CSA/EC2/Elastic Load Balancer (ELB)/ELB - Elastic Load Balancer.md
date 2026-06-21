@@ -3,8 +3,11 @@
 It is a managed load balancer
 - AWS guarantees that it will be working
 - AWS take care of upgrades, maintenance, high availability. Only a few config knobs
+- They are regional services
+
 
 > Health checks are crucial. Load balancer generally uses a port and an endpoint (like /health) to check.
+
 
 # Types of ELB
 - **[[Application Load Balancer]]**: v2 new gen, HTTP, HTTPS, WebSocket
@@ -25,9 +28,6 @@ It works for Classic Load Balancer, Application Load Balancer and Network Load B
 >Both Load Balancer and Target Group has sticky sessions. 
 >- When you set stickiness in load balancer (which is done in the listener), it sticks to the same **Target Group**. 
 >- When you set stickiness in target group, it sticks to the **same instance**.
-
-
-
 
 
 **Use case:** To make sure the user doesn't lose his session data. But this might bring imbalance to the load over the backend EC2 instances
