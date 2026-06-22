@@ -10,3 +10,6 @@ A managed Apache Cassandra-compatible database service
 - On-demand/provisioned mode, encryption, backup, PIRT upto 35days
 
 Use cases: IoT devices, time series data...
+
+
+> For high-velocity, high-volume data with flexible schemas
