@@ -12,6 +12,7 @@ Can synchronize to:
 - Replication tasks can be scheduled hourly, daily, weekly
 - File permissions and metadata are preserved
 
+---
 
 **AWS DataSync** makes it **simple and fast** to move **large amounts of data** online between on-premises storage and Amazon S3, Amazon Elastic File System (Amazon EFS), or Amazon FSx for Windows File Server. Manual tasks related to data transfers can slow down migrations and burden IT operations. DataSync eliminates or automatically handles many of these tasks, including scripting copy jobs, scheduling, and monitoring transfers, validating data, and optimizing network utilization. The DataSync software agent connects to your Network File System (NFS), Server Message Block (SMB) storage, and your self-managed object storage, so you don’t have to modify your applications.
 

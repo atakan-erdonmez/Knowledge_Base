@@ -6,7 +6,7 @@ It offers a **dashboard** to see provisioned accounts across your enterprise, gu
 
 
 - Integrated security and compliance features like Service Control Policies (SCPs) and [[AWS Config]] rules. 
-- By setting up a centralized VPC in a shared networking account, you can manage and distribute network resources across accounts using AWS Resource Access Manager (AWS RAM). 
+- By setting up a centralized VPC in a shared networking account, you can manage and distribute network resources across accounts using AWS [[Resource Access Manager (RAM)]]. 
 
 
 

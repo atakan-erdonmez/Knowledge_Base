@@ -22,8 +22,6 @@ Specify read-writes beforehand. Pay for provisioned RCU (Read Capacity Units) an
 ### On-Demand Mode
 Automatic scaling. Much more expensive. Great for *unpredictable workloads* and *sudden spikes*
 
-
-
 ## Features
 ### DynamoDB Accelerator (DAX)
 Fully-managed, highly available, seamless in-memory cache. Help solve read congestion, *microsecond latency*. Doesn't require application logic modification. TTL=5 min by default
@@ -36,7 +34,6 @@ Use cases:
 - Insert into derivative tables
 - Implement cross-region replication
 - Invoke AWS [[Lambda]] on changes to you DynamoDB
-
 
 
 ### Global Tables
