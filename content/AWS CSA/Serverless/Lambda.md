@@ -48,6 +48,12 @@ By default, Lambda functions are out of your VPC (Amazon managed VPC), so it can
 
 One of the most common use cases is with [[RDS#RDS Proxy|RDS Proxy]]
 
+
+## IAM Integration
+In [[IAM]], you can have both resource-based policies and  execution roles. 
+
+- Resource based policies dictate *who* can invoke the function
+- Execution roles dictate *what* can the function do
 ## Others
 ### ENV Encryption
 When you create or update Lambda functions that use environment variables, AWS Lambda encrypts them using the AWS Key Management Service. When your Lambda function is invoked, those values are decrypted and made available to the Lambda code.
