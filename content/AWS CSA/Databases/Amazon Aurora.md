@@ -64,6 +64,8 @@ You can set up auto scaling, so read replicas will be scaled accordingly. Reader
 You create a custom endpoint to cover some replicas. Like if you have 2 stronger instances, you can redirect them to your custom endpoint for running analytical queries
 ## Serverless 
 Automated database instantiation. Good for infrequent, intermittent or unpredictable workload
+> Great for improving **write** capacity
+
 - No capacity planning needed
 - Pay per second, can be more cost-effective
 > One ACU (Aurora Capacity Point) is 2 GiB of memory.

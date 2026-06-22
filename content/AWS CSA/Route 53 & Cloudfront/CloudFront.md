@@ -1,5 +1,3 @@
----
----
 It is the CDN. Improves read performance by caching the content at the edge.
 
 It has multiple origins (sources):

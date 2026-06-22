@@ -1,6 +1,6 @@
 ---
 ---
-Identity and Access management, Global service
+Identity and Access management, Global service (no need to create a new IAM role in a new region)
 
 You can use groups. One user can be in multiple groups. Groups can't include other groups
 ## IAM Policies Structure
