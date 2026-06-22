@@ -5,7 +5,6 @@ Launch 3rd party high-performance file systems on AWS. Fully managed service
 - FSx for Windows File Server
 - FSx for NetApp ONTAP
 - FSx for OpenZFS
-
 ## FSx for Windows File Server
 Fully managed Windows file system shared drive.
 - Supports SMB & Windows NTFS
@@ -37,6 +36,9 @@ Managed NetApp ONTAP on AWS. (ONTAP is a proprietary OS from NetApp for network 
 - Point-in-time instantaneous cloning (helpful for testing new workloads)
 
 The Amazon FSx for NetApp ONTAP features Multi-AZ file systems designed to ensure continuous availability across AWS Availability Zones, providing high availability for your Windows Server workloads. It offers consistent sub-millisecond file operation latencies with SSD storage, essential for block storage workloads in Windows environments. FSx for NetApp ONTAP fully supports block storage protocols like iSCSI, commonly used in Windows Server settings, and it works seamlessly with the SMB protocol, ensuring compatibility with Windows Server and related applications.
+
+#### NetApp SnapMirror
+The NetApp SnapMirror replication solution is built into NetApp ONTAP for Business Continuity and Disaster Recovery (BCDR) purposes, and it is built on ONTAP snapshots technology. You can use SnapMirror to replicate data from a source FSx for ONTAP file system to the destination FSx for ONTAP file system.
 
 ## Amazon FSx for OpenZFS
 - File system compatible with NFS (v3, v4, v4.1, v4.2)

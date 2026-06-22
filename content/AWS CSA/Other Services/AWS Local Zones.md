@@ -1,0 +1,3 @@
+**AWS Local Zones** are a type of AWS infrastructure deployment that places compute, storage, database, and other select services closer to large population, industry, and IT centers, enabling you to deliver applications that require single-digit millisecond latency to end-users.
+
+Local Zones bring AWS closer or within a customer’s geographic boundary in a fully AWS-owned and operated mode and can, therefore, help meet data residency requirements. If an AWS Region is not within the desired geo-political boundary but a Local Zone is available and is able to meet your residency requirements in a geographical area, then choose the Local Zone for your regulatory and compliance needs.
