@@ -22,6 +22,8 @@ It uses edge locations to increase transfer speed. You upload the file to a clos
 - Compatible with multi-part upload
 - Decrease the travel over Internet
 
+It is great for **users that are far from bucket**. Improves both download and upload. Uses [[CloudFront]] network with edge locations. 
+- If files up/downloaded are smaller than 1GB, it is better to use [[CloudFront]]'s PUT/POST commands for optimal performance.
 
 ## S3 Byte-Range Fetches
 It works by parallelizing GETs by requesting specific byte ranges.

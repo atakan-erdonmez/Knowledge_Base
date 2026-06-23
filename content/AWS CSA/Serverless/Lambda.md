@@ -1,12 +1,13 @@
 ---
 ---
+
 | EC2                        | Lambda                                   |
 | -------------------------- | ---------------------------------------- |
 | Virtual servers            | Virtual functions - no servers to manage |
 | Limited by RAM and CPU     | Limited by time - short executions       |
 | Continuously running       | Run on-demand                            |
 | Scaling means intervention | Scaling is automated                     |
-
+It is great for **event-driven functions**
 ## Advantages
 - Easy pricing with pay per request and compute time
 - Integrated with whole AWS suite, supports many programming languages

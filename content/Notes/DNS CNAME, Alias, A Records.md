@@ -5,8 +5,9 @@ tags:
 ---
 [[DNS Zone Apex Record]], [[Why You Can't Use CNAME at the Apex]]
 
-CNAME record is just used for subdomains: 
-- `www.example.com -> example.com`
+CNAME record is just used to direct DNS queries to another domains: 
+- `www.example.com -> example.com` OR
+- `test.com -> google.com`
 A & AAAA records are just for IP addresses
 - `example.com -> 8.8.8.8`
 
@@ -15,3 +16,6 @@ Alias is a middle ground. It is used in certain DNS providers like Cloudflare an
 
 > [!Warning]
 > Since you cannot use CNAME records in zone apex, aliases solve this limitation.
+
+
+![[CNAME vs Alias.png]]

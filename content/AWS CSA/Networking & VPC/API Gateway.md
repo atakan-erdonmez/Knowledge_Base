@@ -43,3 +43,7 @@ It is a way for clients to talk to AWS resources. They access the REST API, whic
 API Gateway supports resource policies, which are [[IAM]]-style JSON policies that you attach directly to your REST or HTTP APIs. These policies can use IpAddress and NotIpAddress conditions to enforce fine-grained network controls. 
 
 By configuring a policy that explicitly denies all IPs except for the trusted internal IP ranges, the company can ensure that only requests originating from its internal network are allowed to invoke the API.
+
+
+## OIDC-Compliance & JWT
+Amazon API Gateway HTTP APIs support native JWT authorizers, allowing developers to configure the API to automatically validate JWT tokens issued by an OIDC-compliant identity provider, such as Auth0, Okta, or Amazon Cognito. This eliminates the need for custom authentication logic in Lambda functions and reduces both latency and cost. HTTP APIs are optimized for low-latency, high-performance workloads and are more cost-effective than REST APIs, making them ideal for modern, serverless applications that require standard JWT validation and claim-based access control.

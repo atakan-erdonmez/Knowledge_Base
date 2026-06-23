@@ -1,0 +1,1 @@
+AWS App Runner provides simple deployment from source code or container images and supports Python apps via containerized runtimes.

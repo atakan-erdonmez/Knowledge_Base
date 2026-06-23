@@ -50,7 +50,7 @@ Note: Read replicas are only used for SELECT statements
 
 # Multi AZ (Disaster Recovery)
 It uses SYNC replication
-- One DNS name - automatic app failover to standby
+- One DNS name - automatic app failover to standby (failover generally takes 1-2 minutes)
 - NOT USED FOR SCALING. The backup DB is not used. It activates only when master fails
 
 > [!deneme] Common Exam Questions
