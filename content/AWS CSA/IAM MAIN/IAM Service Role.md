@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[!NEW_Tags/iam|iam]]"
+  - "[[iam"
 ---
 A service role is an IAM role that a service assumes to perform actions on your behalf. Service roles provide access only within your account and cannot be used to grant access to services in other accounts. An IAM administrator can create, modify, and delete a service role from within IAM. When you create the service role, you define the `trusted entity` in the definition.
 

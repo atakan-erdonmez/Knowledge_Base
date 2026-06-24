@@ -1,7 +1,6 @@
 ---
-tags:
-  - configuration
-link: "[[compliance]]"
+link:
+  - "[[AWS]]"
 ---
 
 Helps with auditing and recording **compliance** of your AWS resource. It is a fully  managed service that acts as a **resource inventory**, **configuration history**, and **compliance engine** for your AWS environment.

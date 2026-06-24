@@ -3,7 +3,8 @@
 It is a managed Redis or Memcached
 - Reduces load off of a DB for read intensive workload
 - AWS takes care of it, OS maintenance, patching, optimization etc
-- *Using it required heavy application code changes*
+- **Using it required heavy application code changes**
+- It is great for **read and compute intensive workloads**.
 
 - Applications queries ElastiCache, if not available, get from RDS and store in ElastiCache.
 - Cache must have an invalidation strategy to make sure only the most current data is used in there, which makes it hard to set up

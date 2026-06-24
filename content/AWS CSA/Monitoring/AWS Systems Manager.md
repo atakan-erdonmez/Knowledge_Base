@@ -1,7 +1,6 @@
 ---
 link:
-  - "[[operations]]"
-  - "[[management]]"
+  - "[[AWS]]"
 ---
 
 

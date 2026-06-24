@@ -15,7 +15,7 @@ Provides governance, compliance and audit for your AWS Account, enabled by defau
 
 #### Management Events
 Operations that are performed on resources in your AWS account. Examples:
-	- Configuring security ([[00_KnowledgeBase/AWS CSA/IAM/IAM]] AttachRolePolicy)
+	- Configuring security ([[IAM MAIN]] AttachRolePolicy)
 	- Configuring rules for routing data (Amazon [[00_KnowledgeBase/AWS CSA/EC2/EC2]] CreateSubnet)
 	- Setting up logging (AWS [[CloudTrail]] CreateTrail)
 

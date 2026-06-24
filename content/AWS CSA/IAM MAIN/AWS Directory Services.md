@@ -1,9 +1,12 @@
 ---
+link:
+  - "[[AWS]]"
 ---
+
 It is AWS AD implementation. 
 
 #### AWS Managed Microsoft AD
-Create your own AD in AWS, manage users locally, supports MFS
+Create your own AD in AWS, manage users locally, supports MFA.
 Establish trust connections with your on-prem AD
 
 #### AD Connector
