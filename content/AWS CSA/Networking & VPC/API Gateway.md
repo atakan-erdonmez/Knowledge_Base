@@ -40,7 +40,7 @@ It is a way for clients to talk to AWS resources. They access the REST API, whic
 - Use a resource policy to define access
 
 ## Resource Policy
-API Gateway supports resource policies, which are [[IAM MAIN]]-style JSON policies that you attach directly to your REST or HTTP APIs. These policies can use IpAddress and NotIpAddress conditions to enforce fine-grained network controls. 
+API Gateway supports resource policies, which are [[IAM]]-style JSON policies that you attach directly to your REST or HTTP APIs. These policies can use IpAddress and NotIpAddress conditions to enforce fine-grained network controls. 
 
 By configuring a policy that explicitly denies all IPs except for the trusted internal IP ranges, the company can ensure that only requests originating from its internal network are allowed to invoke the API.
 

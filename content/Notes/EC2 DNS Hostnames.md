@@ -5,7 +5,7 @@ tags:
   - dns
   - vpc
 ---
-When you launch an [[00_KnowledgeBase/AWS CSA/EC2/EC2]] instance into a default [[VPC]], AWS provides it with public and private DNS hostnames that correspond to the public IPv4 and private IPv4 addresses for the instance.
+When you launch an [[EC2]] instance into a default [[VPC]], AWS provides it with public and private DNS hostnames that correspond to the public IPv4 and private IPv4 addresses for the instance.
 
 You don't need [[Route 53]] for a public hostname.
 

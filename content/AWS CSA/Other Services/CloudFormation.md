@@ -22,7 +22,7 @@ and so on.
 
 
 ## Services Role
-CloudFormation needs [[IAM MAIN|IAM MAIN]] roles to actually provision resources. However, if you want to give users access to CloudFormation, but not resources itself, you should use *[[IAM Service Role]]*
+CloudFormation needs [[IAM|IAM MAIN]] roles to actually provision resources. However, if you want to give users access to CloudFormation, but not resources itself, you should use *[[IAM Service Role]]*
 
 ## Template
 It is a YAML or JSON file that acts as a blueprint. It lists resources and how they should be configured.

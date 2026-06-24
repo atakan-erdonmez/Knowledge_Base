@@ -15,7 +15,7 @@ Under management, you can create OUs and subOUs.
 - Enable CloudTrail and CloudWatch on multiple accounts
 - Establish Cross Account Roles for admin purposes
 
-#### Security: Service Control Policies (SCP)
+## Security: Service Control Policies (SCP)
 It is a special IAM policy applied to OU or Accounts to restrict Users and Roles. *They don't apply to management account.* Must have an explicit allow, so least privilege.
 
 > If parent OU has AllowAll, but a child account only has AllowEC2, parent permissions don't apply. It will only accsess EC2

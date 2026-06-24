@@ -5,7 +5,7 @@ Welcome to my **Knowledge Base**. This is where I keep my notes about various to
 - **[[AI]]**
 - **[[AWS CSA]]**
 - **[[Cyber Security]]**
-- **[[Databases]]**
+- **[[00_KnowledgeBase/Databases/Databases]]**
 - **[[DevOps]]**
 - **[[Hardware & Infrastructure]]**
 - **[[Linux]]**

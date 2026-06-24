@@ -1,6 +1,6 @@
 ---
 ---
-Elastic Block Store is a network drive that you attach to [[00_KnowledgeBase/AWS CSA/EC2/EC2]]. It persists.
+Elastic Block Store is a network drive that you attach to [[EC2]]. It persists.
 They are bound to specific AZ
 Low cost, low performance
 Good for long-term storage

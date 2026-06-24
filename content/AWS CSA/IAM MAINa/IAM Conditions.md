@@ -1,4 +1,6 @@
 ---
+link:
+  - "[[IAM]]"
 ---
 #### aws:SourceIP
 Restrict client IP that make API calls
