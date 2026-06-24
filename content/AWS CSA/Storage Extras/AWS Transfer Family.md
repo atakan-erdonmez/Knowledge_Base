@@ -1,4 +1,5 @@
 ---
+link: "[[!NEW_Tags/storage|storage]]"
 ---
 A fully-managed service for FTP, SFTP, FTPS, and AS2.
 - Managed infrastructure, scalable, reliable, highly available (multi-az)

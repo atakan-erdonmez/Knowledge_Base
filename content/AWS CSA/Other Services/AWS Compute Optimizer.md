@@ -1,6 +1,6 @@
 **AWS Compute Optimizer** recommends optimal AWS resources for your workloads to reduce costs and improve performance by using machine learning to analyze historical utilization metrics. Overprovisioning resources can lead to unnecessary infrastructure costs, and underprovisioning resources can lead to poor application performance. Compute Optimizer generates recommendations for the following resources:
 
-- Amazon Elastic Compute Cloud (Amazon [[EC2]]) instances
+- Amazon Elastic Compute Cloud (Amazon [[00_KnowledgeBase/AWS CSA/EC2/EC2]]) instances
 - Amazon EC2 [[Auto Scaling Groups (ASG)]]
 - Amazon [[EBS (Elastic Block Store)]] volumes
 - AWS [[Lambda]] functions

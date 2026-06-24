@@ -11,7 +11,7 @@ When you have an app with multiple edge locations, you can use Global Accelerato
 - 2 IP is given for high availability
 
 
-- It works with [[Elastic IP]], [[EC2]], [[Application Load Balancer]], [[Network Load Balancer]], public or private
+- It works with [[Elastic IP]], [[00_KnowledgeBase/AWS CSA/EC2/EC2]], [[Application Load Balancer]], [[Network Load Balancer]], public or private
 - Consistent performance
 	- Intelligent routing to lowest latency and fat regional failover
 	- No issue with client cache (because IP doesn't change)

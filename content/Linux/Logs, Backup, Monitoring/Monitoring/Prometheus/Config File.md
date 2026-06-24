@@ -1,6 +1,6 @@
 ---
 ---
-# **How to write the config file**
+f# **How to write the config file**
 /etc/prometheus/prometheus.yml
 
 ## Main Sections

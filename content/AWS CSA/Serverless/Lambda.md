@@ -51,7 +51,7 @@ One of the most common use cases is with [[RDS#RDS Proxy|RDS Proxy]]
 
 
 ## IAM Integration
-In [[IAM]], you can have both resource-based policies and  execution roles. 
+In [[00_KnowledgeBase/AWS CSA/IAM/IAM]], you can have both resource-based policies and  execution roles. 
 
 - Resource based policies dictate *who* can invoke the function
 - Execution roles dictate *what* can the function do
