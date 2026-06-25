@@ -5,7 +5,7 @@ Serverless query service to analyze data stored in Amazon S3. Uses standard SQL.
 - $5 per TB of data scanned
 - Commonly used with [[QuickSight]] for reporting/dashboard
 
-Use cases: BI, analytics, reporting, [[Elastic Load Balancer (ELB)]] logs, [[VPC Flow Logs]], [[CloudTrail]] trails ..
+Use cases: BI, analytics, reporting, [[00_KnowledgeBase/AWS CSA/EC2/Elastic Load Balancer (ELB)/Elastic Load Balancer (ELB)]] logs, [[VPC Flow Logs]], [[CloudTrail]] trails ..
 
 
 ## Performance Improvement

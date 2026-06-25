@@ -1,4 +1,7 @@
 ---
+link:
+  - "[[AWS]]"
+  - "[[!NEW_MOCs/Security|Security]]"
 ---
 # Shield
 DDoS prevention service

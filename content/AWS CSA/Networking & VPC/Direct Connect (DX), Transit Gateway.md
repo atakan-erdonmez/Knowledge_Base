@@ -1,9 +1,7 @@
 ---
-tags:
-  - network
-  - VPN
-  - aws
-  - vpc
+link:
+  - "[[AWS]]"
+  - "[[00_KnowledgeBase/Networking/Networking|Networking]]"
 ---
 # Direct Connect (DX)
 
@@ -35,7 +33,8 @@ and everything will be able to access everything, no manual peering required.
 
 - Supports cross account and cross region
 - Supports IP Multicast (not supported by any other AWS service)
-- Route tables: limit which VPC can talk with other VPC
+- Route tables: limit which VPC can talk with other VPC, use **route propagation** for automatic routing with each new VPC
+- Use **Transit Virtual Interface (VIF)** with Direct Connect for on-prem to AWS connection
 ### S2S VPN with ECMP
 ECMP: Equal-cost multi-path routing
 

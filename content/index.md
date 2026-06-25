@@ -9,7 +9,7 @@ Welcome to my **Knowledge Base**. This is where I keep my notes about various to
 - **[[DevOps]]**
 - **[[Hardware & Infrastructure]]**
 - **[[Linux]]**
-- **[[Networking]]**
+- **[[00_KnowledgeBase/Networking/Networking]]**
 - **[[Python]]**
 - **[[Windows]]**
 - [[GIT TIPS]]

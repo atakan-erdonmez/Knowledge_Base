@@ -1,4 +1,7 @@
 ---
+link:
+  - "[[AWS]]"
+  - "[[!NEW_MOCs/Storage|Storage]]"
 ---
 Launch 3rd party high-performance file systems on AWS. Fully managed service
 - FSx for Lustre
@@ -46,6 +49,14 @@ The NetApp SnapMirror replication solution is built into NetApp ONTAP for Busine
 - Up to 1.000.000 IOPS with < 0.5ms latency
 - Snapshots, compression and low cost; Point-in-time instantaneous cloning
 
+
+### OpenZFS vs ONTAP
+|**Feature**|**FSx for NetApp ONTAP**|**FSx for OpenZFS**|
+|---|---|---|
+|**Primary Protocols**|NFS, SMB, iSCSI (Multi-protocol)|NFS (v3 through v4.2)|
+|**OS Support**|Linux, Windows, macOS|Primarily Linux / Unix Unix-like|
+|**Key Strength**|Enterprise data management & versatility|Ultra-low latency & high IOPS throughput|
+|**Built-in Tiering**|Yes (Automated SSD to Capacity Pool)|No (Requires manual volume management)|
 
 ## FSx File System Deployment Options
 2 file system:
