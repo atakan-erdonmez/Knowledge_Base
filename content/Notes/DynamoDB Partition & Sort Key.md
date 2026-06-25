@@ -1,3 +1,7 @@
+---
+link:
+  - "[[DynamoDB]]"
+---
 Think of a DynamoDB table like a massive, highly organized **digital filing cabinet system**.
 
 Because DynamoDB handles massive amounts of data, it can't just put everything in one giant pile. It splits your data across multiple physical storage servers, which are called **partitions**.

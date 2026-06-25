@@ -9,7 +9,7 @@ Launch 3rd party high-performance file systems on AWS. Fully managed service
 - FSx for NetApp ONTAP
 - FSx for OpenZFS
 ## FSx for Windows File Server
-Fully managed Windows file system shared drive.
+Fully managed Windows **file system** shared drive.
 - Supports SMB & Windows NTFS
 - Active Directory integration, ACLs, user quotas
 - **Can be mounted on Linux EC2 instances**
@@ -33,12 +33,13 @@ Lustre is a type of parallel distributed file system, for large-scale computing.
 ## FSx for NetApp ONTAP
 Managed NetApp ONTAP on AWS. (ONTAP is a proprietary OS from NetApp for network systems)
 - File system compatible with NFS, SMB, iSCSI
+- Both **file** and **block system**
 - Move workloads running on ONTAP or NAS, works with Linux, Windows, macos, vmware cloud...
 - Storage shrinks and grows automatically
 - Snapshots, replication, lost-cost, compression and data de-duplication
 - Point-in-time instantaneous cloning (helpful for testing new workloads)
 
-The Amazon FSx for NetApp ONTAP features Multi-AZ file systems designed to ensure continuous availability across AWS Availability Zones, providing high availability for your Windows Server workloads. It offers consistent sub-millisecond file operation latencies with SSD storage, essential for block storage workloads in Windows environments. FSx for NetApp ONTAP fully supports block storage protocols like iSCSI, commonly used in Windows Server settings, and it works seamlessly with the SMB protocol, ensuring compatibility with Windows Server and related applications.
+The Amazon FSx for NetApp ONTAP features **Multi-AZ** file systems designed to ensure continuous availability across AWS Availability Zones, providing high availability for your Windows Server workloads. It offers consistent sub-millisecond file operation latencies with SSD storage, essential for block storage workloads in Windows environments. FSx for NetApp ONTAP fully supports block storage protocols like iSCSI, commonly used in Windows Server settings, and it works seamlessly with the SMB protocol, ensuring compatibility with Windows Server and related applications.
 
 #### NetApp SnapMirror
 The NetApp SnapMirror replication solution is built into NetApp ONTAP for Business Continuity and Disaster Recovery (BCDR) purposes, and it is built on ONTAP snapshots technology. You can use SnapMirror to replicate data from a source FSx for ONTAP file system to the destination FSx for ONTAP file system.
