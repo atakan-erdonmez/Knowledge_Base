@@ -3,6 +3,7 @@ link:
   - "[[AWS]]"
 tag:
   - "[[2- Tags/Networking|Networking]]"
+  - "[[Development]]"
 ---
 It is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources. You pay for what you use.
 

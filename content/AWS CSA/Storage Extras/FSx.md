@@ -1,7 +1,8 @@
 ---
 link:
   - "[[AWS]]"
-  - "[[2- Tags/Storage|Storage]]"
+tag:
+  - "[[Storage]]"
 ---
 Launch 3rd party high-performance file systems on AWS. Fully managed service
 - FSx for Lustre
@@ -34,7 +35,7 @@ Lustre is a type of parallel distributed file system, for large-scale computing.
 Managed NetApp ONTAP on AWS. (ONTAP is a proprietary OS from NetApp for network systems)
 - File system compatible with NFS, SMB, iSCSI
 - Both **file** and **block system**
-- Move workloads running on ONTAP or NAS, works with Linux, Windows, macos, vmware cloud...
+- Move workloads running on ONTAP or NAS, works with Linux, Windows, macOS, VMware cloud...
 - Storage shrinks and grows automatically
 - Snapshots, replication, lost-cost, compression and data de-duplication
 - Point-in-time instantaneous cloning (helpful for testing new workloads)

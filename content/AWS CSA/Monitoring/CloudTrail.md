@@ -1,4 +1,9 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[2- Tags/Monitoring|Monitoring]]"
+  - "[[Compliance]]"
 ---
 
 Provides governance, compliance and audit for your AWS Account, enabled by default.
@@ -43,3 +48,4 @@ To keep them beyond this point, log them to S3 and use [[Athena]] to analyze
 
 ## CloudTrail Lake
 AWS CloudTrail Lake lets you run SQL-based queries on your event logs in AWS CloudTrail. It provides a robust and efficient way to directly analyze CloudTrail logs. CloudTrail Lake converts existing events in row-based JSON format to Apache ORC format. ORC is a columnar storage format that is optimized for fast retrieval of data. Events are aggregated into event data stores, which are immutable collections of events based on criteria that you select by applying advanced event selectors.
+

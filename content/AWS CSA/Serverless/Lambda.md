@@ -61,3 +61,12 @@ Traditionally, AWS Lambda functions were deployed using code written in supporte
 
 ### Function URL
 **Lambda function URLs** are HTTP(S) endpoints dedicated to your Lambda function. You can easily create and set up a function URL using the Lambda console or API. Once created, Lambda generates a unique URL endpoint for your use.
+
+
+---
+# Index
+```dataview
+LIST
+FROM ""
+WHERE contains(link,[[Lambda]])
+```

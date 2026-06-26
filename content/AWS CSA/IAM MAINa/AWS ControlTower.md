@@ -16,6 +16,10 @@ Benefits:
 - Detect policy violations and remediate them
 - Monitor compliance through an interactive dashboard
 
+
+Features:
+- It can detect OU changes, called **account or governance drift**
+- It can integrate with [[EventBridge]] and [[SNS]] for notifications
 ### Guardrails
 A guardrail is a high-level rule that provides ongoing governance for your overall AWS environment. It’s expressed in plain language. Through guardrails, AWS Control Tower implements _preventive_ or *detective* controls that help you govern your resources and monitor compliance across groups of AWS accounts.
 

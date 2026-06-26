@@ -2,7 +2,7 @@
 ---
 Managed Streaming for Apache Kafka
 
-It is an alternative to Amazon Kinesis, fully managed Kafka on AWS
+It is an alternative to [[Kinesis Data Stream]], fully managed Kafka on AWS
 
 - Allows you to create, update, delete clusters
 - Creates & manages Kafka broker nodes & Zookeeper nodes for you

@@ -1,11 +1,13 @@
 ---
 link:
   - "[[AWS]]"
+tag:
+  - "[[Compliance]]"
 ---
 
 Helps with auditing and recording **compliance** of your AWS resource. It is a fully  managed service that acts as a **resource inventory**, **configuration history**, and **compliance engine** for your AWS environment.
 
-***IT CAN ENFORCE RULES!!!***
+It can enforce rules if setup with [[AWS Systems Manager (SSM)]]
 
 Questions that can be solved by AWS Config:
 - Is there unrestricted SSH access to my security groups?
