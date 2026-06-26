@@ -1,5 +1,5 @@
 ---
-Parent:
+link:
   - "[[IaC|IaC]]"
   - "[[AWS]]"
 ---

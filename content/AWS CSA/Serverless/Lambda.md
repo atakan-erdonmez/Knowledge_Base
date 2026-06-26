@@ -1,8 +1,9 @@
 ---
-Parent:
+link:
   - "[[AWS]]"
+tag:
   - "[[Compute]]"
-subcategory: Serverless
+  - "[[2- Tags/Serverless|Serverless]]"
 ---
 
 | EC2                        | Lambda                                   |

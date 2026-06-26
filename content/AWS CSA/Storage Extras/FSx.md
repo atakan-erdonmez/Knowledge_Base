@@ -1,5 +1,5 @@
 ---
-Parent:
+link:
   - "[[AWS]]"
   - "[[2- Tags/Storage|Storage]]"
 ---

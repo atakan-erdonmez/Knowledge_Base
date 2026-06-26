@@ -1,5 +1,5 @@
 ---
-Parent:
+link:
   - "[[2- Tags/Storage]]"
 ---
 Move large amount of data to and from. 

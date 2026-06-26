@@ -1,4 +1,8 @@
 ---
+tag:
+  - "[[2- Tags/Logging|Logging]]"
+  - "[[2- Tags/Monitoring|Monitoring]]"
+  - "[[SIEM]]"
 ---
 
 All-in-one centralized log manager with UI, alerts, parsing, etc.

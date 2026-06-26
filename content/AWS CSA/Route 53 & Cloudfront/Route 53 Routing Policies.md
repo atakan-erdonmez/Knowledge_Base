@@ -1,4 +1,9 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[2- Tags/DNS|DNS]]"
+  - "[[Routing]]"
 ---
 Supports following policies:
 - Simple
@@ -28,11 +33,15 @@ There is a primary health check (mandatory) and a secondary health check. They p
 The routing is based on user location. You can specify different endpoints for different locations. Also, you will have a *default* location for default option
 
 ## Geoproximity
-Route based on location of users *and* resources. Ability to shift more traffic to resources based on defined bias
+Route based on location of users *and* resources. It increase/decrease the coverage area of a resource. 
+
+Ability to shift more traffic to resources based on defined bias
 - To expand (1 to 99) - more traffic to the resource
 - To shrink (-1 to -99) - less traffic to the resource
 
-Resource can be both AWS and non-AWS (you must use Route 53 Traffic Flow (advanced ) to use this feature)
+Resource can be both AWS and non-AWS (you must use Route 53 Traffic Flow (advanced) to use this feature)
+
+![[Route 53 Geoproximity.png]]
 
 ## IP-based
 You provide a list of CIDR for your clients and corresponding endpoints

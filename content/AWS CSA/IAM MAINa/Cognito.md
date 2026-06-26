@@ -1,5 +1,5 @@
 ---
-Parent:
+link:
   - "[[IAM]]"
   - "[[2- Tags/Security|Security]]"
 ---

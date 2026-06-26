@@ -1,5 +1,5 @@
 ---
-Parent:
+link:
   - "[[2- Tags/Storage|Storage]]"
 ---
 A fully-managed service for FTP, SFTP, FTPS, and AS2.

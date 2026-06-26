@@ -1,5 +1,5 @@
 ---
-Parent:
+link:
   - "[[EC2]]"
 ---
 Amazon Machine Image
