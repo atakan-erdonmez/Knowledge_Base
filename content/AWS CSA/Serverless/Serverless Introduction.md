@@ -4,7 +4,7 @@ It means 'servers that you don't manage.'
 
 Some serverless services:
 - AWS [[Lambda]]
-- [[00_KnowledgeBase/AWS CSA/Databases/DynamoDB]]
+- [[DynamoDB]]
 - AWS [[Cognito]]
 - AWS [[API Gateway]]
 - Amazon [[S3]]

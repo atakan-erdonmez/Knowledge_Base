@@ -4,6 +4,8 @@ It is a blueprint of deploying an application. It is great for developers.
 - It uses all components like EC2, ASG, ELB, RDS to configure an environment
 - It is a managed service, automatically handles provisioning, load balancing, scaling, health monitoring...
 - It is a free service, you will pay for the deployed components
+- You can manage the underlying components
+- You can specify a Golden [[AMI]] to speed up the installation
 
 > Application files are stored in S3. The server log files can also optionally be stored in S3 or in CloudWatch Logs.
 

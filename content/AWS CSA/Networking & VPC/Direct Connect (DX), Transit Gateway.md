@@ -39,3 +39,14 @@ and everything will be able to access everything, no manual peering required.
 ECMP: Equal-cost multi-path routing
 
 It means creating multiple best-paths. You can use Transit Gateway to create multiple S2S connections from your data center, using one or more Virtual Private Gateway, which increases bandwidth
+
+
+**Explanation**
+
+A single AWS Site-to-Site VPN tunnel has a maximum strict throughput limit of **1.25 Gbps**. Even if your on-premises internet connection is 10 Gbps, a single VPN connection (which consists of two tunnels for high availability, but only uses one actively for traffic by default) cannot exceed this 1.25 Gbps ceiling.
+
+To bypass this limitation and maximize throughput, you must scale horizontally using **Equal-Cost Multi-Path (ECMP)** routing over **AWS Transit Gateway (TGW)**:
+
+- **How it works:** When you terminate your Site-to-Site VPN connections into an AWS Transit Gateway (instead of a standard Virtual Private Gateway), you can enable ECMP.
+
+- **Aggregation:** ECMP allows the Transit Gateway to distribute traffic simultaneously across multiple active VPN tunnels. By establishing multiple VPN connections and leveraging both tunnels per connection, AWS aggregates the bandwidth. For example, using 4 active tunnels with ECMP boosts your aggregate throughput up to **5 Gbps** ($4 \times 1.25\text{ Gbps}$).
