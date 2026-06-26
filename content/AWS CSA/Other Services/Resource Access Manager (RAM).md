@@ -2,7 +2,7 @@
 ---
 AWS Resource Access Manager (RAM) is a service that enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization. 
 
-You can share AWS [[Direct Connect (DX), Transit Gateway#Transit Gateway|Transit Gateway]], Subnets, [[AWS License Manager]] configurations, and Amazon [[Route 53|Route 53]] Resolver rules resources with RAM. 
+You can share AWS [[Direct Connect (DX)#Transit Gateway|Transit Gateway]], Subnets, [[AWS License Manager]] configurations, and Amazon [[Route 53|Route 53]] Resolver rules resources with RAM. 
 
 
 - RAM eliminates the need to create duplicate resources in multiple accounts, reducing the operational overhead of managing those resources in every single account you own. 

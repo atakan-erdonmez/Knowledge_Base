@@ -1,7 +1,8 @@
 ---
-tags:
-  - database
-  - aws
+link:
+  - "[[AWS]]"
+tag:
+  - "[[2- Tags/Databases|Databases]]"
 ---
 - Aurora is a proprietary technology from AWS (not open sourced)
 - Postgres and MySQL are both supported as Aurora DB (that means your drivers will work as if Aurora was a Postgres or MySQL database)

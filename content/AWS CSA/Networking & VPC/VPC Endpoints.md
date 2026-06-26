@@ -1,4 +1,6 @@
 ---
+link:
+  - "[[VPC]]"
 ---
 Uses PrivateLink
 
@@ -22,3 +24,7 @@ It is a target in your VPC Route Table used to reach specific AWS services. It d
 When you create one, you select which Route Tables should be updated. AWS then adds a route that directs traffic for that service through the gateway.
 
 Cheaper, since it doesn't incur cost for in-region data transfer.
+
+It only supports:
+- [[S3]]
+- [[DynamoDB]]

@@ -6,7 +6,7 @@ Welcome to my **Knowledge Base**. This is where I keep my notes about various to
 - **[[AWS CSA]]**
 - **[[Cyber Security]]**
 - **[[00_KnowledgeBase/Databases/Databases]]**
-- **[[DevOps]]**
+- **[[DevOps folder]]**
 - **[[Hardware & Infrastructure]]**
 - **[[Linux]]**
 - **[[00_KnowledgeBase/Networking/Networking]]**

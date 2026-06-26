@@ -1,4 +1,8 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[2- Tags/Networking|Networking]]"
 ---
 It is a way for clients to talk to AWS resources. They access the REST API, which then proxies to AWS resources. You pay for what you use.
 
@@ -47,3 +51,7 @@ By configuring a policy that explicitly denies all IPs except for the trusted in
 
 ## OIDC-Compliance & JWT
 Amazon API Gateway HTTP APIs support native JWT authorizers, allowing developers to configure the API to automatically validate JWT tokens issued by an OIDC-compliant identity provider, such as Auth0, Okta, or Amazon Cognito. This eliminates the need for custom authentication logic in Lambda functions and reduces both latency and cost. HTTP APIs are optimized for low-latency, high-performance workloads and are more cost-effective than REST APIs, making them ideal for modern, serverless applications that require standard JWT validation and claim-based access control.
+
+
+## Caching
+You can implement caching in API Gateway to cache your endpoint's responses.

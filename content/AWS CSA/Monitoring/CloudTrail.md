@@ -6,7 +6,7 @@ Provides governance, compliance and audit for your AWS Account, enabled by defau
 - Get an history of events, API calls made within your AWS account by:
 	- Console
 	- SDK
-	- CLI
+	- [[AWS CLI]]
 	- AWS Services 
 - You can put logs from CloudTrail into [[CloudWatch Logs|CloudWatch Logs]] or [[S3]], which are **encrypted by default**
 

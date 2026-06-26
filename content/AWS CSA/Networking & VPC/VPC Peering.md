@@ -1,4 +1,6 @@
 ---
+link:
+  - "[[VPC]]"
 ---
 Connect two VPC, make them behave like they are in same network.
 > Must not have overlapping IP ranges
