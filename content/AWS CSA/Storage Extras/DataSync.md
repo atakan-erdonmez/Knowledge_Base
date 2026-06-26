@@ -1,6 +1,6 @@
 ---
-link:
-  - "[[!NEW_MOCs/Storage]]"
+Parent:
+  - "[[2- Tags/Storage]]"
 ---
 Move large amount of data to and from. 
 - On-premises / other cloud to AWS (NFS, SMB, HDFS, S3 API...) - needs agent

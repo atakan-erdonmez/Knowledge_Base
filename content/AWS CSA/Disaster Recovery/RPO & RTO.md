@@ -10,4 +10,4 @@
 - Pilot Light: It means having a small version of critical apps always running on cloud. 
 - Warm Standby: Full system up and running, but at a minimum size
 - Multi-site/Hot-site: Very low RTO, very expensive
-- 
+

@@ -1,8 +1,8 @@
 ---
 ---
-Open-source successor to ElastiSearch.
+Open-source successor to [[OpenSearch & ELK (Elasticsearch)|ElastiSearch]].
 
-In DynamoDB, queries only exist by primary key or indexes.
+In [[DynamoDB]], queries only exist by primary key or indexes.
 
 With OpenSearch, you can search any field, even partially matches. It is common to use it as a complement to another database.
 

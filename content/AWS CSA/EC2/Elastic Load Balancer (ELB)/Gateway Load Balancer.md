@@ -1,6 +1,6 @@
 ---
-link:
-  - "[[!NEW_Notes/Elastic Load Balancer (ELB)|Elastic Load Balancer (ELB)]]"
+Parent:
+  - "[[3- Notes/Elastic Load Balancer (ELB)|Elastic Load Balancer (ELB)]]"
 ---
 Deploy, scale, and manage a fleet of 3rd party network virtual appliances in AWS, like IDS/IPS, firewall, DPI etc
 

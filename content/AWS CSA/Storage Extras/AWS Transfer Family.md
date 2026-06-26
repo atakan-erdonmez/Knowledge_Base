@@ -1,6 +1,6 @@
 ---
-link:
-  - "[[!NEW_MOCs/Storage]]"
+Parent:
+  - "[[2- Tags/Storage|Storage]]"
 ---
 A fully-managed service for FTP, SFTP, FTPS, and AS2.
 - Managed infrastructure, scalable, reliable, highly available (multi-az)

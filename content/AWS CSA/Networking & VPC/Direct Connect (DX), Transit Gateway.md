@@ -1,5 +1,5 @@
 ---
-link:
+Parent:
   - "[[AWS]]"
   - "[[00_KnowledgeBase/Networking/Networking|Networking]]"
 ---

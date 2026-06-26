@@ -1,5 +1,5 @@
 ---
-link:
+Parent:
   - "[[DynamoDB]]"
 ---
 Think of a DynamoDB table like a massive, highly organized **digital filing cabinet system**.

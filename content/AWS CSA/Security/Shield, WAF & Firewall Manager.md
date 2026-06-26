@@ -1,7 +1,7 @@
 ---
-link:
+Parent:
   - "[[AWS]]"
-  - "[[!NEW_MOCs/Security|Security]]"
+  - "[[2- Tags/Security|Security]]"
 ---
 # Shield
 DDoS prevention service

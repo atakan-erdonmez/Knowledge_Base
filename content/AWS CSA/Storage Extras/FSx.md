@@ -1,7 +1,7 @@
 ---
-link:
+Parent:
   - "[[AWS]]"
-  - "[[!NEW_MOCs/Storage|Storage]]"
+  - "[[2- Tags/Storage|Storage]]"
 ---
 Launch 3rd party high-performance file systems on AWS. Fully managed service
 - FSx for Lustre
