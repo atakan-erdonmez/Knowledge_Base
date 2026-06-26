@@ -1,4 +1,8 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[Storage]]"
 ---
 Elastic Block Store is a network drive that you attach to [[EC2]]. It persists.
 They are bound to specific AZ
@@ -19,7 +23,7 @@ Good for long-term storage
 >Maximum backup retention period for automated backup is only 35 days. For longer, you can use [[AWS Backup]]
 ## Volume Types
 There are 6 types of volumes
-1. **gp2/gp3 (SSD):** General purpose SSD, price-performance 
+1. **gp2/gp3 (SSD):** General purpose SSD, price-performance, can handle **bursts** via accumulated burst credits
 2. **io1/io2 Block Express (SSD):** Highest-performance SSD volume for mission-critical low-latency or high-throughput workloads (**provisioned IOPS**). Great for database workloads. They support multi-attach
 3. **st1 (HDD):** Low cost HDD volume designed for frequently access, throughput-intensive workloads like big data, data warehouses, log processing etc
 4. **sc1 (HDD):** Lowest cost HDD volume designed for less frequently accessed workloads 

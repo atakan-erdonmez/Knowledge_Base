@@ -1,4 +1,8 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[Best_Practices]]"
 ---
 
 AWS Trusted Advisor is a guidance tool that **analyzes your AWS environment** and **provides recommendations** to help you follow AWS best practices. It examines your account across multiple dimensions—**including cost optimization, performance, security, fault tolerance, and service limits—and flags areas where improvements can be made**. Think of it as an automated consultant that continuously scans your infrastructure to identify potential issues.
