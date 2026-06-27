@@ -1,7 +1,8 @@
 ---
 link:
   - "[[AWS]]"
-  - "[[00_KnowledgeBase/Networking/Networking|Networking]]"
+tag:
+  - "[[2- Tags/Networking|Networking]]"
 ---
 
 Dedicated connection from a remote network to your VPC. Requires [[VPN Gateway, Customer Gateway, S2S-VPN#^df075d|Virtual Private Gateway]]. Can access public and private resources

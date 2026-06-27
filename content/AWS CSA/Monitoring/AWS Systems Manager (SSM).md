@@ -14,3 +14,5 @@ AWS Systems Manager Inventory is designed to collect instance metadata and confi
 
 ## SSM Parameter Store
 Secure storage for configs and secrets. Serverless, scalable, durable SDK
+
+> It **doesn't rotate** its parameters by default

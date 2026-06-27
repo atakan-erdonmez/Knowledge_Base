@@ -1,4 +1,9 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[2- Tags/Security|Security]]"
+  - "[[Management]]"
 ---
 Offers a straightforward way to set up and govern an AWS multi-account environment, following prescriptive best practices. AWS Control Tower orchestrates the capabilities of several other AWS services, including [[AWS Organizations]], AWS Service Catalog, and AWS [[IAM Identity Center]], to build a landing zone in less than an hour
 
