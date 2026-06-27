@@ -19,6 +19,11 @@ It is great for **event-driven functions**
 - Easy monitoring with CloudWatch 
 - Easy to get more resources per functions (up to 10GB of RAM, increasing ram will increase CPU and network performance)
 
+## IAM Integration
+In [[IAM]], you can have both resource-based policies and  execution roles. 
+
+- <mark style="background: #FFB86CA6;">Resource based policies dictate *who* can invoke the function</mark>
+- <mark style="background: #FFB86CA6;">Execution roles dictate *what* can the function do</mark>
 ## Limits
 #### Execution
 - Memory allocation: 128MB - 10GB (1MB increments)
@@ -42,11 +47,7 @@ By default, Lambda functions are out of your VPC (Amazon managed VPC), so it can
 One of the most common use cases is with [[RDS#RDS Proxy|RDS Proxy]]
 
 
-## IAM Integration
-In [[IAM]], you can have both resource-based policies and  execution roles. 
 
-- Resource based policies dictate *who* can invoke the function
-- Execution roles dictate *what* can the function do
 ## Others
 ### ENV Encryption
 When you create or update Lambda functions that use environment variables, AWS Lambda encrypts them using the AWS Key Management Service. When your Lambda function is invoked, those values are decrypted and made available to the Lambda code.
