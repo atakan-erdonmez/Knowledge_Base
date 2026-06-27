@@ -1,7 +1,6 @@
 ---
-tags:
-  - cloudfront
-  - security
+link:
+  - "[[CloudFront]]"
 ---
 
 Many companies that distribute content over the internet want to restrict access to documents, business data, media streams, or content that is intended for selected users, for example, users who have paid a fee. To securely serve this private content by using [[CloudFront]], you can do the following:
