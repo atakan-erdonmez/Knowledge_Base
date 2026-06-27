@@ -18,7 +18,7 @@ It is a bridge between on-premises data and cloud data
 # S3 File Gateway
 > Used for *non-glacier* S3 buckets
 
-Configured S3 buckets are accessible using NFS and SMB protocol. You connect to S3 File Gateway, and it connects to the backend S3 bucket via HTTPS. 
+Configured S3 buckets are accessible using **NFS** and **SMB** protocol. You connect to S3 File Gateway, and it connects to the backend S3 bucket via HTTPS. 
 - Most recently used data is cached in the file gateway
 - Doesn't support Glacier, but you can use Lifecycle Policy
 - Gateway uses IAM to access S3

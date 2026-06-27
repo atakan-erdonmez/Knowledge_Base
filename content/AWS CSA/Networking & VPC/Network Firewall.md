@@ -5,7 +5,7 @@ Protect your entire [[VPC]]
 - Any direction, you can inspect
 	- VPC to VPC
 	- Ingress, egress
-	- Direct Connect, S2S VPN
+	- [[Direct Connect (DX)]] [[VPN Gateway, Customer Gateway, S2S-VPN|S2S-VPN]]
 - Internally, Network firewall uses the AWS [[Gateway Load Balancer]]
 - Can be managed via [[Shield, WAF & Firewall Manager#Firewall Manager|Firewall Manager]]
 
