@@ -16,7 +16,7 @@ It is great for **event-driven functions**
 ## Advantages
 - Easy pricing with pay per request and compute time
 - Integrated with whole AWS suite, supports many programming languages
-- Easy monitoring with CloudWatch 
+- Easy monitoring with [[CloudWatch]] 
 - Easy to get more resources per functions (up to 10GB of RAM, increasing ram will increase CPU and network performance)
 
 ## IAM Integration
@@ -24,6 +24,7 @@ In [[IAM]], you can have both resource-based policies and  execution roles.
 
 - <mark style="background: #FFB86CA6;">Resource based policies dictate *who* can invoke the function</mark>
 - <mark style="background: #FFB86CA6;">Execution roles dictate *what* can the function do</mark>
+
 ## Limits
 #### Execution
 - Memory allocation: 128MB - 10GB (1MB increments)
@@ -50,7 +51,7 @@ One of the most common use cases is with [[RDS#RDS Proxy|RDS Proxy]]
 
 ## Others
 ### ENV Encryption
-When you create or update Lambda functions that use environment variables, AWS Lambda encrypts them using the AWS Key Management Service. When your Lambda function is invoked, those values are decrypted and made available to the Lambda code.
+When you create or update Lambda functions that use environment variables, AWS Lambda encrypts them using the AWS [[KMS (Key Management Service)]]. When your Lambda function is invoked, those values are decrypted and made available to the Lambda code.
 
 The first time you create or update Lambda functions that use environment variables in a region, a default service key is created for you automatically within AWS KMS. This key is used to encrypt environment variables. However, if you wish to use encryption helpers and use KMS to encrypt environment variables after your Lambda function is created, you must create your own AWS KMS key and choose it instead of the default key. The default key will give errors when chosen. Creating your own key gives you more flexibility, including the ability to create, rotate, disable, and define access controls, and to audit the encryption keys used to protect your data.
 
