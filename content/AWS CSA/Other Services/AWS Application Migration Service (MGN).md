@@ -1,3 +1,8 @@
+---
+link:
+  - "[[AWS]]"
+tag:
+---
 a.k.a. AWS Transform MGN
 
 **AWS Application Migration Service (AWS MGN)** is the primary migration service recommended for **lift-and-shift migrations** (also known as rehosting) to AWS. AWS MGN enables organizations to move applications to AWS without having to make any changes to the applications, their architecture, or the migrated servers.

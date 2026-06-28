@@ -1,4 +1,8 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[Storage]]"
 ---
 Fully managed service to manage and automate backups across AWS services.
 

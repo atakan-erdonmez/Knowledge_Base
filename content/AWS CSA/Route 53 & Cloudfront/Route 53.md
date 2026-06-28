@@ -15,8 +15,8 @@ A highly available, scalable, fully managed and *Authoritative* DNS
 ### Hosted Zones
 A container for records that define how to route traffic to a domain and its subdomains. There are two types: public and private
 
-- Public hosted zones contains records that specify how to route traffic on Internet
-- Private hosted zones only route within one or more VPC
+- **Public hosted zones** contains records that specify how to route traffic on Internet
+- **Private hosted zones** only route within one or more [[VPC]]
 
 ## CNAME vs Alias
 **CNAME**:
@@ -32,6 +32,10 @@ A container for records that define how to route traffic to a domain and its sub
 - It only supports A and AAAA record types
 
 > Zone Apex: The top node of a DNS namespace (like nexonet.space)
+
+**More reading:**
+- [[DNS CNAME, Alias, A Records]]
+- [[Why You Can't Use CNAME at the Apex]]
 
 # Hybrid DNS & Resolver
 

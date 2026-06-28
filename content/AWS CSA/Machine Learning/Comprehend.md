@@ -1,4 +1,8 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[MachineLearning]]"
 ---
 For Natural Language Processing – NLP
 - Fully managed and serverless service

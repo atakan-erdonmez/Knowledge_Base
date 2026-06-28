@@ -1,4 +1,8 @@
 ---
+link:
+  - "[[AWS]]"
+tag:
+  - "[[2- Tags/Databases|Databases]]"
 ---
 # Elastic Disaster Recovery (DRS)
 Quickly and easily recover your physical, virtual, and cloud-based servers to AWS.
@@ -13,10 +17,10 @@ Sources can be:
 - Oracle, MSSQL, MySQL, Postgresq, MongoDB, Azure, RDS, S3...
 
 Targets can be:
-- On premises, RDS, Redshift, S3, Kafka...
+- On premises, [[RDS]], [[Redshift]], [[S3]], Kafka...
 
 >[!note]
->You can migrate data to Amazon S3 using AWS DMS from any of the supported database sources. When using Amazon S3 as a target in an AWS DMS task, both full load and change data capture (CDC) data is written to comma-separated value (.csv) format by default.
+>You can migrate data to Amazon S3 using AWS DMS from any of the supported database sources. When using **Amazon S3 as a target** in an AWS DMS task, both full load and change data capture (CDC) data is written to **comma-separated value (.csv) format by default**.
 
 ## Use Cases
 #### Moving from [[S3]] to [[Kinesis Data Stream]]
