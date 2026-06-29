@@ -18,6 +18,7 @@ It can be used for session data, in user -> multiple sessions and apps
 
 
 > Memcached supports Auto Discovery & multithreading
+> Redis supports geospatial data
 #### Use cases for high-frequency writes
 **High-frequency, low-payload write workloads** are one of the absolute best use cases for Amazon ElastiCache (specifically using the **Redis/Valkey** engines).
 
