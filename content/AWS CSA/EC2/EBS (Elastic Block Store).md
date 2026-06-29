@@ -82,3 +82,12 @@ Here are the following features that Amazon Data Lifecycle Manager is capable of
 - Retain backups as required by auditors or internal compliance.
 - Reduce storage costs by deleting outdated backups.
 - Create disaster recovery backup policies that backup data to isolated Regions or accounts.
+
+
+---
+# Index
+```dataview
+LIST
+FROM ""
+WHERE contains(link,[[EBS (Elastic Block Store)]])
+```
