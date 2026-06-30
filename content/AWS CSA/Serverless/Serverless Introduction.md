@@ -10,6 +10,6 @@ Some serverless services:
 - Amazon [[S3]]
 - AWS [[SNS]]&[[SQS]]
 - AWS Kinesis[[Amazon Data Firehose]]
-- [[Amazon Aurora]] Serverless
+- [[Aurora]] Serverless
 - Step functions
 - Fargate
