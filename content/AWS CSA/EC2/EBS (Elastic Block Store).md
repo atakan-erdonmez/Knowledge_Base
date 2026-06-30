@@ -9,7 +9,7 @@ They are bound to specific AZ
 Low cost, low performance
 Good for long-term storage
 
-## Features
+# Features
 - When you create an EBS volume in an Availability Zone, it is automatically replicated within that zone to prevent data loss due to a failure of any single hardware component.
 - After you create a volume, you can attach it to any EC2 instance in the same Availability Zone
 - Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD (io1) volume to multiple Nitro-based instances that are in the same Availability Zone. However, other EBS types are not supported.
@@ -21,7 +21,7 @@ Good for long-term storage
 - EBS Volumes offer 99.999% SLA.
 
 >Maximum backup retention period for automated backup is only 35 days. For longer, you can use [[AWS Backup]]
-## Volume Types
+# Volume Types
 There are 6 types of volumes
 1. **gp2/gp3 (SSD):** General purpose SSD, price-performance, can handle **bursts** via accumulated burst credits
 2. **io1/io2 Block Express (SSD):** Highest-performance SSD volume for mission-critical low-latency or high-throughput workloads (**provisioned IOPS**). Great for database workloads. They support multi-attach
@@ -30,27 +30,27 @@ There are 6 types of volumes
 
 > **Only gp2/gp3 and io1/io2 Block Express can be used as boot volumes**
 
-### Multi-Attach
+## Multi-Attach
 - Only available in io1/io2 Block Express
 - Up to 16 EC2 instances at a time
 - Must use a file system that's cluster-aware (not XFS, EXT4 etc)
 
-### EBS Encryption
+## EBS Encryption
 - Has minimal impact on latency
 - Leverages keys from KMS (AES-256)
-##### How to Encrypt
+#### How to Encrypt
 To encrypt an EBS volume, you need to create a snapshot, copy it and encrypt it, then create a volume from it. 
 Or you can take an unencrypted snapshot, create volume from it and while doing that, enable encryption
 
 
-##### Encryption Coverage
+#### Encryption Coverage
 When you create an encrypted EBS volume and attach it to a supported instance type, the following types of data are encrypted:
 - Data at rest inside the volume
 - All data moving between the volume and the instance
 - All snapshots created from the volume
 - All volumes created from those snapshots
 
-##### Encryption by Default
+#### Encryption by Default
 You can configure your AWS account to enforce the encryption of the new EBS volumes and snapshot copies that you create. For example, Amazon EBS encrypts the EBS volumes created when you launch an instance and the snapshots that you copy from an unencrypted snapshot.
 
 Encryption by default has no effect on existing EBS volumes or snapshots. The following are important considerations in EBS encryption:
