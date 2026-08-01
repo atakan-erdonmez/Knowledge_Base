@@ -1,3 +1,0 @@
-SimpleDB is a highly available and scalable NoSQL database. 
-
-- It has a limit on the request capacity or storage size for a given table, unlike DynamoDB.
