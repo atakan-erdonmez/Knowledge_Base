@@ -1,4 +1,6 @@
 ---
+link:
+  - "[[AWS]]"
 ---
 Fully managed, fast, scalable, serverless **time series database**
 
