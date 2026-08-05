@@ -13,6 +13,7 @@ Then, put providers like this:
 terraform {
   required_version = ">= 1.10.0"
   
+  
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -35,6 +36,8 @@ provider "azurerm" {
   features {} # This block is mandatory for the Azure provider to work
 }
 ```
+- [[Version Specification in Terraform]]
+
 
 Then, you can run `terraform init` to update and install providers.
 
