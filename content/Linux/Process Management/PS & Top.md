@@ -52,19 +52,15 @@ To start a job in background, type & at the end of the command and then use `dis
 STAT or S
 
 - D-uninterruptible sleep (usually IO error): If a process can’t access to the system (overload, IO error, poor RAM etc.) it makes its stat D.
-    
 - R-running: This is a state where a process is either in running or ready to run
-    
 - S-interruptible sleep: Waiting for an event to complete. Bildigimiz sleep iste
-    
 - T-stopped: Once the process is completed, this state occurs. This process can be restarted.
-    
 - Z-defunct(zombie): In this state, the process will be terminated and the information will still be available in the process table. (For example A process is the parent of B process and B process is used by some application. If A process is killed, normally B would also be killed but because its used by some app, it will go to state Z) A zombie process is a **process whose execution is completed but it still has an entry in the process table**
-    
+
 - W-paging: Moving in or out of swap (page in - page out)
-    
+
 - More state
-    
+
     ```
     < high-priority (not nice to other users)
     N low-priority (nice to other users)
@@ -74,8 +70,16 @@ STAT or S
     + is in the foreground process group
     
     ```
-    
 
+
+|**Metric**|**Name**|**What It Measures**|
+|---|---|---|
+|**`%us`**|**User**|Time spent running **non-kernel applications** (e.g., Python scripts, Web servers, Docker containers, user applications).|
+|**`%sy`**|**System**|Time spent executing **kernel-space processes** and system calls on behalf of applications (e.g., memory allocation, network socket management, disk access requests).|
+|**`%id`**|**Idle**|Time the CPU spent doing **nothing** because no tasks were waiting to execute.|
+|**`%wa`**|**I/O Wait**|Time the CPU was **idle while waiting for an outstanding disk or network I/O request** to finish. _(Important: The CPU itself isn't working hard here; it is waiting on storage/hardware)._|
+|**`%hi` / `%si`**|**Hardware/Software Interrupts**|Time spent servicing hardware interrupts (like network cards receiving packets) or software interrupts.|
+|**`%st`**|**Steal**|Time stolen from your virtual machine by the hypervisor because the physical underlying CPU core was busy serving another VM (common in oversubscribed cloud environments).|
 **PS Custom**
 
 tty,comm,pid,nice,%mem,%cpu
