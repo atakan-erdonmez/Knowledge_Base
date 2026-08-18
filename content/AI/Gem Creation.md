@@ -1,6 +1,6 @@
 ---
 ---
-[[40_Inbox/AI Weekend/index]]
+[[40_Inbox/AI Weekend/.md]]
 To build a truly effective Gem for homelab management, you need to move beyond simple "help me with Linux" prompts. You want a persona that acts as a **Lead Systems Architect**—someone who understands the delicate balance between "it works" and "it’s maintainable."
 
 Here is a structured framework you can use to define your Gem.
