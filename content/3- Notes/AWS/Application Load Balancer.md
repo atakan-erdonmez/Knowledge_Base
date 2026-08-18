@@ -2,6 +2,8 @@
 link:
   - "[[Elastic Load Balancer (ELB)|Elastic Load Balancer (ELB)]]"
 ---
+**Link:** [[Elastic Load Balancer (ELB)]]
+
 It is layer 7. Load balancing to multiple HTTP applications across machines (target group).
 - It can load balance to multiple apps on same machine (containers)
 - Supports HTTP/2, WebSocket, gRPC and support redirects
