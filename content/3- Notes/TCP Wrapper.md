@@ -1,8 +1,8 @@
 ---
 link:
-  - "[[00_KnowledgeBase/1- MOCs/Linux|Linux]]"
+  - "[[Linux|Linux]]"
 tag:
-  - "[[00_KnowledgeBase/2- Tags/Security|Security]]"
+  - "[[00_KnowledgeBase/OLD-2- Tags/Security|Security]]"
 ---
 It effects incoming connections, not outgoing
 - `/etc/hosts.allow`

@@ -1,9 +1,9 @@
 ---
 link:
-  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
+  - "[[AWS]]"
 tag:
-  - "[[00_KnowledgeBase/2- Tags/Logging|Logging]]"
-  - "[[00_KnowledgeBase/2- Tags/Monitoring|Monitoring]]"
+  - "[[00_KnowledgeBase/OLD-2- Tags/Logging|Logging]]"
+  - "[[Monitoring|Monitoring]]"
   - "[[Data&Analytics]]"
 ---
 Open-source successor to [[OpenSearch & ELK (Elasticsearch)|ElastiSearch]].

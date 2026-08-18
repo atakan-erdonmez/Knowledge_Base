@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[00_KnowledgeBase/1- MOCs/DevOps|DevOps]]"
+  - "[[DevOps|DevOps]]"
 ---
 
 ### git init

@@ -1,6 +1,6 @@
 ---
 tag:
-  - "[[00_KnowledgeBase/2- Tags/Security|Security]]"
+  - "[[00_KnowledgeBase/OLD-2- Tags/Security|Security]]"
 ---
 OpenID Connect (OIDC) is an industry-standard identity protocol built on top of the OAuth 2.0 framework that handles user authentication. When a client application requires identity verification, it redirects the user to an OIDC-compliant Identity Provider (such as Auth0, Okta, or Amazon [[Cognito]]). The provider authenticates the user's credentials and issues standardized tokens that assert the user's identity and granted access scopes, enabling decentralized applications to securely delegate authentication to a trusted external authority.
 

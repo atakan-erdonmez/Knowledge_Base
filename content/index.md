@@ -3,10 +3,10 @@
 Welcome to my **Knowledge Base**. This is where I keep my notes about various topics.
 
 # Cloud
-- **[[00_KnowledgeBase/AWS/index|index]]
+- **[[00_KnowledgeBase/AWS old migrate/index|index]]
 
 # OS
-- **[[00_KnowledgeBase/3- Notes/Linux/index|index]]
+- [[00_KnowledgeBase/3- Notes/Linux/index]]
 - **[[00_KnowledgeBase/3- Notes/Windows/index]]
 
 # DevOps

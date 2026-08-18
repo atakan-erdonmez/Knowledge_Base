@@ -1,6 +1,6 @@
 ---
 tag:
-  - "[[00_KnowledgeBase/2- Tags/Databases|Databases]]"
+  - "[[Databases|Databases]]"
 ---
 
 # OLTP (Online Transaction Processing)
