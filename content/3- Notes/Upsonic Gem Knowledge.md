@@ -3,7 +3,7 @@ tags:
   - ai
 ---
 
-[[00_KnowledgeBase/AI/AI|AI]] 
+[[00_KnowledgeBase/3- Notes/AI/AI|AI]] 
 [[AI Tools]] 
 [[AI Weekend]]
 
