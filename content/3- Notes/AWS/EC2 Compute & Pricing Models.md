@@ -4,6 +4,7 @@ link:
 tag:
   - "[[FinOps]]"
 ---
+Link: [[EC2]]
 ### On-Demand Instances
 
 On-Demand is the default, most flexible, and highest-cost pricing model for EC2. You launch virtual servers at a fixed hourly or per-second rate with zero upfront costs, long-term contracts, or commitment policies. It is designed for short-term, unpredictable, or spike-heavy workloads that cannot be interrupted, or for applications being tested before moving to a commitment model.

@@ -7,7 +7,7 @@ There should be no user account with empty password. Check empty passwords:
 
 Lock all empty password accounts:
 `passwd -l accountName`
-[[Linux/User Administration/General Commands|Passwd]]
+[[00_KnowledgeBase/3- Notes/Linux/User Administration/General Commands|Passwd]]
 
 # UID 0
 No user except root should have UID 0
