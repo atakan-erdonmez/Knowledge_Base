@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
 ---
 AWS Wavelength combines the high bandwidth and ultralow latency of 5G networks with AWS compute and storage services so that developers can innovate and build a new class of applications.
 

@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
 ---
 1. Operational Excellence
 2. Security

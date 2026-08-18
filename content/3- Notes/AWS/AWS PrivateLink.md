@@ -1,5 +1,5 @@
 ---
-link: "[[AWS]]"
+link: "[[00_KnowledgeBase/1- MOCs/AWS]]"
 tag:
   - "[[00_KnowledgeBase/2- Tags/Networking|Networking]]"
 ---

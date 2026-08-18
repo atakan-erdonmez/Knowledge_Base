@@ -40,7 +40,7 @@ Elastic (the company) changed their license model to a **non-open-source** licen
 Also: [[OpenSearch]]
 
 - A **fully open-source fork** of Elasticsearch + Kibana
-- Maintained by Amazon [[AWS]]
+- Maintained by Amazon [[00_KnowledgeBase/1- MOCs/AWS]]
 - Same APIs and functionality
 - Used in place of Elasticsearch by [[GrayLog]] and others
 

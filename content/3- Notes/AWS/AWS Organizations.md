@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
 ---
 It is a global service to manage multiple AWS accounts. There is the main management account and multiple member accounts. A member account can only be a part of one organization. It can cause some discounts and saving plans. 
 

@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
   - "[[00_KnowledgeBase/Networking/Networking|Networking]]"
 ---
 When you have an app with multiple edge locations, you can use Global Accelerator. It works by giving 2 anycast IP addresses to all edge locations. Supports **TCP & UDP**

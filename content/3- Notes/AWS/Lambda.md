@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
 tag:
   - "[[Compute]]"
   - "[[Serverless|Serverless]]"

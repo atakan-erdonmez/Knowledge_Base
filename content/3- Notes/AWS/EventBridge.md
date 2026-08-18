@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
 ---
 It is the default bus, great for event-driven applications. You have resources that you get data from, and destinations to run actions. You can also use 3rd party partners' event bus
 

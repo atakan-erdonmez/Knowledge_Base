@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
 ---
 [Source](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 [[AWS CLI Setup]],

@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[AWS]]"
+  - "[[00_KnowledgeBase/1- MOCs/AWS]]"
 tag:
   - "[[00_KnowledgeBase/2- Tags/Security|Security]]"
   - "[[00_KnowledgeBase/2- Tags/Networking|Networking]]"
