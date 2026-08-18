@@ -2,7 +2,7 @@
 link:
   - "[[AWS]]"
 tag:
-  - "[[2- Tags/Databases|Databases]]"
+  - "[[00_KnowledgeBase/2- Tags/Databases|Databases]]"
 ---
 # Elastic Disaster Recovery (DRS)
 Quickly and easily recover your physical, virtual, and cloud-based servers to AWS.

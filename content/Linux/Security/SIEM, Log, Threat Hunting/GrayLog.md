@@ -1,7 +1,7 @@
 ---
 tag:
-  - "[[2- Tags/Logging|Logging]]"
-  - "[[2- Tags/Monitoring|Monitoring]]"
+  - "[[00_KnowledgeBase/2- Tags/Logging|Logging]]"
+  - "[[00_KnowledgeBase/2- Tags/Monitoring|Monitoring]]"
   - "[[SIEM]]"
 ---
 
