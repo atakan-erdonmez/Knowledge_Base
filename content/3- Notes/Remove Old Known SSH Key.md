@@ -2,7 +2,7 @@
 tags:
   - ssh
 ---
-[[SSH]]
+[[00_KnowledgeBase/3- Notes/Linux/Administration/SSH/index]]
 This is run when the error 'WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!' shows up.
 
 ```

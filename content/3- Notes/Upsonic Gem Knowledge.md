@@ -3,9 +3,9 @@ tags:
   - ai
 ---
 
-[[00_KnowledgeBase/3- Notes/AI/AI|AI]] 
+[[00_KnowledgeBase/3- Notes/AI/index|index]] 
 [[AI Tools]] 
-[[AI Weekend]]
+[[40_Inbox/AI Weekend/index]]
 
 # Upsonic Framework — API Reference for Code Generation
 # Version: 0.74+ (March 2026)

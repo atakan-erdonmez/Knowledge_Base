@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[Proxmox]]"
+  - "[[00_KnowledgeBase/3- Notes/Linux/Virtualization/Proxmox/index]]"
 ---
 1. Shutdown all containers and VMs
 2. Edit `/etc/hostname` and `/etc/hosts` and rename

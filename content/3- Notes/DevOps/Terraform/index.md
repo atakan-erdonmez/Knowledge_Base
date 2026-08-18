@@ -6,7 +6,7 @@ tags:
 Terraform is a IaC tool.
 
 %% Begin Waypoint %%
-- **[[Terraform]]**
+- **[[00_KnowledgeBase/3- Notes/DevOps/Terraform/index]]**
 	- [[Best Practices in Terraform]]
 	- [[Create Instance in Terraform]]
 	- [[Terraform Basics]]

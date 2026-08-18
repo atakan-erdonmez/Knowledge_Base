@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[Kubernetes]]"
+  - "[[00_KnowledgeBase/3- Notes/Kubernetes/index]]"
 ---
 Liveness and Readiness
 

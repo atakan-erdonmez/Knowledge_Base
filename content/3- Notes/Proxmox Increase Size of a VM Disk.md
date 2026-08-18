@@ -4,7 +4,7 @@ tags:
   - vm
 ---
 
-[[Proxmox]], [[LVM]], [[Disk|Proxmox_Disk]], [VM Creation]
+[[00_KnowledgeBase/3- Notes/Linux/Virtualization/Proxmox/index]], [[LVM]], [[Disk|Proxmox_Disk]], [VM Creation]
 
 ## Step 1: Increase Size in GUI
 Go to Hardware -> Disk -> Resize on the top

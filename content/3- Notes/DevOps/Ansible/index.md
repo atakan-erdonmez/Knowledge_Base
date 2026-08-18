@@ -1,8 +1,8 @@
 
 %% Begin Waypoint %%
-- **[[Ansible]]**
-	- **[[Modules]]**
-	- [[Basics]]
+- **[[00_KnowledgeBase/3- Notes/DevOps/Ansible/index]]**
+	- **[[00_KnowledgeBase/3- Notes/DevOps/Ansible/Modules/index]]**
+	- [[00_KnowledgeBase/3- Notes/DevOps/Ansible/Basics]]
 	- [[Conditions]]
 	- [[Environment Configuration]]
 	- [[Facts]]

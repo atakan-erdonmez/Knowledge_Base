@@ -1,6 +1,6 @@
 ---
 link:
-  - "[[Kubernetes]]"
+  - "[[00_KnowledgeBase/3- Notes/Kubernetes/index]]"
 ---
 It is an object type that you put pieces of data like configuration files and environment variables.
 
