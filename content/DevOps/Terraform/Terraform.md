@@ -6,6 +6,7 @@
 - [[Terraform Installation]]
 - [[Terraform Providers]]
 - [[Create Instance in Terraform]]
+- [[Variables in Terraform]]
 ## Commands
 - `terraform init`: Command to initialize the working dir that contains your code. Mandatory to run. It also setup the backend for storing state of the deployment. You also need to run it whenever you create a new file or directory.
 - `terraform plan`: It reads the directory for your configs, and summarizes the plan to you. It doesn't deploy anything, just displays the overview of the deployment.
@@ -35,13 +36,17 @@ It is the current state of the Terraform deployment. The main file is `terraform
 
 
 
+
+
 %% Begin Waypoint %%
 - [[Best Practices in Terraform]]
 - [[Create Instance in Terraform]]
 - [[Terraform Basics]]
+- [[Terraform Input Variable Types]]
 - [[Terraform Installation]]
 - [[Terraform Providers]]
 - [[Terraform State]]
+- [[Variables in Terraform]]
 - [[Version Specification in Terraform]]
 
 %% End Waypoint %%
