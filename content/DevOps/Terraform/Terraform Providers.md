@@ -4,7 +4,9 @@ tags:
 ---
 [[Terraform Basics#Providers]]
 
-In order to install providers, create the directory `providers/`, and put a `providers.tf` file in it.
+In order to install providers, create a `providers.tf` file in the root folder.
+
+> Creating a subfolder makes it a separate module, and it won't include it in the run.
 
 Then, put providers like this:
 
@@ -17,7 +19,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "6.45.0" # Exactly the version you wanted
+      version = "~> 6.0"
     }
     azurerm = {
       source  = "hashicorp/azurerm"
