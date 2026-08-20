@@ -1,5 +1,6 @@
 ---
-title: Terraform
+tags:
+  - index
 ---
 
 
