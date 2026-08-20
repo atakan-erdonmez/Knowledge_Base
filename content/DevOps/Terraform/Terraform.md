@@ -45,7 +45,6 @@ It is the current state of the Terraform deployment. The main file is `terraform
 %% Begin Waypoint %%
 - [[Best Practices in Terraform]]
 - [[Create Instance in Terraform]]
-- [[index]]
 - [[Terraform Basics]]
 - [[Terraform Input Variable Types]]
 - [[Terraform Installation]]
