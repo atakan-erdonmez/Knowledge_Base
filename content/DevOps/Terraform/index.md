@@ -1,7 +1,7 @@
 ---
 title: Terraform
 ---
-
+index
 
 **Modules**: Codes that can be used to actions, like the AWS VPC module that lets you modify VPC
 **Plugins**: Requirements for modules to work. Downloaded in the init
