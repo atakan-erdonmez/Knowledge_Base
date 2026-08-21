@@ -1,6 +1,5 @@
 ---
 link:
-  - "[[00_KnowledgeBase/3- Notes/Kubernetes/index]]"
 ---
 Each config data has 3 parts:
 #### 1) metadata

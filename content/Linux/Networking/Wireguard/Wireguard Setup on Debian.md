@@ -72,8 +72,21 @@ ip addr show wg0
 
 
 ## 6- Add Peers
+Add peers:
+```/etc/wireguard/wg0.conf
+[Peer]
+# Peer name
+PublicKey = <PEER_PUBLIC_KEY>
+AllowedIPs = 10.50.0.2/32 # Wireguard IP of the peer
+```
 
+## 7- Restart Wireguard
+```bash
+sudo wg-quick down wg0
+sudo wg-quick up wg0
+```
 
 ---
+
 
 For [[RouterOS Wireguard Installation]]

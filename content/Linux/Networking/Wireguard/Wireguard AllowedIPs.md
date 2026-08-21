@@ -1,0 +1,303 @@
+**Link**: [[Wireguard]]
+**Source**: https://defguard.net/blog/allowedips-explained
+## Overview
+
+Keep this reference handy when designing WireGuard network topologies. For complex routing scenarios, test in a lab before production deployment.
+
+---
+
+## What AllowedIPs Actually Does
+
+AllowedIPs serves **two functions simultaneously**:
+
+1. **Routing (outbound):** Which destination IPs should be sent through this peer
+2. **Filtering (inbound):** Which source IPs are accepted from this peer
+
+Think of it as: “This peer is allowed to send/receive traffic for these IP ranges.”
+
+---
+
+## The Mental Model
+
+Step-by-step thought process when your device wants to send a packet (e.g., to 10.0.0.50):
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        YOUR DEVICE                              │
+│                                                                 │
+│  Application wants to reach 10.0.0.50                           │
+│         │                                                       │
+│         ▼                                                       │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │ Routing Decision: Which peer has 10.0.0.50 in           │    │
+│  │                   AllowedIPs?                           │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│         │                                                       │
+│         ▼                                                       │
+│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐          │
+│  │ Peer A      │    │ Peer B      │    │ Peer C      │          │
+│  │ 10.0.0.0/24 │◄───│ 10.1.0.0/24 │    │ 10.2.0.0/24 │          │
+│  │ ✓ MATCH     │    │ No match    │    │ No match    │          │
+│  └─────────────┘    └─────────────┘    └─────────────┘          │
+│         │                                                       │
+│         ▼                                                       │
+│  Packet encrypted and sent to Peer A's endpoint                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+- An application on your device tries to reach a destination IP (example: 10.0.0.50).
+- WireGuard looks at its routing table and checks: Which peer has this destination IP inside its AllowedIPs list?
+- It picks the matching peer (the most specific match usually wins if there are overlaps).
+- The packet gets encrypted and sent to that peer’s endpoint.
+- On the receiving side: WireGuard checks whether the source IP of the incoming packet matches the AllowedIPs configured for the sending peer → if not, drop it.
+
+---
+
+## Common Configurations
+
+### Full Tunnel (All Traffic Through VPN)
+
+```
+[Peer]
+PublicKey = <server_public_key>
+Endpoint = vpn.example.com:51820
+AllowedIPs = 0.0.0.0/0, ::/0    # All IPv4 and IPv6 traffic
+```
+
+**Use case:** Force all internet + internal traffic through the VPN (good for privacy, corporate compliance, or bypassing local ISP restrictions).
+
+**Warning:** This routes EVERYTHING through VPN, including DNS. Ensure VPN server can reach the internet.
+
+---
+
+### Split Tunnel (Only Corporate Resources)
+
+```
+[Peer]
+PublicKey = <server_public_key>
+Endpoint = vpn.example.com:51820
+AllowedIPs = 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16
+```
+
+**Use case:** Access only corporate/internal resources via VPN; everything else (YouTube, social media, etc.) uses your normal local internet.
+
+**Advantage:** Reduces VPN server load, faster internet access
+
+---
+
+### Single Host Access
+
+```
+[Peer]
+PublicKey = <server_public_key>
+Endpoint = vpn.example.com:51820
+AllowedIPs = 10.0.0.50/32    # Only this one IP
+```
+
+**Use case:** Very strict access — only allow reaching one specific server/IP.
+
+---
+
+### Multiple Non-Contiguous Ranges
+
+```
+[Peer]
+PublicKey = <server_public_key>
+Endpoint = vpn.example.com:51820
+AllowedIPs = 10.0.0.0/24, 10.5.0.0/24, 172.16.50.0/24
+```
+
+**Use case:** Access several separate internal subnets that aren’t in one big block.
+
+---
+
+## Server-Side vs Client-Side
+
+### On the server (gateway) config — for each [Peer] (client):
+
+AllowedIPs = list of IPs/networks this client is allowed to use as source when sending packets. → Typically includes the client’s own tunnel IP (e.g., 10.0.0.10/32) + any networks the client is allowed to route/proxy traffic from.
+
+```
+# Server accepts traffic FROM THIS CLIENT only when source IP matches these ranges
+[Peer]
+PublicKey = <client_public_key>
+AllowedIPs = 10.0.0.10/32, 10.0.0.0/24    # Client's IP + networks it can access
+```
+
+### Client Config
+
+AllowedIPs = list of destination networks you want to reach through the server/VPN.
+
+```
+# Client routes THESE DESTINATIONS through server
+[Peer]
+PublicKey = <server_public_key>
+AllowedIPs = 10.0.0.0/24     # All of internal network
+```
+
+**Key insight:** Server and client AllowedIPs serve different purposes:
+
+- Server: “What IPs can this client claim as source?”
+- Client: “What destinations should go through VPN?”
+
+---
+
+## Common Mistakes
+
+### Mistake 1: Overlapping AllowedIPs
+
+Two peers both claim overlapping ranges (e.g., one has /16, another has /24 inside it).
+
+```
+# BAD: Two peers with overlapping ranges
+[Peer]
+PublicKey = <peer_a>
+AllowedIPs = 10.0.0.0/16    # 10.0.x.x
+
+[Peer]
+PublicKey = <peer_b>
+AllowedIPs = 10.0.1.0/24    # Also 10.0.x.x - OVERLAP!
+```
+
+**Result:** Traffic to 10.0.1.x could go to either peer (undefined behavior)
+
+**Fix:** Use non-overlapping, most-specific routes
+
+---
+
+### Mistake 2: Incorrect Source IP Ranges
+
+Client uses e.g. 10.1.0.5, but server only allows 10.0.0.0/24.
+
+```
+# BAD: Server config doesn't match client's actual tunnel IP
+[Peer]
+PublicKey = <client>
+AllowedIPs = 10.0.0.0/24    # Client uses 10.1.0.5, but this allows 10.0.x.x sources only
+```
+
+**Result:** Client can’t communicate because its source IP (10.1.0.5) doesn’t match allowed ranges
+
+**Fix:** Include client’s actual tunnel IP in server’s AllowedIPs: `AllowedIPs = 10.1.0.5/32, 10.0.0.0/24`
+
+---
+
+### Mistake 3: Full tunnel breaks access to local network devices (printer, NAS, etc.)
+
+AllowedIPs = 0.0.0.0/0 routes even local subnet traffic through VPN → unreachable.
+
+```
+# Client config
+[Peer]
+AllowedIPs = 0.0.0.0/0    # All traffic through VPN
+```
+
+**Problem:** Local network (printer, NAS) unreachable
+
+**Fixes:**
+
+1. **Exclude local subnet (recommended):**
+    
+    ```
+    AllowedIPs = 0.0.0.0/0, !192.168.1.0/24    # All except local network
+    ```
+    
+    _Note: Not all WireGuard implementations support exclusion syntax_
+    
+2. **Use CIDR math workaround:**
+    
+    ```
+    AllowedIPs = 0.0.0.0/1, 128.0.0.0/1    # Covers all IPv4 except 0.0.0.0/0 exactly
+    ```
+    
+3. **OS-specific routing:** Configure local routes to bypass VPN interface
+    
+
+---
+
+### Mistake 4: DNS Leaks in Split Tunnel
+
+You route internal networks but DNS queries still go to your ISP.
+
+```
+# Client config - split tunnel
+[Peer]
+AllowedIPs = 10.0.0.0/8
+DNS = 10.0.0.1    # Corporate DNS
+```
+
+**Problem:** DNS queries might still go to ISP DNS
+
+**Fix:** Make sure the corporate DNS server IP is included in AllowedIPs, or force DNS through the tunnel by adding its /32 explicitly.
+
+```
+AllowedIPs = 10.0.0.0/8, 10.0.0.1/32
+```
+
+---
+
+## Quick Subnet Reference
+
+|CIDR|Addresses|Use Case|
+|---|---|---|
+|/32|1|Single host|
+|/24|256|Small subnet|
+|/16|65,536|Large network|
+|/8|16.7M|Entire class A|
+|/0|All|Full tunnel|
+
+---
+
+## Defguard and AllowedIPs
+
+**How Defguard simplifies this:**
+
+- You define network ranges in each VPN Location.
+- You assign users/devices to specific Locations.
+- Defguard automatically generates correct AllowedIPs for clients and servers based on these settings.
+
+**Advantages:** Eliminates most manual typing → fewer typos, routing conflicts, or mismatches. Next step: Check docs.defguard.net for details on configuring Location network ranges and per-user access controls.
+
+**Verify in [docs.defguard.net](https://docs.defguard.net/features/wireguard/network-overview#detailed-location-overview):** How to configure location network ranges and per-user access
+
+---
+
+## Debugging AllowedIPs Issues
+
+### Check Current Routes
+
+See current routes added by WireGuard:
+
+```
+# Linux - show routing table
+ip route show table all | grep wg0
+
+# macOS
+netstat -rn | grep utun
+```
+
+### Verify Peer Configuration
+
+See all peers and their AllowedIPs:
+
+```
+# Show all peers and their AllowedIPs
+wg show wg0 allowed-ips
+```
+
+### Test Routing Decision
+
+Test which interface/path a destination would use:
+
+```
+# Which interface would this IP use?
+ip route get 10.0.0.50
+```
+
+---
+
+## One-Liner Summary
+
+> **AllowedIPs = “Send traffic FOR these IPs through this peer, and ACCEPT traffic FROM these IPs from this peer.”**
+
+This guide emphasizes careful, non-overlapping design of AllowedIPs — especially in server/client pairs — to ensure both correct routing and strong security filtering.
