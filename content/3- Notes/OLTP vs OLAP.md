@@ -1,6 +1,6 @@
 ---
-tag:
-  - "[[Databases|Databases]]"
+tags:
+  - Database
 ---
 
 # OLTP (Online Transaction Processing)

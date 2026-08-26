@@ -1,7 +1,7 @@
 ---
 tags:
-  - dns
   - network
+  - DNS
 ---
 A **DNS zone apex record** (also commonly called a **root domain**, **naked domain**, or **apex domain**) is the base level of your domain name that does not include a subdomain prefix like www.
 

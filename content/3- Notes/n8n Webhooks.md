@@ -1,7 +1,7 @@
 ---
-tag:
-  - "[[AI|AI]]"
-  - "[[Automation]]"
+tags:
+  - AI
+  - Automation
 ---
 In order to achieve a Telegram-triggered workflow, you need to use **Webhooks**. 
 

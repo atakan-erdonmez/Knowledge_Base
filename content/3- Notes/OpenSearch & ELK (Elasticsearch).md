@@ -1,7 +1,7 @@
 ---
-tag:
-  - "[[Monitoring|Monitoring]]"
-  - "[[00_KnowledgeBase/OLD-2- Tags/Logging|Logging]]"
+tags:
+  - Monitoring
+  - Logging
 ---
 # Elasticsearch
 
