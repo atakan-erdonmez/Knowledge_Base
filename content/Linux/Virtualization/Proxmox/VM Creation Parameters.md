@@ -28,6 +28,8 @@ For any modern Linux distro, suggestions are :
 > Then enable `sudo systemctl qemu-guest-agent.service`
 > Lastly, enable Qemu guest in settings
 
+
+
 # Detailed explanations of startup settings
 ### 1. Deep Dive into VM Creation Settings
 
@@ -36,27 +38,22 @@ For any modern Linux distro, suggestions are :
 - **Graphic Card (GPU):** Defines the virtual display adapter.
     
     - **`VirtIO-GPU`:** (Recommended Default) Highest performance, requires modern guest OS with VirtIO drivers (built into most Linux distros).
-        
     - **`Standard VGA`:** Maximum compatibility for older or problematic operating systems, but with basic performance.
         
 - **Machine Type:** Defines the virtual motherboard chipset.
     
     - **`Q35`:** (Recommended Default) Modern chipset with PCIe support. Required for advanced features like GPU passthrough. Use for all modern operating systems.
-        
     - **`i440FX`:** Older chipset for compatibility with legacy operating systems.
         
 - **BIOS:** Defines the firmware.
     
     - **`OVMF (UEFI)`:** (Recommended) Modern UEFI firmware. Required for Secure Boot and Windows 11.
-        
     - **`SeaBIOS`:** Traditional BIOS firmware for broad compatibility.
         
 - **SCSI Controller:** Defines the controller for `SCSI` type disks.
     
     - **`VirtIO SCSI`:** (Recommended Default) Highest performance paravirtualized controller. Best choice for all modern Linux VMs and Windows with drivers.
-        
     - **`VMware PVSCSI`:** High-performance option used for compatibility when migrating VMs from VMware.
-        
     - **`LSI / MegaRAID`:** Emulated hardware controllers for compatibility with legacy systems or specific software that requires them.
         
 
@@ -65,19 +62,14 @@ For any modern Linux distro, suggestions are :
 - **Bus / Device:** Defines how the disk is connected.
     
     - **`SCSI`:** (Recommended) Connects the disk to the controller chosen on the System tab (ideally `VirtIO SCSI`).
-        
     - **`VirtIO Block`:** An alternative high-performance paravirtualized option. `VirtIO SCSI` is generally more flexible.
-        
     - **`SATA`:** Emulates a standard SATA drive. Good for Windows without loading special drivers.
-        
     - **`IDE`:** Slowest option, for legacy OS compatibility only.
-        
+
 - **Cache:** Defines how the host uses RAM to cache disk operations.
     
     - **`No cache`:** (Safe Default) Relies on the guest OS's own caching. Good, reliable performance.
-        
     - **`Write back`:** (Highest Performance, Unsafe) Host reports writes as complete instantly. **Risk of data loss on power failure unless you have a UPS.**
-        
     - **`Write through`:** (Safest) Host reports writes as complete only after data is on the physical disk. Slower write performance.
         
 - **Discard (TRIM):** **Check this box.** This allows the VM to tell the SSD and `local-lvm` storage which blocks are free, reclaiming space and maintaining SSD health.
@@ -101,23 +93,18 @@ For any modern Linux distro, suggestions are :
 - **Sockets vs. Cores:**
     
     - **Sockets:** Number of virtual CPU sockets presented to the guest.
-        
     - **Cores:** Number of cores per socket.
-        
     - **Total vCPUs = Sockets x Cores**.
-        
     - **Recommendation:** For best compatibility and to avoid potential software licensing issues, always use **1 Socket** and set the `Cores` value to the number of virtual cores you need.
-        
+
 - **CPU Type:**
     
     - **`host`:** (Recommended for single-node setups) Passes your actual CPU model and all its features/instruction sets to the VM. This provides the best performance.
-        
     - **`kvm64`:** A generic, highly compatible CPU model. Use this if you plan to live-migrate VMs between hosts with different physical CPUs.
-        
+
 - **Greyed-Out Options:**
     
     - **`VCPUs`:** This is always greyed out because it's a calculated field that displays `Sockets x Cores`.
-        
     - **`CPU limit` & `CPU affinity`:** These are advanced resource control settings that are only configurable _after_ a VM has been created (under the Hardware tab, by editing the "Processors" entry).
 
 ##### CPU Type Detailed
@@ -154,13 +141,8 @@ That’s it – keep it simple: **use “host” for single-box templates; leave
 You can change most VM settings after creation, but some are easier than others. **The VM must be powered off to change hardware settings.**
 
 - **Easy to Change:** (Select VM -> Hardware -> Select Device -> Edit)
-    
     - Cache mode
-        
     - Discard option
-        
     - IO Thread option
-        
 - **Difficult/Risky to Change (for the Boot Disk):**
-    
     - **Bus / Device:** Changing the bus type (e.g., from SATA to SCSI) for a disk that contains the operating system will likely break the VM's bootloader, as the OS will no longer be able to find its boot files. This requires an advanced rescue operation to fix. It's best to set this correctly at creation.
