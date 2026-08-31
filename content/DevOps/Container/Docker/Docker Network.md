@@ -12,7 +12,7 @@ Note: There is no such a thing as "accessing the network", only "accessing to th
 Checkout here for use in [[Docker Compose]]
 
 ## Host network type
-If you use `--network host` flag, you basically **remove all the isolation** and all services and ports will be accessible from the host. **
+If you use `--network host` flag, you basically **remove all the isolation** and all services and ports will be accessible from the host. 
 
 
 ## MACVLAN network type

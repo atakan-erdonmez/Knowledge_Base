@@ -39,6 +39,15 @@ It is the current state of the Terraform deployment. The main file is `terraform
 [[Terraform State]]
 
 
+## Software Deployment
+There are 2 ways to provision software on your instance:
+- Build custom AMI (preferred):
+	- Bundle software and files in base image
+	- **Packer** is a tool to bundle custom AMIs (Chef can be used as well)
+
+- Boot standard AMIs and install software on instance at runtime.
+	- You can use Chef, Puppet, or [[Ansible]] 
+
 
 
 
