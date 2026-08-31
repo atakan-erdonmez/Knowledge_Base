@@ -9,7 +9,6 @@
 - **[[KB_Images]]**
 - **[[Linux]]**
 - **[[Networking]]**
-- **[[OLD-1- MOCs]]**
 - **[[OLD-2- Tags]]**
 - **[[Python]]**
 - **[[Windows]]**
