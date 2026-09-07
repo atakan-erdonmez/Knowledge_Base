@@ -4,12 +4,16 @@ tags:
 ---
 [[Terraform Basics#Providers]]
 
+Providers are translation layer between Terraform core and the related API, like AWS' API
+
 In order to install providers, create a `providers.tf` file in the root folder.
 
 > Creating a subfolder makes it a separate module, and it won't include it in the run.
 
 Then, put providers like this:
 
+
+https://registry.terraform.io/providers/hashicorp/aws/latest
 ```terraform
 # 1. THE ENGINE ROOM (Dependency Management)
 terraform {
