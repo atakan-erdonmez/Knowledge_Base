@@ -1,0 +1,69 @@
+**Link:** [[Terraform]]
+
+
+- **Terraform Block**: Main block, used to configure project-level variables like required providers.
+```
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+```
+> You can use [[Terraform Random Provider|Random]] provider for creating a random sequence of text.
+
+
+- **Resource**: The individual resource that will be managed via Terraform
+```
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = var.bucket_name
+}
+```
+
+- **Data**: A resource that is outside of our management. A resource that will be used as a data source
+```
+data "aws_s3_bucket" "my_external_bucket" {
+  bucket = "not-managed-by-us"
+}
+```
+
+- **Variable**: A variable name that will be used in the config
+```
+variable "bucket_name" {
+  type        = string
+  description = "My variable used to set bucket name"
+  default     = "my_default_bucket_name"
+}
+```
+
+- **Output**: To expose information about our configuration
+```
+output "bucket_id" {
+  value = aws_s3_bucket.my_bucket.id
+}
+```
+
+- **Locals**: Local variable, temporary variables. Variables that you create inside a function, but that doesn't return any value or used in as a parameter
+```
+locals {
+  local_example = "This is a local variable"
+}
+```
+
+- **Modules**: Reusable codes that is defined somewhere in the project directory
+```
+module "my_module" {
+  source = "./module-example"
+}
+```
+
+
+## Providers
+Providers block specifies provider parameters, like region
+```
+provider "aws" {
+  region = "eu-central-1"
+}
+```

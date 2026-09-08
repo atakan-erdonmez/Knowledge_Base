@@ -20,6 +20,7 @@ An IaC tool for managing infrastructure. Uses [[HashiCorp Configuration Language
 
 **Flow**: Write IaC -> init -> plan -> apply -> destroy
 
+> More on [[Terraform CLI]]
 ## Providers
 
 
@@ -55,10 +56,12 @@ There are 2 ways to provision software on your instance:
 %% Begin Waypoint %%
 - [[Best Practices in Terraform]]
 - [[Create Instance in Terraform]]
+- [[HashiCorp Configuration Language (HCL)]]
 - [[Terraform Basics]]
 - [[Terraform Input Variable Types]]
 - [[Terraform Installation]]
 - [[Terraform Providers]]
+- [[Terraform Random Provider]]
 - [[Terraform State]]
 - [[Variables in Terraform]]
 - [[Version Specification in Terraform]]
