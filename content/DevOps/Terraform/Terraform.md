@@ -2,6 +2,7 @@
 tags:
   - index
 ---
+An IaC tool for managing infrastructure. Uses [[HashiCorp Configuration Language (HCL)]]
 
 
 **Modules**: Codes that can be used to actions, like the AWS VPC module that lets you modify VPC
