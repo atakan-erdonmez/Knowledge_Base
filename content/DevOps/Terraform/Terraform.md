@@ -13,8 +13,8 @@ An IaC tool for managing infrastructure. Uses [[HashiCorp Configuration Language
 - [[Create Instance in Terraform]]
 - [[Variables in Terraform]]
 ## Commands
-- `terraform init`: Command to initialize the working dir that contains your code. Mandatory to run. It also setup the backend for storing state of the deployment. You also need to run it whenever you create a new file or directory.
-- `terraform plan`: It reads the directory for your configs, and summarizes the plan to you. It doesn't deploy anything, just displays the overview of the deployment.
+- `terraform init`: Command to initialize the working dir that contains your code. Mandatory to run. It also setup the backend for storing [[Terraform State]] of the deployment. You also need to run it whenever you create a new file or directory.
+- `terraform plan`: It reads the directory for your configs, and summarizes the plan to you. It doesn't deploy anything, just displays the overview of the deployment. You can keep the plan in a [[Terraform Backend]]
 - `terraform apply`: Deploy the infrastructure. It can update the deployment or newly deploy.
 - `terraform destroy`: Look at the state file and destroy all resources found in the state file.
 
@@ -57,6 +57,7 @@ There are 2 ways to provision software on your instance:
 - [[Best Practices in Terraform]]
 - [[Create Instance in Terraform]]
 - [[HashiCorp Configuration Language (HCL)]]
+- [[Terraform Backend]]
 - [[Terraform Basics]]
 - [[Terraform Input Variable Types]]
 - [[Terraform Installation]]
