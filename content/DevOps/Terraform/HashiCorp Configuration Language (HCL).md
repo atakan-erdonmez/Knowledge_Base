@@ -1,9 +1,21 @@
 **Link:** [[Terraform]]
 
 
-- **Terraform Block**: Main block, used to configure project-level variables like required providers.
+## Terraform Block
+Main block, used to configure project-level variables like required providers, backend, and required versions.
+
+- Only constants are allowed, inputs variables or resource references are not allowed.
+- `cloud` block: Used to configure [[Terraform Cloud]]
+- `backend` block: Used to configure a state backend for the project
+- `required version` key: Specifies accepted versions of Terraform for the current project
+- `required providers` block: Specifies the required providers for the current project or module, with version
 ```
 terraform {
+	required_version = "1.7.0" 
+	
+	backend "s3" { 
+	//
+	}
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -15,7 +27,23 @@ terraform {
 > You can use [[Terraform Random Provider|Random]] provider for creating a random sequence of text.
 
 
-- **Resource**: The individual resource that will be managed via Terraform
+
+#### Version Constraints
+
+| Symbol       | Meaning                                      |
+| ------------ | -------------------------------------------- |
+| =            | Allows only specified version                |
+| !=           | Excludes an exact version                    |
+| >=, <=, >, < | Comparison                                   |
+| ~>           | Allows only the rightmost digit to increment |
+**Examples**:
+- required_version = ">-1.7.0"
+- required_version = ">1.5.0, <1.7.0" 
+- required_version = "~>1.5.0"
+- required_version = "~>1.5"
+
+## Resource
+The individual resource that will be managed via Terraform
 ```
 resource "aws_s3_bucket" "my_bucket" {
   bucket = var.bucket_name
