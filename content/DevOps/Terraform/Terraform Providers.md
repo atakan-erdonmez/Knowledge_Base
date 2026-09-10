@@ -53,3 +53,27 @@ When you run terraform, it collects every .tf file in the directory, merges them
 The `terraform {}` block is the actual engine, which you should define in `providers.tf` or something similar. It should include terraform block as well as individual providers
 
 Then, when you are creating job-files (REPLACE HERE WITH ACTUAL NAME), you should not specify any provider or terraform block
+
+
+## Aliasing & Multiple Regions
+When you need to use multiple regions from the same provider, you use *alias*.
+
+
+```providers.tf
+provider "aws" {
+	region = "eu-west-1"
+	# if you don't use an alias here, it will be the default provider
+	}
+	
+provider "aws" {
+	region = "us-east-1"
+	alias = "us-east"
+	}
+```
+
+```resource.tf
+resource "aws_s3_bucket" "my_bucket" {
+	bucket = "random-bucket"
+	provider = aws.us-east # specify a provider & region
+	}
+```

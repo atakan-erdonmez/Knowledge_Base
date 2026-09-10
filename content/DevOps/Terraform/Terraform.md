@@ -59,6 +59,8 @@ There are 2 ways to provision software on your instance:
 - [[HashiCorp Configuration Language (HCL)]]
 - [[Terraform Backend]]
 - [[Terraform Basics]]
+- [[Terraform CLI]]
+- [[Terraform Cloud]]
 - [[Terraform Input Variable Types]]
 - [[Terraform Installation]]
 - [[Terraform Providers]]
