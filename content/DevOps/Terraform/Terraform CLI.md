@@ -2,7 +2,7 @@
 - `terraform fmt`: Automatically updates (**f**or**m**a**t**s) Terraform configuration files to a canonical format and style, improving consistency and readability. The command works only for the files in the current working directory, but you can also add a `-recursive` flag to format `.tf` files in nested directories.
 - `terraform plan`: Creates an execution plan, showing what actions Terraform will take to achieve the desired state defined in the Terraform files. This command does not modify the actual resources or state.
 - `terraform plan -out <filename>`: Similar to `terraform plan`, but it also writes the execution plan to a file that can be used by `terraform apply`, ensuring that exactly the planned actions are taken.
-- `terraform apply`: Applies the execution plan, making the necessary changes to reach the desired state of the resources. If you run `terraform plan` with the `-out` option, you can run `terraform apply <filename>` to provide the execution plan.
+- `terraform apply`: Applies the execution plan, making the necessary changes to reach the desired state of the resources. If you run `terraform plan` with the `-out` option, you can run `terraform apply <filename>` to provide the execution plan. Need 'show' to read.
 - `terraform show`: Provides human-readable output from a state or plan file. It's used to inspect the current state or to see the actions planned by a `terraform plan` command.
 - `terraform state list`: Lists all resources in the state file, useful for managing and manipulating the state.
 - `terraform destroy`: Destroys all resources tracked in the state file. This command is the equivalent of passing a `-destroy` flag to the `terraform apply` command.

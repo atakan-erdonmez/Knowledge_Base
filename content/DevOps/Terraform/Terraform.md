@@ -38,7 +38,8 @@ More on [[Terraform Providers]]
 ## Resources
 Resource blocks are the main building blocks of a Terraform deployment. Resource blocks represent things like virtual networks, compute instances, DNS records, storage disks, etc...
 
-[[Terraform Resources]]
+- [[Terraform Resources]]
+- [[Terraform AWS Resources]]
 
 ## Terraform State
 It is the current state of the Terraform deployment. The main file is `terraform.tfstate`. 
@@ -58,6 +59,7 @@ There are 2 ways to provision software on your instance:
 
 
 %% Begin Waypoint %%
+- **[[Terraform AWS Resources]]**
 - [[Best Practices in Terraform]]
 - [[Create Instance in Terraform]]
 - [[HashiCorp Configuration Language (HCL)]]
