@@ -12,3 +12,17 @@
 - `prevent_destroy`: Terraform exits with an error if the planned changes would lead to the destruction of the resource marked with this.
 - `replace_triggered_by`: Replaces the resource when any of the referenced items change.
 - `ignore_changes`: We can provide a list of attributes that should not trigger an update when *modified outside TF.*
+
+
+**Usage**:
+```
+resource "aws_instance" "my_instance" {
+	ami = "asfdasdf"
+	instance_type = "asdfasdf"
+	
+	lifecycle {
+		create_before_destroy = true
+		ignore_changes = [ tags ]
+	}
+}
+```
