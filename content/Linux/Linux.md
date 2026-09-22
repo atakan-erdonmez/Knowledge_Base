@@ -1,3 +1,178 @@
 - For setting up a new server: [[Linux New Server Setup]]
 
-%% WA
+%% Begin Waypoint %%
+- **Administration**
+	- **Mail**
+		- [[Dovecot]]
+		- [[General]]
+		- [[Postfix]]
+	- **NFS**
+		- [[NFS General]]
+	- **SMB**
+		- [[Samba gemini]]
+		- [[Samba]]
+		- [[SMB Security (LINK)]]
+		- [[smb.conf Config]]
+		- [[smbclient]]
+	- **SSH**
+		- [[SSH Config]]
+		- [[SSH Security (LINK)]]
+	- [[bash-completion]]
+	- [[DNS]]
+	- [[Drivers]]
+	- [[FTP]]
+	- [[Kickstart]]
+	- [[NTP]]
+	- [[RPM Package Manager]]
+	- [[xfreerdp]]
+- **AI & ML**
+	- [[Ollama]]
+	- [[OpenWebUI]]
+- **Bash Scripting**
+	- [[Generic]]
+	- [[Operators]]
+- **Basics**
+	- **Help**
+		- [[man pages]]
+	- [[find command]]
+	- [[Grep]]
+	- [[hostname]]
+	- [[ls]]
+	- [[Special Characters]]
+	- [[Text altering]]
+	- [[Time & Date]]
+- **Boot & GRUB**
+	- [[GRUB Password Creation]]
+	- [[GRUB_CMDLINE and AMDGPU]]
+	- [[Linux Starting Modes]]
+	- [[Live CD Boot LINK]]
+	- [[Root Password Reset]]
+- **Cryptology**
+	- **Steganography**
+		- [[Programs]]
+	- [[mkpasswd]]
+- **[[Disk & Storage]]**
+- **End-User Stuff**
+	- [[Gaming]]
+	- [[KVantum]]
+- **Hardware**
+	- [[GPU Apps]]
+	- [[hdparm]]
+	- [[NUT]]
+	- [[Tuncmatik UPS Installation]]
+	- [[udev & udevadm]]
+	- [[udisksctl]]
+- **Logs, Backup, Monitoring**
+	- **Logs**
+		- [[Common Logs to Check LINK]]
+		- [[Linux Logs]]
+	- **Monitoring**
+		- **Grafana**
+			- [[Installation]]
+		- **Linux Generic Monitoring**
+			- [[Common Logs to Check LINK]]
+			- [[Linux Basic Monitoring]]
+			- [[Linux Process Mgmt Folder LINK]]
+		- **Netdata**
+			- [[Basics]]
+		- **Prometheus**
+			- [[Alerts & AlertManager]]
+			- [[Config File]]
+			- [[Prometheus Basics]]
+			- [[PromQL]]
+			- [[Service Discovery]]
+		- [[Gatus]]
+		- [[UptimeKuma]]
+	- [[Rsync General]]
+	- [[SIEM, Log, Threat Hunting LINK]]
+- **Media Programs**
+	- [[ffmpeg]]
+	- [[ImageMagick]]
+- **Networking**
+	- **Network Security**
+		- [[DNS over TLS-HTTPS]]
+		- [[Firewalls & firewall-cmd]]
+		- [[IPTables Theoretical LINK]]
+		- [[OPNSense]]
+		- [[proxychains]]
+		- [[tailscale]]
+		- [[TCP Wrapper LINK]]
+	- **[[Wireguard]]**
+	- [[bridge]]
+	- [[dhcpd]]
+	- [[General]]
+	- [[ifconfig]]
+	- [[ip degistir]]
+	- [[nmcli degistir]]
+	- [[route (legacy)]]
+	- [[systemd-resolved LINK]]
+	- [[Unbound & OPNSense ISC DHCP]]
+- **Process Management**
+	- [[at]]
+	- [[Cron]]
+	- [[kill]]
+	- [[PS & Top]]
+	- [[Sleep]]
+- **Security**
+	- **Linux Hardening**
+		- [[Common Logs to Check]]
+		- [[Empty Passwords & UID 0]]
+		- [[General]]
+		- [[GRUB & BIOS Password LINK]]
+		- [[SELinux]]
+		- [[USBGuard]]
+	- **SIEM, Log, Threat Hunting**
+		- [[GrayLog]]
+		- [[SIEM & Log Programs]]
+		- [[SIEM, Log, Threat Hunting.sync-conflict-20250604-180010-6OT7PXP]]
+		- [[Wazuh]]
+	- **SSH Security**
+		- [[2FA Authentication]]
+		- [[fail2ban]]
+		- [[SSH Hardening]]
+	- [[FTP Security]]
+	- [[Network Security]]
+	- [[pwgen]]
+	- [[SMB Security]]
+- **System & Kernel**
+	- [[Fedora Version Upgrade]]
+	- [[General]]
+	- [[Kernel Modules]]
+	- [[ldd]]
+	- [[Magic SysRq Key]]
+	- [[Systemctl]]
+	- [[Systemd General]]
+	- [[systemd timers]]
+	- [[systemd-resolved]]
+- **Useful Programs**
+	- [[Cockpit]]
+	- [[qrencode]]
+	- [[vim]]
+- **User Administration**
+	- [[ACLs]]
+	- [[Bash]]
+	- [[General Commands]]
+	- [[Password Expiration & Aging]]
+	- [[Permissions]]
+	- [[Sudo]]
+	- [[User Admin Commands]]
+- **Virtualization**
+	- **[[Proxmox]]**
+	- [[LXC & LXD]]
+	- [[Qemu]]
+- **Web Servers**
+	- **Wordpress**
+		- [[Security & Permissions]]
+		- [[Wordpress Installation]]
+	- [[Apache2 Config]]
+	- [[Apache2 General]]
+	- [[Certbot]]
+	- [[mysql]]
+	- [[Python3 Web Server]]
+- [[Calisilacaklar]]
+- [[Domain DUZENLE]]
+- [[Linux New Server Setup]]
+- [[RegEx]]
+- [[source Command]]
+
+%% End Waypoint %%

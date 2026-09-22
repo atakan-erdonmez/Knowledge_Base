@@ -5,6 +5,7 @@ title: "{{folder_name}}"
 ---
 %% Begin Waypoint %%
 - [[du command]]
+- [[fio]]
 - [[fstab file]]
 - [[fstrim]]
 - [[hdparm LINK]]
