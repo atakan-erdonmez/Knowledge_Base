@@ -55,13 +55,7 @@
 - **End-User Stuff**
 	- [[Gaming]]
 	- [[KVantum]]
-- **Hardware**
-	- [[GPU Apps]]
-	- [[hdparm]]
-	- [[NUT]]
-	- [[Tuncmatik UPS Installation]]
-	- [[udev & udevadm]]
-	- [[udisksctl]]
+- **[[Hardware]]**
 - **Logs, Backup, Monitoring**
 	- **Logs**
 		- [[Common Logs to Check LINK]]
