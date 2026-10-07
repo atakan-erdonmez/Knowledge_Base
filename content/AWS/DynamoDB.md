@@ -1,8 +1,8 @@
 ---
 link:
   - "[[AWS]]"
-tag:
-  - "[[Databases|Databases]]"
+tags:
+  - "#Database"
 ---
 > For further reading about keys: [[DynamoDB Partition & Sort Key]]
 
