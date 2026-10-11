@@ -23,6 +23,7 @@ Provides a before-and-after comparison of playbook changes. It is helpful to und
 ### Syntax Check
 Checks the syntax of the playbook
 `ansible-playbook install_nginx.yaml --syntax-check`
+> This command can be used to check YAML formatting of any file
 
 ## Ansible-lint
 It is a tool to check complex playbooks for bugs, errors, stylistic errors, and suspicious constructurs.
