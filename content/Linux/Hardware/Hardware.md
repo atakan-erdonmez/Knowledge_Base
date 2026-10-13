@@ -1,7 +1,7 @@
 ---
 tags:
   - index
-title: "{{folder_name}}"
+title: Hardware
 ---
 %% Begin Waypoint %%
 - [[GPU Apps]]

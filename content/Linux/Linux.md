@@ -83,25 +83,7 @@
 - **Media Programs**
 	- [[ffmpeg]]
 	- [[ImageMagick]]
-- **Networking**
-	- **Network Security**
-		- [[DNS over TLS-HTTPS]]
-		- [[Firewalls & firewall-cmd]]
-		- [[IPTables Theoretical LINK]]
-		- [[OPNSense]]
-		- [[proxychains]]
-		- [[tailscale]]
-		- [[TCP Wrapper LINK]]
-	- **[[Wireguard]]**
-	- [[bridge]]
-	- [[dhcpd]]
-	- [[General]]
-	- [[ifconfig]]
-	- [[ip degistir]]
-	- [[nmcli degistir]]
-	- [[route (legacy)]]
-	- [[systemd-resolved LINK]]
-	- [[Unbound & OPNSense ISC DHCP]]
+- **[[Networking]]**
 - **Process Management**
 	- [[at]]
 	- [[Cron]]
@@ -138,7 +120,7 @@
 	- [[Systemctl]]
 	- [[Systemd General]]
 	- [[systemd timers]]
-	- [[systemd-resolved]]
+	- [[systemd-resolved LINK]]
 - **Useful Programs**
 	- [[Cockpit]]
 	- [[qrencode]]
