@@ -1,3 +1,4 @@
+- `docker system df`: Show docker disk usage
 - `docker container prune`: Delete all **stopped/exited** containers
 - `docker image prune`: Delete the **dangling** images
 - `docker image prune -a`: Delete all **unused** images, meaning images not linked to any active or stopped container
