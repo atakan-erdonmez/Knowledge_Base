@@ -18,7 +18,7 @@ ansible
 - [[Facts]]
 - [[Getting Variable from .env without Copying]]
 - [[group_vars]]
-- [[Inventory]]
+- [[00_KnowledgeBase/DevOps/Ansible/Inventory]]
 - [[Playbooks]]
 - [[Variables]]
 
