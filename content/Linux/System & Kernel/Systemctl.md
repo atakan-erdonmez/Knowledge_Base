@@ -18,6 +18,8 @@ systemctl daemon-reload -> reload systemd related settings
 
 ~/.config/systemd/user -> user level systemd fikles
 
+
+> Boot directly to BIOS: `sudo systemctl reboot --firmware-setup`
 ### List All Services
 
 To see only your user .service units:
