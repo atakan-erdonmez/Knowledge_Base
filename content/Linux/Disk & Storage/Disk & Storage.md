@@ -48,6 +48,7 @@ Typical order: `lsblk` → `smartctl` → `badblocks` → `wipefs` → partition
 - **e2fsck**: checks and repairs an unmounted ext4 filesystem.
 - 
 %% Begin Waypoint %%
+- [[Disk Directory]]
 - [[du command]]
 - [[fio]]
 - [[fstab file]]
