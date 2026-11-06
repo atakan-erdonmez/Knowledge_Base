@@ -63,14 +63,26 @@ Stands for “GUID Partition Table”. A newer technology. Address many of the l
 
 **Note:** In MBR, if MBR sector in the head of the disk corrupt, there is no way to recover. But in GPT, primary GPT resides at the head of the disk, while a backup copy, the secondary GPT, is housed at the end of the disk.
 
-<aside> 💾 **Disk label type: gpt (in fdisk)**
+ 💾 **Disk label type: gpt (in fdisk)**
 
-</aside>
+
+
 
 **udevadm:** The udevadm command ****is a device management tool in Linux which manages all the device events and controls the **udevd** daemon.
 
 udevadm settle: After partitioning, this command tells kernel to update itself for hardware changes using udevd daemon
 
+
+## GPT Disk
+
+| Part       | part                                     |
+| ---------- | ---------------------------------------- |
+| LBA 0      | protective MBR                           |
+| LBA 1      | primary GPT header                       |
+| LBA 2-33   | partition entries (128 slots by default) |
+| ...        | your partitions / data                   |
+| (end - 33) | backup partition entries                 |
+| last LBA   | backup GPT header                        |
 
 
 # Storage Protocols & Interfaces
