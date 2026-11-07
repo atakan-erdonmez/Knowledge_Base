@@ -57,7 +57,7 @@ Typical order: `lsblk` → `smartctl` → `badblocks` → `wipefs` → partition
 - [[LVM]]
 - [[MBR & GPT]]
 - [[mount]]
-- [[parted]]
+- [[Parted]]
 - [[partprobe]]
 - [[RAID]]
 - [[resize2fs]]
