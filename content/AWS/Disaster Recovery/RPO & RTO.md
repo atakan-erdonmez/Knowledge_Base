@@ -1,5 +1,8 @@
 ---
+tags:
+  - backup
 ---
+
 **RPO (Recovery Point Objective)**: The last backup before the disaster. Tells how much time in data is lost
 **RTO (Recovery Time Objective)**: The time where systems are active again. It shows the downtime
 
