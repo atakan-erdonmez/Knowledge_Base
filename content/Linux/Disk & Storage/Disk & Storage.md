@@ -57,10 +57,11 @@ Typical order: `lsblk` → `smartctl` → `badblocks` → `wipefs` → partition
 - [[LVM]]
 - [[MBR & GPT]]
 - [[mount]]
-- [[Parted]]
+- [[parted]]
 - [[partprobe]]
 - [[RAID]]
 - [[resize2fs]]
 - [[sgdisk]]
+- [[smartctl]]
 
 %% End Waypoint %%
